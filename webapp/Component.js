@@ -1,11 +1,11 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"QuickStartApplication/model/models"
+	"de/tammenit/ui5/homepage/model/models"
 ], function(UIComponent, Device, models) {
 	"use strict";
 
-	return UIComponent.extend("QuickStartApplication.Component", {
+	return UIComponent.extend("de.tammenit.ui5.homepage.Component", {
 
 		metadata: {
 			manifest: "json"
@@ -22,6 +22,9 @@ sap.ui.define([
 
 			// set the device model
 			this.setModel(models.createDeviceModel(), "device");
+
+			// create the views based on the url/hash
+			this.getRouter().initialize();
 		}
 	});
 

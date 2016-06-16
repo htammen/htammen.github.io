@@ -2,14 +2,13 @@
 	"_version": "1.1.0",
 	"sap.app": {
 		"_version": "1.1.0",
-		"id": "QuickStartApplication",
+		"id": "de.tammenit.ui5.homepage",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
 			"version": "1.0.0"
 		},
-		"title": "",
-		"description": "",
+		"title": "{{aa}}",
 		"resources": "resources.json",
 		"ach": "ach",
 		"sourceTemplate": {
@@ -48,7 +47,7 @@
 	"sap.ui5": {
 		"_version": "1.1.0",
 		"rootView": {
-			"viewName": "QuickStartApplication.view.View1",
+			"viewName": "de.tammenit.ui5.homepage.view.Home",
 			"type": "XML"
 		},
 		"dependencies": {
@@ -67,11 +66,50 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "QuickStartApplication.i18n.i18n"
+					"bundleName": "de.tammenit.ui5.homepage.i18n.i18n"
 				}
 			},
 			"": {
 				"dataSource": "mainService"
+			}
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "de.tammenit.ui5.homepage.view",
+				"controlId": "app",
+				"controlAggregation": "pages",
+				"bypassed": {
+					"target": ["notFound"]
+				},
+				"async": true
+			},
+			"routes": [{
+				"pattern": "",
+				"name": "home",
+				"target": ["home"]
+			}, {
+				"name": "aboutme",
+				"pattern": "aboutme",
+				"greedy": false,
+				"target": ["aboutme"]
+			}],
+			"targets": {
+				"home": {
+					"viewName": "Home",
+					"viewId": "home",
+					"viewLevel": 1
+				},
+				"aboutme": {
+					"viewName": "Aboutme",
+					"viewId": "aboutme",
+					"viewLevel": 2
+				},
+				"notFound": {
+					"viewName": "NotFound",
+					"viewId": "notFound"
+				}
 			}
 		},
 		"resources": {

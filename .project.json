@@ -18,6 +18,11 @@
       "templateId": "wysiwygtemplate.quickStart",
       "templateVersion": "0.0.0",
       "dateTimeStamp": "Thu, 16 Jun 2016 08:12:29 GMT"
+    },
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Thu, 16 Jun 2016 09:53:45 GMT"
     }
   ],
   "translation": {
@@ -27,11 +32,7 @@
     "defaultI18NPropertyFile": "i18n.properties",
     "resourceModelName": "i18n"
   },
-  "dataBinding": {
-    "/webapp/view/View1.view.xml": {
-      "entitySet": "Entity1_Set"
-    }
-  },
+  "dataBinding": {},
   "mockpreview": {
     "mockUri": "localService/metadata.xml",
     "metadataFilePath": "localService/metadata.xml",
