@@ -10,7 +10,7 @@
 		<layout:VerticalLayout width="100%">
 			<layout:HorizontalLayout>
 				<Image
-						src="./test-resources/sap/uxap/images/linkedin.png"
+						src="webapp/images/linkedin.png"
 						width="21px"/>
 				<Link text="/helmuttammen" href="https://de.linkedin.com/in/helmuttammen" target="_blank"/>
 			</layout:HorizontalLayout>
@@ -18,7 +18,7 @@
 		<Label text="Twitter"/>
 		<layout:VerticalLayout width="100%">
 			<layout:HorizontalLayout>
-				<Image src="./test-resources/sap/uxap/images/Twitter.png"
+				<Image src="webapp/images/Twitter.png"
 					   width="21px"/>
 				<Link text="@helmuttammen" href="https://twitter.com/helmuttammen" target="_blank"/>
 			</layout:HorizontalLayout>
