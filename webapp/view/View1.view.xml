@@ -1,0 +1,15 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="QuickStartApplication.controller.View1">
+	<App>
+		<pages>
+			<Page title="Your Quick Start application is ready!">
+				<content>
+					<TileContainer editable="true" allowAdd="true" id="__container0">
+					    <tiles>
+					        <StandardTile title="About me" info="Info" icon="sap-icon://customer" activeIcon="sap-icon://customer" number="1" numberUnit="Topic" infoState="Success" id="__tile0"/>
+					        <StandardTile xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" title="My projects" info="Info" icon="sap-icon://work-history" activeIcon="sap-icon://work-history" number="2" numberUnit="topic" infoState="Success" id="__tile1_copy"/></tiles>
+					</TileContainer>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
