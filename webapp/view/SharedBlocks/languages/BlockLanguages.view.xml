@@ -1,0 +1,35 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:forms="sap.ui.layout.form"
+		  xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns="sap.m">
+
+	<forms:SimpleForm
+			labelSpanL="4"
+			labelSpanM="4"
+			labelSpanS="4"
+			emptySpanL="0"
+			emptySpanM="0"
+			emptySpanS="0"
+			maxContainerCols="2" layout="ResponsiveLayout"
+			width="100%">
+		<core:Title text="{i18n>view.profile.block.language.languages}"></core:Title>
+		<Table
+			id="LanguageTable"
+			items="{lang>}">
+				<columns>
+					<Column>
+						<Label text="{i18n>view.profile.block.language.TableHeaderName}"/>
+					</Column>
+					<Column>
+						<Label text="{i18n>view.profile.block.language.TableHeaderRating}"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem>  
+	            		<cells>
+	            			<Label text="{lang>Name}"/>
+	            			<RatingIndicator enabled="false" value="{lang>Rating}"/>
+	            		</cells> 
+	        		</ColumnListItem> 
+				</items>
+		</Table>
+	</forms:SimpleForm>
+</mvc:View>

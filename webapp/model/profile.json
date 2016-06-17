@@ -1,0 +1,35 @@
+{
+	"Profiles": [
+		{
+			"Name": "Helmut Tammen",
+			"Slogan": "I love my job",
+			"Phone": {
+				"Mobile": "+49 170 88 22 491",
+				"Home": "+49 5139 98 48 140",
+				"Work": ""
+			},
+			"EMail": {
+				"Work": "h.tammen@tammen-it-solutions.de",
+				"Home": "helmut.tammen@gmail.com"
+			},
+			"Address": {
+				"Street": "Pastor-Badenhop-Weg",
+				"Housno": "5",
+				"Zipcode": "30938",
+				"City": "Burgwedel",
+				"Country": "Germany"
+			},
+			"JobTitle": "Senior Architect & Developer",
+			"Languages": [
+				{
+					"Name": "german",
+					"Rating": 5
+				},
+				{
+					"Name": "english",
+					"Rating": 3.7
+				}
+			]
+		}
+	]
+}

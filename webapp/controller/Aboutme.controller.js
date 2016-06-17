@@ -10,9 +10,9 @@ sap.ui.define([
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
 		 * @memberOf de.tammenit.ui5.homepage.view.Aboutme
 		 */
-		//	onInit: function() {
-		//
-		//	},
+		onInit: function() {
+			this.getView().bindElement("/Profiles/0");
+		}
 
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered

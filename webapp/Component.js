@@ -23,6 +23,13 @@ sap.ui.define([
 			// set the device model
 			this.setModel(models.createDeviceModel(), "device");
 
+			// load a json file into a JSON model
+			//var sModelPath = jQuery.sap.getModulePath("de.tammenit.ui5.homepage.model", "/profile.json");
+			//var model = new sap.ui.model.json.JSONModel(sModelPath);
+			var model = new sap.ui.model.json.JSONModel();
+			model.loadData('./webapp/model/profile.json');
+			this.setModel(model);
+
 			// create the views based on the url/hash
 			this.getRouter().initialize();
 		}
