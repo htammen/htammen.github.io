@@ -17,6 +17,27 @@
 					<RatingIndicator enabled="false" value="{model>Rating}"/>
 				</VBox>
 			</l:content>
-		</l:Grid>	
+		</l:Grid>
+
+		<!--		
+		<List items="{model>}" showSeparators="Inner">
+			<CustomListItem>
+				<HBox alignItems="Start">
+					<items>
+						<Label class="sapUiSmallMarginEnd" text="{model>Name}" width="100%">
+							<layoutData>
+								<FlexItemData growFactor="1" />
+							</layoutData>
+						</Label>
+						<RatingIndicator enabled="false" value="{model>Rating}" width="100%">
+							<layoutData>
+								<FlexItemData growFactor="1" />
+							</layoutData>
+						</RatingIndicator>
+					</items>
+				</HBox>				
+			</CustomListItem>
+		</List>
+		-->
 	</forms:SimpleForm>
 </mvc:View>

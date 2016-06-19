@@ -11,11 +11,11 @@
 					  layout="ResponsiveLayout"
 					  width="100%">
 
-		<core:Title text="Mailing Address"/>
-		<Label text="Work"/>
-		<Text text="h.tammen@tammen-it-solutions.de"/>
-		<Label text="Private"/>
-		<Text text="helmut.tammen@gmail.com"/>
+		<core:Title text="{i18n>view.profile.block.mailing.header}"/>
+		<Label text="{i18n>view.profile.block.mailing.work}"/>
+		<Text text="{Email/Work}"/>
+		<Label text="{i18n>view.profile.block.mailing.home}"/>
+		<Text text="{Email/Home}"/>
 
 	</forms:SimpleForm>
 </mvc:View>

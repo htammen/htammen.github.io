@@ -10,19 +10,18 @@
 			emptySpanS="0"
 			maxContainerCols="2" layout="ResponsiveLayout"
 			width="100%">
-		<core:Title text="Adresses"></core:Title>
-		<Label text="Home Address"/>
-
+		<core:Title text="{i18n>view.profile.block.addresses.header}"></core:Title>
+		<Label text="{i18n>view.profile.block.addresses.work}"/>
 		<layout:VerticalLayout>
-			<Text text="Pastor-Badenhop-Weg 5"/>
-			<Text text="30938 Burgwedel"/>
-			<Text text="Germany"/>
+			<Text text="{Addresses/WorkAddress/Street} {Addresses/WorkAddress/Housenum}"/>
+			<Text text="{Addresses/WorkAddress/Zipcode} {Addresses/WorkAddress/City}"/>
+			<Text text="{Addresses/WorkAddress/Country}"/>
 		</layout:VerticalLayout>
-		<Label text="Mailing Address"/>
+		<Label text="{i18n>view.profile.block.addresses.home}"/>
 		<layout:VerticalLayout>
-			<Text text="Pastor-Badenhop-Weg 5"/>
-			<Text text="30938 Burgwedel"/>
-			<Text text="Germany"/>
+			<Text text="{Addresses/HomeAddress/Street} {Addresses/HomeAddress/Housenum}"/>
+			<Text text="{Addresses/HomeAddress/Zipcode} {Addresses/HomeAddress/City}"/>
+			<Text text="{Addresses/HomeAddress/Country}"/>
 		</layout:VerticalLayout>
 	</forms:SimpleForm>
 </mvc:View>

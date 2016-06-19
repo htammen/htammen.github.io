@@ -10,11 +10,13 @@
 					  maxContainerCols="2"
 					  layout="ResponsiveLayout"
 					  width="100%">
-		<core:Title text="Phone Numbers"></core:Title>
-		<Label text="Mobile"/>
-		<Text text="+ 49 170-8822491"/>
-		<Label text="Home"/>
-		<Text text="+ 49 5139-9848140"/>
+		<core:Title text="{i18n>view.profile.block.phonenumber.header}"></core:Title>
+		<Label text="{i18n>view.profile.block.phonenumber.mobile}"/>
+		<Text text="{Phone/Mobile}"/>
+		<Label text="{i18n>view.profile.block.phonenumber.work}"/>
+		<Text text="{Phone/Work}"/>
+		<Label text="{i18n>view.profile.block.phonenumber.home}"/>
+		<Text text="{Phone/Home}"/>
 	</forms:SimpleForm>
 
 </mvc:View>

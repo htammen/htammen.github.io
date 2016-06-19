@@ -3,7 +3,9 @@
 		   xmlns:layout="sap.ui.layout"
 		   xmlns:m="sap.m"
 		   xmlns:personal="de.tammenit.ui5.homepage.view.SharedBlocks.personal"
+		   xmlns:service="de.tammenit.ui5.homepage.view.SharedBlocks.services"
 		   xmlns:language="de.tammenit.ui5.homepage.view.SharedBlocks.languages"
+		   xmlns:branch="de.tammenit.ui5.homepage.view.SharedBlocks.branches"
 		   controllerName="de.tammenit.ui5.homepage.controller.Aboutme"
 		   height="100%">
 	<!--
@@ -11,7 +13,7 @@
 		   xmlns:goals="sap.uxap.sample.SharedBlocks.goals"
 		   xmlns:employment="sap.uxap.sample.SharedBlocks.employment"
 	-->
-	<m:Page title="i18n>appTitle" showNavButton="true" navButtonPress="onNavBack">
+	<m:Page title="{i18n>appTitle}" showNavButton="true" navButtonPress="onNavBack">
 		<m:content>
 			<ObjectPageLayout id="ObjectPageLayout"
 							  enableLazyLoading="false"
@@ -36,7 +38,7 @@
 				<headerContent>
 					<layout:VerticalLayout>
 						<m:Link text="{Phone/Mobile}"/>
-						<m:Link text="{EMail/Work}"/>
+						<m:Link text="{Email/Work}"/>
 					</layout:VerticalLayout>
 		 
 					<!--<layout:HorizontalLayout>-->
@@ -57,7 +59,7 @@
 					</layout:VerticalLayout>
 		 
 					<layout:VerticalLayout>
-						<m:Label text="{Address/City}, {Address/Country}"/>
+						<m:Label text="{Addresses/WorkAddress/City}, {Addresses/WorkAddress/Country}"/>
 					</layout:VerticalLayout>
 				</headerContent>
 		 
@@ -86,18 +88,35 @@
 		 
 					<ObjectPageSection title="{i18n>view.profile.general_info}">
 						<subSections>
+							<ObjectPageSubSection title="{i18n>view.profile.services}">
+								<blocks>
+									<service:BlockServices id="services">
+										<service:mappings>
+											<ModelMapping externalModelName="undefined" externalPath="Services" internalModelName="model" />
+										</service:mappings>
+									</service:BlockServices>
+								</blocks>
+							</ObjectPageSubSection>
+
 							<ObjectPageSubSection title="{i18n>view.profile.languages}">
 								<blocks>
 									<language:BlockLanguages id="languages">
 										<language:mappings>
-											<ModelMapping externalModelName="undefined" externalPath="Languages" internalModelName="lang" />
+											<ModelMapping externalModelName="undefined" externalPath="Languages" internalModelName="model" />
 										</language:mappings>
 									</language:BlockLanguages>
-					<!--				<employment:BlockJobInfoPart2 id="jobinfopart2"/>-->
-					<!--				<employment:BlockJobInfoPart3 id="jobinfopart3"/>-->
 								</blocks>
 							</ObjectPageSubSection>
 		 
+							<ObjectPageSubSection title="{i18n>view.profile.branches}">
+								<blocks>
+									<branch:BlockBranches id="branches">
+										<branch:mappings>
+											<ModelMapping externalModelName="undefined" externalPath="Branches" internalModelName="model" />
+										</branch:mappings>
+									</branch:BlockBranches>
+								</blocks>
+							</ObjectPageSubSection>
 					<!--		<ObjectPageSubSection title="Employee Details" mode="Collapsed" importance="Medium">-->
 					<!--			<blocks>-->
 					<!--				<employment:BlockEmpDetailPart1 id="empdetailpart1" columnLayout="1"/>-->

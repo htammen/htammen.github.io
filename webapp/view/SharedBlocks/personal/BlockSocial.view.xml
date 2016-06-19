@@ -1,28 +1,23 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:forms="sap.ui.layout.form"
-		  xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns="sap.m">
+		  xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:commons="sap.ui.commons" xmlns="sap.m">
 
 	<forms:SimpleForm labelSpanL="4" labelSpanM="4"
 					  labelSpanS="4" emptySpanL="0" emptySpanM="0" emptySpanS="0"
 					  maxContainerCols="2" layout="ResponsiveLayout" width="100%">
-		<core:Title text="Social Accounts"/>
-
-		<Label text="LinkedIn"/>
-		<layout:VerticalLayout width="100%">
-			<layout:HorizontalLayout>
-				<Image
-						src="webapp/images/linkedin.png"
-						width="21px"/>
-				<Link text="/helmuttammen" href="https://de.linkedin.com/in/helmuttammen" target="_blank"/>
-			</layout:HorizontalLayout>
-		</layout:VerticalLayout>
-		<Label text="Twitter"/>
-		<layout:VerticalLayout width="100%">
-			<layout:HorizontalLayout>
-				<Image src="webapp/images/Twitter.png"
-					   width="21px"/>
-				<Link text="@helmuttammen" href="https://twitter.com/helmuttammen" target="_blank"/>
-			</layout:HorizontalLayout>
-		</layout:VerticalLayout>
-
+		<core:Title text="{i18n>view.profile.block.social.header}"/>
+		<List items="{SocialAccounts}" showSeparators="Inner">
+			<CustomListItem>
+				<layout:VerticalLayout width="100%">
+					<Label text="{Name}"/>
+					<layout:HorizontalLayout>
+						<Image
+							class="sapUiSmallMarginEnd" 
+							src="{Image}"
+							width="21px"/>
+						<Link text="{Address}" href="{Link}" target="_blank"/>
+					</layout:HorizontalLayout>
+				</layout:VerticalLayout>
+			</CustomListItem>
+		</List>
 	</forms:SimpleForm>
 </mvc:View>

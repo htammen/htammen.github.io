@@ -13,10 +13,10 @@
 		<l:Grid content="{model>}" defaultSpan="L3 M6 S12">
 			<l:content>
 				<VBox alignItems="Start">
-					<Label class="sapUiSmallMarginEnd" text="{model>Name}"/>
-					<RatingIndicator enabled="false" value="{model>Rating}"/>
+					<Label text="{model>Name}"/>
 				</VBox>
 			</l:content>
-		</l:Grid>	
+		</l:Grid>
+
 	</forms:SimpleForm>
 </mvc:View>

@@ -5,13 +5,13 @@
 	<forms:SimpleForm labelSpanL="4" labelSpanM="4"
 					  labelSpanS="4" emptySpanL="0" emptySpanM="0" emptySpanS="0"
 					  maxContainerCols="2" layout="ResponsiveLayout">
-		<core:Title text="Main Payment Method"/>
+		<core:Title text="{i18n>view.profile.block.personalblockpart1.header}"/>
 
-		<Label text="Bank Transfer"/>
+		<Label text="{i18n>view.profile.block.personalblockpart1.banktransfer}"/>
 
 		<layout:VerticalLayout>
-			<Text text="ING Diba, Germany"/>
-			<Text text="Account &lt;ask for it&gt;"/>
+			<Text text="{i18n>view.profile.block.personalblockpart1.bankname}"/>
+			<Text text="{i18n>view.profile.block.personalblockpart1.account}"/>
 		</layout:VerticalLayout>
 	</forms:SimpleForm>
 

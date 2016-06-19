@@ -8,17 +8,46 @@
 				"Home": "+49 5139 98 48 140",
 				"Work": ""
 			},
-			"EMail": {
+			"Email": {
 				"Work": "h.tammen@tammen-it-solutions.de",
 				"Home": "helmut.tammen@gmail.com"
 			},
-			"Address": {
-				"Street": "Pastor-Badenhop-Weg",
-				"Housno": "5",
-				"Zipcode": "30938",
-				"City": "Burgwedel",
-				"Country": "Germany"
+			"Addresses": {
+				"HomeAddress": {
+					"Street": "Pastor-Badenhop-Weg",
+					"Housenum": "5",
+					"Zipcode": "30938",
+					"City": "Burgwedel",
+					"Country": "Germany"
+				},
+				"WorkAddress": {
+					"Street": "Herrenstraße",
+					"Housenum": "3-5",
+					"Zipcode": "30159",
+					"City": "Hannover",
+					"Country": "Germany"
+				}
 			},
+			"SocialAccounts": [
+				{
+					"Name": "LinkedIn",
+					"Image": "webapp/images/linkedin.png",
+					"Address": "/helmuttammen",
+					"Link": "https://de.linkedin.com/in/helmuttammen"
+				},
+				{
+					"Name": "Twitter",
+					"Image": "webapp/images/Twitter.png",
+					"Address": "@helmuttammen",
+					"Link": "https://twitter.com/helmuttammen"
+				},
+				{
+					"Name": "G+",
+					"Image": "webapp/images/plus_google_com.png",
+					"Address": "+TammenitsolutionsDe1",
+					"Link": "https://plus.google.com/+TammenitsolutionsDe1"
+				}
+			],
 			"JobTitle": "Senior Architect & Developer",
 			"Languages": [
 				{
@@ -29,7 +58,52 @@
 					"Name": "english",
 					"Rating": 3.7
 				}
-			]
+			],
+			"Branches": [
+				{
+					"Name": "Utilities",
+					"Rating": 3.7
+				},
+				{
+					"Name": "Logistics",
+					"Rating": 4
+				},
+				{
+					"Name": "Automotive",
+					"Rating": 2.6
+				}
+			],
+			"Services": [
+				{
+					"Name": "Software Architecture Consulting"
+				},
+				{
+					"Name": "SAP Solution Consulting"
+				},
+				{
+					"Name": "SAPUI5 Development"
+				},
+				{
+					"Name": "JEE Development"
+				},
+				{
+					"Name": "General IT Consulting"
+				},
+				{
+					"Name": "Web Development and Consulting"
+				},
+				{
+					"Name": "Node.js Development"
+				},
+				{
+					"Name": "CI Consulting"
+				}
+			],
+			"Rates": {
+				"Hourly": "matter of negotiation",
+				"Dayly": "Ask me",
+				"TravelExpenses": "matter of negotiation"
+			}
 		}
 	]
 }
