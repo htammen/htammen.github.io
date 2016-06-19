@@ -13,7 +13,7 @@
 		<l:Grid content="{model>}" defaultSpan="L3 M6 S12">
 			<l:content>
 				<VBox alignItems="Start">
-					<Label text="{model>Name}"/>
+					<Label text="{model>Name}" design="{= ${model>Rating} === 1 ? 'Bold': 'Standard'}"/>
 				</VBox>
 			</l:content>
 		</l:Grid>

@@ -75,28 +75,36 @@
 			],
 			"Services": [
 				{
-					"Name": "Software Architecture Consulting"
+					"Name": "Software Architecture Consulting",
+					"Rating": 1
 				},
 				{
-					"Name": "SAP Solution Consulting"
+					"Name": "SAP Solution Consulting",
+					"Rating": 1
 				},
 				{
-					"Name": "SAPUI5 Development"
+					"Name": "SAPUI5 Development",
+					"Rating": 1
 				},
 				{
-					"Name": "JEE Development"
+					"Name": "JEE Development",
+					"Rating": 0
 				},
 				{
-					"Name": "General IT Consulting"
+					"Name": "General IT Consulting",
+					"Rating": 0
 				},
 				{
-					"Name": "Web Development and Consulting"
+					"Name": "Web Development and Consulting",
+					"Rating": 1
 				},
 				{
-					"Name": "Node.js Development"
+					"Name": "Node.js Development",
+					"Rating": 1
 				},
 				{
-					"Name": "CI Consulting"
+					"Name": "CI Consulting",
+					"Rating": 0
 				}
 			],
 			"Rates": {
