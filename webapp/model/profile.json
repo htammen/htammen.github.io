@@ -3,6 +3,8 @@
 		{
 			"Name": "Helmut Tammen",
 			"Slogan": "I love my job",
+			"Availability": "07/2016",
+			"Regions": "currently only greater area around Hannover/Germany possible",
 			"Phone": {
 				"Mobile": "+49 170 88 22 491",
 				"Home": "+49 5139 98 48 140",
@@ -61,6 +63,10 @@
 			],
 			"Branches": [
 				{
+					"Name": "Services",
+					"Rating": 4
+				},
+				{
 					"Name": "Utilities",
 					"Rating": 3.7
 				},
@@ -71,9 +77,17 @@
 				{
 					"Name": "Automotive",
 					"Rating": 2.6
+				},
+				{
+					"Name": "Construction industry",
+					"Rating": 2.0
 				}
 			],
 			"Services": [
+				{
+					"Name": "General IT Consulting",
+					"Rating": 0
+				},
 				{
 					"Name": "Software Architecture Consulting",
 					"Rating": 1
@@ -83,19 +97,57 @@
 					"Rating": 1
 				},
 				{
-					"Name": "SAPUI5 Development",
+					"Name": "Software Development",
+					"Rating": 1
+				}
+			],
+			"Priorities": [
+				{
+					"Name": "SAPUI5 / OpenUI5",
+					"Rating": 1
+				},
+				{
+					"Name": "SAP Cloud Consulting (HCP)",
+					"Rating": 1
+				},
+				{
+					"Name": "SAP HANA Consulting and Development",
+					"Rating": 0
+				},
+				{
+					"Name": "SAP Enterprise Portal Consulting and Development",
+					"Rating": 0
+				},
+				{
+					"Name": "SAP NWDI / CTS+",
+					"Rating": 1
+				},
+				{
+					"Name": "SAP Web Dynpro Java Development",
+					"Rating": 1
+				},
+				{
+					"Name": "SAP Security Consulting",
+					"Rating": 1
+				},
+				{
+					"Name": "SAP ABAP Development",
+					"Rating": 0
+				},
+				{
+					"Name": "OO Development and Consulting",
 					"Rating": 1
 				},
 				{
 					"Name": "JEE Development",
-					"Rating": 0
+					"Rating": 1
 				},
 				{
-					"Name": "General IT Consulting",
-					"Rating": 0
+					"Name": "Web Development",
+					"Rating": 1
 				},
 				{
-					"Name": "Web Development and Consulting",
+					"Name": "Web Architecture Consulting",
 					"Rating": 1
 				},
 				{
@@ -103,8 +155,8 @@
 					"Rating": 1
 				},
 				{
-					"Name": "CI Consulting",
-					"Rating": 0
+					"Name": "Groovy / Grails Development",
+					"Rating": 1
 				}
 			],
 			"Rates": {

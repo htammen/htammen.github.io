@@ -12,7 +12,7 @@ sap.ui.define([
 		 */
 		onInit: function() {
 			this.getView().bindElement("/Profiles/0");
-		},
+		}
 
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
@@ -39,10 +39,6 @@ sap.ui.define([
 		//	onExit: function() {
 		//
 		//	}
-		
-		serviceFormatter: function(rating) {
-			return (rating === 1 ? sap.m.LabelDesign.Bold : sap.mLabelDesign.Standard);
-		}
 
 
 	});

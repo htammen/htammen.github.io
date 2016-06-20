@@ -3,6 +3,7 @@
 		   xmlns:layout="sap.ui.layout"
 		   xmlns:m="sap.m"
 		   xmlns:personal="de.tammenit.ui5.homepage.view.SharedBlocks.personal"
+		   xmlns:priority="de.tammenit.ui5.homepage.view.SharedBlocks.priorities"
 		   xmlns:service="de.tammenit.ui5.homepage.view.SharedBlocks.services"
 		   xmlns:language="de.tammenit.ui5.homepage.view.SharedBlocks.languages"
 		   xmlns:branch="de.tammenit.ui5.homepage.view.SharedBlocks.branches"
@@ -18,7 +19,7 @@
 			<ObjectPageLayout id="ObjectPageLayout"
 							  enableLazyLoading="false"
 							  showTitleInHeaderContent="true"
-							  showEditHeaderButton="true"
+							  showEditHeaderButton="false"
 							  editHeaderButtonPress="handleEditBtnPress">
 				<headerTitle>
 					<ObjectPageHeader objectImageURI="https://avatars3.githubusercontent.com/u/847143"
@@ -46,20 +47,24 @@
 					<!--	<m:Image src="./test-resources/sap/uxap/images/Twitter.png"></m:Image>-->
 					<!--</layout:HorizontalLayout>-->
 		 
+					<!--
 					<layout:VerticalLayout>
 						<m:Label text="{Slogan}"/>
 						<m:VBox height="63px">
 							<m:Label text="{i18n>view.profile.stage_of_completion}"/>
 							<m:ProgressIndicator
-									percentValue="3"
-									displayValue="3%"
+									percentValue="20"
+									displayValue="20%"
 									showValue="true"
 									state="None"/>
 						</m:VBox>
 					</layout:VerticalLayout>
+					-->
 		 
 					<layout:VerticalLayout>
-						<m:Label text="{Addresses/WorkAddress/City}, {Addresses/WorkAddress/Country}"/>
+						<m:HBox><m:Label text="{i18n>view.profile.residence}" class="sapUiSmallMarginEnd"/><m:Label text="{Addresses/WorkAddress/City}, {Addresses/WorkAddress/Country}"/></m:HBox>
+						<m:HBox><m:Label text="{i18n>view.profile.availability}" class="sapUiSmallMarginEnd"/><m:Label text="{Availability}"/></m:HBox>
+						<m:HBox><m:Label text="{i18n>view.profile.regions}" class="sapUiSmallMarginEnd"/><m:Label text="{Regions}"/></m:HBox>
 					</layout:VerticalLayout>
 				</headerContent>
 		 
@@ -95,6 +100,16 @@
 											<ModelMapping externalModelName="undefined" externalPath="Services" internalModelName="model" />
 										</service:mappings>
 									</service:BlockServices>
+								</blocks>
+							</ObjectPageSubSection>
+
+							<ObjectPageSubSection title="{i18n>view.profile.priorities}">
+								<blocks>
+									<priority:BlockPriorities id="priorities">
+										<priority:mappings>
+											<ModelMapping externalModelName="undefined" externalPath="Priorities" internalModelName="model" />
+										</priority:mappings>
+									</priority:BlockPriorities>
 								</blocks>
 							</ObjectPageSubSection>
 
