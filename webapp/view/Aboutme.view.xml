@@ -7,6 +7,7 @@
 		   xmlns:service="de.tammenit.ui5.homepage.view.SharedBlocks.services"
 		   xmlns:language="de.tammenit.ui5.homepage.view.SharedBlocks.languages"
 		   xmlns:branch="de.tammenit.ui5.homepage.view.SharedBlocks.branches"
+		   xmlns:itskills="de.tammenit.ui5.homepage.view.SharedBlocks.itskills"
 		   controllerName="de.tammenit.ui5.homepage.controller.Aboutme"
 		   height="100%">
 	<!--
@@ -132,38 +133,23 @@
 									</branch:BlockBranches>
 								</blocks>
 							</ObjectPageSubSection>
-					<!--		<ObjectPageSubSection title="Employee Details" mode="Collapsed" importance="Medium">-->
-					<!--			<blocks>-->
-					<!--				<employment:BlockEmpDetailPart1 id="empdetailpart1" columnLayout="1"/>-->
-					<!--			</blocks>-->
-					<!--			<moreBlocks>-->
-					<!--				<employment:BlockEmpDetailPart2 id="empdetailpart2" columnLayout="1"/>-->
-					<!--				<employment:BlockEmpDetailPart3 id="empdetailpart3" columnLayout="1"/>-->
-					<!--			</moreBlocks>-->
-					<!--		</ObjectPageSubSection>-->
-		 
-					<!--		<ObjectPageSubSection title="Job Relationship" mode="Collapsed" importance="Low">-->
-					<!--			<blocks>-->
-					<!--				<employment:EmploymentBlockJob id="employmentblockjob" showSubSectionMore="true">-->
-					<!--					<employment:mappings>-->
-					<!--						<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp1"-->
-					<!--									  externalPath="/Employee/0"/>-->
-					<!--						<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp2"-->
-					<!--									  externalPath="/Employee/1"/>-->
-					<!--						<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp3"-->
-					<!--									  externalPath="/Employee/2"/>-->
-					<!--						<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp4"-->
-					<!--									  externalPath="/Employee/3"/>-->
-					<!--						<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp5"-->
-					<!--									  externalPath="/Employee/4"/>-->
-					<!--						<ModelMapping externalModelName="ObjectPageModel" internalModelName="emp6"-->
-					<!--									  externalPath="/Employee/5"/>-->
-					<!--					</employment:mappings>-->
-					<!--				</employment:EmploymentBlockJob>-->
-					<!--			</blocks>-->
-					<!--		</ObjectPageSubSection>-->
 						</subSections>
 					</ObjectPageSection>
+
+					<ObjectPageSection title="{i18n>view.profile.itskills}" importance="Medium" subSections="{ITSkills}">
+						<subSections>
+							<ObjectPageSubSection title="{Name}">
+								<blocks>
+									<itskills:BlockITSkills id="itskills">
+										<itskills:mappings>
+											<ModelMapping externalModelName="undefined" externalPath="items" internalModelName="model" />
+										</itskills:mappings>
+									</itskills:BlockITSkills>
+								</blocks>
+							</ObjectPageSubSection>
+						</subSections>
+					</ObjectPageSection>
+
 				</sections>
 			</ObjectPageLayout>
 		</m:content>

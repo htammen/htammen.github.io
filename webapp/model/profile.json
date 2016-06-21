@@ -5,6 +5,11 @@
 			"Slogan": "I love my job",
 			"Availability": "07/2016",
 			"Regions": "currently only greater area around Hannover/Germany possible",
+			"Rates": {
+				"Hourly": "matter of negotiation",
+				"Dayly": "Ask me",
+				"TravelExpenses": "matter of negotiation"
+			},
 			"Phone": {
 				"Mobile": "+49 170 88 22 491",
 				"Home": "+49 5139 98 48 140",
@@ -58,7 +63,7 @@
 				},
 				{
 					"Name": "english",
-					"Rating": 3.7
+					"Rating": 4.0
 				}
 			],
 			"Branches": [
@@ -159,11 +164,235 @@
 					"Rating": 1
 				}
 			],
-			"Rates": {
-				"Hourly": "matter of negotiation",
-				"Dayly": "Ask me",
-				"TravelExpenses": "matter of negotiation"
-			}
+			"ITSkills": [
+				{
+					"Name": "Operating Systems",
+					"items": [
+						{
+							"Name": "Windows",
+							"Rating": 4
+						},
+						{
+							"Name": "Mac OS X",
+							"Rating": 5
+						},
+						{
+							"Name": "Linux",
+							"Rating": 3
+						}
+					]
+				},
+				{
+					"Name": "Programming",
+					"items": [
+						{
+							"Name": "Java",
+							"Rating": 4.5
+						},
+						{
+							"Name": "JavaScript",
+							"Rating": 4.5
+						},
+						{
+							"Name": "Node.js",
+							"Rating": 4.5
+						},
+						{
+							"Name": "Truescript",
+							"Rating": 3.5
+						},
+						{
+							"Name": "Groovy / Grails",
+							"Rating": 4
+						},
+						{
+							"Name": "ABAP / 4",
+							"Rating": 2.5
+						},
+						{
+							"Name": "ABAP Objects",
+							"Rating": 2.5
+						},
+						{
+							"Name": "Pascal / Delphi",
+							"Rating": 2
+						},
+						{
+							"Name": "C / C++",
+							"Rating": 2
+						}
+					]
+				},
+				{
+					"Name": "Databases",
+					"items": [
+						{
+							"Name": "SAP HANA (In-Memory)",
+							"Rating": 3
+						},
+						{
+							"Name": "MySQL",
+							"Rating": 3
+						},
+						{
+							"Name": "MaxDBL",
+							"Rating": 3
+						},
+						{
+							"Name": "Oracle",
+							"Rating": 3
+						},
+						{
+							"Name": "POET (OO-Database)",
+							"Rating": 2
+						},
+						{
+							"Name": "IBM Cloudant (No-SQL)",
+							"Rating": 2
+						}
+					]
+				},
+				{
+					"Name": "DBAbstraction",
+					"items": [
+						{
+							"Name": "OData",
+							"Rating": 4.5
+						},
+						{
+							"Name": "REST",
+							"Rating": 4.5
+						},
+						{
+							"Name": "JDBC",
+							"Rating": 4.5
+						},
+						{
+							"Name": "Hibernate (Java)",
+							"Rating": 4
+						},
+						{
+							"Name": "Loopback (Javascript)",
+							"Rating": 4
+						},
+						{
+							"Name": "SQL",
+							"Rating": 4
+						}
+					]
+				},
+				{
+					"Name": "SAP",
+					"items": [
+						{
+							"Name": "SAPUI5 / Fiori",
+							"Rating": 4.5
+						},
+						{
+							"Name": "SAP HCP",
+							"Rating": 4.5
+						},
+						{
+							"Name": "SAP HANA",
+							"Rating": 2.5
+						},
+						{
+							"Name": "Web Dynpro Java",
+							"Rating": 4.7
+						},
+						{
+							"Name": "Web AS 6.40 - 7.40",
+							"Rating": 4.5
+						},
+						{
+							"Name": "NWDI (DevInf)",
+							"Rating": 4.5
+						},
+						{
+							"Name": "CTS+",
+							"Rating": 3
+						},
+						{
+							"Name": "NW Portal 5.0 - 7.11",
+							"Rating": 3.8
+						},
+						{
+							"Name": "Adobe Document Services (ADS)",
+							"Rating": 4
+						},
+						{
+							"Name": "Security (SAML, OAuth, SSO)",
+							"Rating": 4.5
+						},
+						{
+							"Name": "R/3",
+							"Rating": 2.8
+						},
+						{
+							"Name": "Sales and Distribution (SD)",
+							"Rating": 3
+						},
+						{
+							"Name": "Materials Management (MM)",
+							"Rating": 2.8
+						},
+						{
+							"Name": "Plant Maintenance (PM)",
+							"Rating": 2.8
+						},
+						{
+							"Name": "SAP for Utilities (IS-U)",
+							"Rating": 2.8
+						}
+					]
+				},
+				{
+					"Name": "SCM-Tools",
+					"items": [
+						{
+							"Name": "Git",
+							"Rating": 4.5
+						},
+						{
+							"Name": "Subversion",
+							"Rating": 3
+						},
+						{
+							"Name": "SAP NWDI",
+							"Rating": 4.5
+						},
+						{
+							"Name": "others (MKS, MS-VSS)",
+							"Rating": 1
+						}
+					]
+				},
+				{
+					"Name": "Methods",
+					"items": [
+						{
+							"Name": "UML",
+							"Rating": 4
+						},
+						{
+							"Name": "Design Pattern",
+							"Rating": 4
+						},
+						{
+							"Name": "Scrum",
+							"Rating": 4
+						},
+						{
+							"Name": "Design Thinking",
+							"Rating": 3
+						},
+						{
+							"Name": "ERM",
+							"Rating": 2.7
+						}
+					]
+				}
+			]
 		}
 	]
 }
