@@ -167,6 +167,7 @@
 			"ITSkills": [
 				{
 					"Name": "Operating Systems",
+					"Type": "star",
 					"items": [
 						{
 							"Name": "Windows",
@@ -184,6 +185,7 @@
 				},
 				{
 					"Name": "Programming",
+					"Type": "star",
 					"items": [
 						{
 							"Name": "Java",
@@ -225,6 +227,7 @@
 				},
 				{
 					"Name": "Databases",
+					"Type": "star",
 					"items": [
 						{
 							"Name": "SAP HANA (In-Memory)",
@@ -254,6 +257,7 @@
 				},
 				{
 					"Name": "DBAbstraction",
+					"Type": "star",
 					"items": [
 						{
 							"Name": "OData",
@@ -283,6 +287,7 @@
 				},
 				{
 					"Name": "SAP",
+					"Type": "star",
 					"items": [
 						{
 							"Name": "SAPUI5 / Fiori",
@@ -348,6 +353,7 @@
 				},
 				{
 					"Name": "SCM-Tools",
+					"Type": "star",
 					"items": [
 						{
 							"Name": "Git",
@@ -369,26 +375,27 @@
 				},
 				{
 					"Name": "Methods",
+					"Type": "emphasize",
 					"items": [
 						{
 							"Name": "UML",
-							"Rating": 4
+							"Rating": 1
 						},
 						{
 							"Name": "Design Pattern",
-							"Rating": 4
+							"Rating": 1
 						},
 						{
 							"Name": "Scrum",
-							"Rating": 4
+							"Rating": 1
 						},
 						{
 							"Name": "Design Thinking",
-							"Rating": 3
+							"Rating": 0
 						},
 						{
 							"Name": "ERM",
-							"Rating": 2.7
+							"Rating": 0
 						}
 					]
 				}

@@ -2,7 +2,9 @@
 	controllerName="de.tammenit.ui5.homepage.controller.Home">
 	<App id="app">
 		<pages>
-			<Page title="My cool UI5 Homepage">
+			<Page title="My cool UI5 Homepage"
+				busy="{viewModel>/busy}"
+				busyIndicatorDelay="{viewModel>/delay}">
 				<content>
 					<TileContainer editable="false" allowAdd="false" id="__container0">
 						<tiles>
@@ -17,7 +19,6 @@
 								icon="sap-icon://work-history" number="2" removable="false"/>
 						</tiles>
 					</TileContainer>
-
 				</content>
 			</Page>
 		</pages>

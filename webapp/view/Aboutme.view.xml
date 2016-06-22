@@ -70,7 +70,7 @@
 				</headerContent>
 		 
 				<sections>
-					<ObjectPageSection title="{i18n>view.profile.personal}" importance="Medium">
+					<ObjectPageSection title="{i18n>view.profile.personal}">
 						<subSections>
 							<ObjectPageSubSection title="{i18n>view.profile.connect}">
 								<blocks>

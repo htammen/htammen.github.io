@@ -12,7 +12,7 @@ sap.ui.define([
 		 */
 		onInit: function() {
 			this.getView().bindElement("/Profiles/0");
-		}
+		},
 
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
@@ -28,9 +28,9 @@ sap.ui.define([
 		 * This hook is the same one that SAPUI5 controls get after being rendered.
 		 * @memberOf de.tammenit.ui5.homepage.view.Aboutme
 		 */
-		//	onAfterRendering: function() {
-		//
-		//	},
+		onAfterRendering: function() {
+			//sap.ui.core.BusyIndicator.hide();
+		}
 
 		/**
 		 * Called when the Controller is destroyed. Use this one to free resources and finalize activities.

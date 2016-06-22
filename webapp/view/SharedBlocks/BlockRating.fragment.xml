@@ -10,8 +10,8 @@
 	<l:Grid content="{model>}" defaultSpan="L3 M6 S12">
 		<l:content>
 			<VBox alignItems="Start">
-				<Label class="sapUiSmallMarginEnd" text="{model>Name}"/>
-				<RatingIndicator enabled="false" value="{model>Rating}"/>
+				<Label id="lblName" class="sapUiSmallMarginEnd" text="{model>Name}" design="{path:'model>Rating', formatter:'.formatLabel'}"/>
+				<RatingIndicator id="ratingIndicator" enabled="false" value="{model>Rating}" visible="{= ${Type} === 'emphasize' ? false : true}"/>
 			</VBox>
 		</l:content>
 	</l:Grid>	
