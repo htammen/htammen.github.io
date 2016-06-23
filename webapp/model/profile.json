@@ -14,6 +14,22 @@
 			"Regions": "currently only greater area around Hannover/Germany possible",
 			"Certificates": [
 				{
+					"Date": "2016-04-08",
+					"Text": "Software Development on SAP HANA (Delta SPS 11)",
+					"Institute": "open.sap.com",
+					"Certificate": 1,
+					"Link": "webapp/resources/HANA_SPS11.pdf",
+					"Rating": "100%"
+				},
+				{
+					"Date": "2016-03-11",
+					"Text": "Speaker at UI5Con in Frankfurt / Germany",
+					"Institute": "AOK Systems",
+					"Certificate": 0,
+					"Link": "https://www.youtube.com/watch?v=vGHxn1giXBI",
+					"Rating": ""
+				},
+				{
 					"Date": "2015-07-01",
 					"Text": "Creating Business Value with User Experience",
 					"Institute": "open.sap.com",
@@ -22,12 +38,84 @@
 					"Rating": "100%"
 				},
 				{
-					"Date": "2016-04-08",
-					"Text": "Software Development on SAP HANA (Delta SPS 11)",
+					"Date": "2015-05-01",
+					"Text": "Build Your Own SAP Fiori App in the Cloud",
 					"Institute": "open.sap.com",
 					"Certificate": 1,
-					"Link": "webapp/resources/HANA_SPS11.pdf",
+					"Link": "webapp/resources/Build_your_own_Fiori_app_in_the_cloud.pdf",
 					"Rating": "100%"
+				},
+				{
+					"Date": "2015-05-01",
+					"Text": "SAP Business Suite 4 SAP HANA in a Nutshell",
+					"Institute": "open.sap.com",
+					"Certificate": 1,
+					"Link": "webapp/resources/S4Hana_in_a_nutshell.pdf",
+					"Rating": "50%"
+				},
+				{
+					"Date": "2014-12-17",
+					"Text": "Sicherheit im Internet",
+					"Institute": "open.hpi.de",
+					"Certificate": 1,
+					"Link": "webapp/resources/Sicherheit_im_Internet.pdf",
+					"Rating": "83%"
+				},
+				{
+					"Date": "2014-11-01",
+					"Text": "Next Steps in Software Development on SAP HANA",
+					"Institute": "open.sap.com",
+					"Certificate": 1,
+					"Link": "webapp/resources/Next_Steps_in_Software_Development_on_SAP_HANA.pdf",
+					"Rating": "98%"
+				},
+				{
+					"Date": "2014-10-01",
+					"Text": "Introduction to SAP Fiori UX",
+					"Institute": "open.sap.com",
+					"Certificate": 1,
+					"Link": "webapp/resources/Introduction_to_SAP_Fiori_UX.pdf",
+					"Rating": "96%"
+				},
+				{
+					"Date": "2014-10-01",
+					"Text": "SAP's UX Strategy in a Nutshell by SamYen",
+					"Institute": "open.sap.com",
+					"Certificate": 1,
+					"Link": "webapp/resources/SAPs_UX_Strategy_in_a_Nutshell.pdf",
+					"Rating": "100%"
+				},
+				{
+					"Date": "2014-08-01",
+					"Text": "An Introduction to SAP HANA by Dr. Vishal Sikka",
+					"Institute": "open.sap.com",
+					"Certificate": 1,
+					"Link": "webapp/resources/An_Introduction_to_SAP_HANA.pdf",
+					"Rating": "87%"
+				},
+				{
+					"Date": "2014-08-01",
+					"Text": "Next Steps in SAP HANA Cloud Platform",
+					"Institute": "open.sap.com",
+					"Certificate": 1,
+					"Link": "webapp/resources/Next_Steps_in_SAP_HANA_Cloud_Platform.pdf",
+					"Rating": "98%"
+				},
+				{
+					"Date": "2014-06-01",
+					"Text": "Sustainability and Business Innovation",
+					"Institute": "open.sap.com",
+					"Certificate": 1,
+					"Link": "webapp/resources/Sustainability_and_Business_Innovation.pdf",
+					"Rating": "94%"
+				},
+				{
+					"Date": "2013-12-01",
+					"Text": "Introduction to Software Development on SAP HANA",
+					"Institute": "open.sap.com",
+					"Certificate": 1,
+					"Link": "webapp/resources/Introduction_to_Software_Development_on_SAP_HANA.pdf",
+					"Rating": "93%"
 				}
 			],
 			"Rates": {

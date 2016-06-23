@@ -10,33 +10,33 @@
 		items="{model>}">
 		<headerToolbar>
 			<Toolbar>
-				<Title text="Products" level="H2"/>
+				<Title text="{i18n>view.profile.block.certificate.header}" level="H2"/>
 			</Toolbar>
 		</headerToolbar>
 		<columns>
+			<Column width="6em">
+				<Text text="{i18n>view.profile.block.certificate.column.date}" />
+			</Column>
 			<Column
-				width="12em">
-				<Text text="Date" />
+				minScreenWidth="Tablet"
+				width="30em"
+				demandPopin="true">
+				<Text text="{i18n>view.profile.block.certificate.column.name}" />
 			</Column>
 			<Column
 				minScreenWidth="Tablet"
 				demandPopin="true">
-				<Text text="Text" />
-			</Column>
-			<Column
-				minScreenWidth="Tablet"
-				demandPopin="true">
-				<Text text="Institute" />
+				<Text text="{i18n>view.profile.block.certificate.column.institute}" />
 			</Column>
 			<Column
 				minScreenWidth="Tablet"
 				demandPopin="true"
 				hAlign="Center">
-				<Text text="Certificate" />
+				<Text text="{i18n>view.profile.block.certificate.column.certificate}" />
 			</Column>
 			<Column
 				hAlign="Right">
-				<Text text="Rating" />
+				<Text text="{i18n>view.profile.block.certificate.column.rating}" />
 			</Column>
 		</columns>
 		<items>
