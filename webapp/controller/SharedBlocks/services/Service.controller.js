@@ -1,5 +1,5 @@
 sap.ui.define([
-	"de/tammenit/ui5/homepage/controller/SharedBlocks/BaseBlockController"
+	"de/tammenit/ui5/homepage/controller/SharedBlocks/BaseBlockController.controller"
 ], function(BaseController) {
 	"use strict";
 

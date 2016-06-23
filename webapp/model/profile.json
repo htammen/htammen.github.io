@@ -4,7 +4,32 @@
 			"Name": "Helmut Tammen",
 			"Slogan": "I love my job",
 			"Availability": "07/2016",
+			"Birthday": "1964-04-21",
+			"Nationality": "german",
+			"Graduation": "Graduate Mechanical Engineer",
+			"OtherGratuations": [
+				{"Text": "Bremer Ingenieurpreis for the Diploma Thesis. It was chosen out of five universities / colleges and serveral faculties within these institutes"}
+			],
+			"ExperienceSince": "IT experience on the job since 1990",
 			"Regions": "currently only greater area around Hannover/Germany possible",
+			"Certificates": [
+				{
+					"Date": "2015-07-01",
+					"Text": "Creating Business Value with User Experience",
+					"Institute": "open.sap.com",
+					"Certificate": 1,
+					"Link": "webapp/resources/Creating_Business_Value_with_User_Experience.pdf",
+					"Rating": "100%"
+				},
+				{
+					"Date": "2016-04-08",
+					"Text": "Software Development on SAP HANA (Delta SPS 11)",
+					"Institute": "open.sap.com",
+					"Certificate": 1,
+					"Link": "webapp/resources/HANA_SPS11.pdf",
+					"Rating": "100%"
+				}
+			],
 			"Rates": {
 				"Hourly": "matter of negotiation",
 				"Dayly": "Ask me",
@@ -200,7 +225,7 @@
 							"Rating": 4.5
 						},
 						{
-							"Name": "Truescript",
+							"Name": "TypeScript",
 							"Rating": 3.5
 						},
 						{

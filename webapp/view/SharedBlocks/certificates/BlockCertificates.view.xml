@@ -1,0 +1,55 @@
+<mvc:View
+		xmlns:mvc="sap.ui.core.mvc"
+		xmlns:forms="sap.ui.layout.form"
+		xmlns:core="sap.ui.core"
+		xmlns="sap.m"
+		controllerName="de.tammenit.ui5.homepage.controller.SharedBlocks.certificates.Certificate">
+
+	<Table id="idCertificatesTable"
+		inset="false"
+		items="{model>}">
+		<headerToolbar>
+			<Toolbar>
+				<Title text="Products" level="H2"/>
+			</Toolbar>
+		</headerToolbar>
+		<columns>
+			<Column
+				width="12em">
+				<Text text="Date" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true">
+				<Text text="Text" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true">
+				<Text text="Institute" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true"
+				hAlign="Center">
+				<Text text="Certificate" />
+			</Column>
+			<Column
+				hAlign="Right">
+				<Text text="Rating" />
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells>
+					<ObjectIdentifier title="{path: 'model>Date', formatter: '.formatDate'}"/>
+					<Link text="{model>Text}" href="{model>Link}" target="_blank"/>
+					<Text text="{model>Institute}" />
+					<CheckBox editable="false" selected="{= ${model>Certificate} === 1}" />	
+					<ObjectNumber
+						number="{model>Rating}" />
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</mvc:View>
