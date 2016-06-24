@@ -22,14 +22,6 @@
 					"Rating": "100%"
 				},
 				{
-					"Date": "2016-03-11",
-					"Text": "Speaker at UI5Con in Frankfurt / Germany",
-					"Institute": "AOK Systems",
-					"Certificate": 0,
-					"Link": "https://www.youtube.com/watch?v=vGHxn1giXBI",
-					"Rating": ""
-				},
-				{
 					"Date": "2015-07-01",
 					"Text": "Creating Business Value with User Experience",
 					"Institute": "open.sap.com",
@@ -118,6 +110,80 @@
 					"Rating": "93%"
 				}
 			],
+			"Trainings": [
+				{
+					"Date": "2016-04-19",
+					"Text": "SAP CodeJam: SAP HANA XSA",
+					"Location": "Hannover",
+					"Link": "http://scn.sap.com/community/events/codejam/blog/2016/04/21/recap-of-first-ever-codejam-hana-xs-advanced-xsa"
+				},
+				{
+					"Date": "2016-03-12",
+					"Text": "Attendee at sitFRA in Frankfurt / Germany",
+					"Location": "AOK Systems",
+					"Link": "http://scn.sap.com/community/events/inside-track/blog/2015/04/04/sitfra--community-at-its-best"
+				},
+				{
+					"Date": "2016-03-11",
+					"Text": "Speaker at UI5Con in Frankfurt / Germany",
+					"Location": "AOK Systems",
+					"Link": "https://www.youtube.com/watch?v=vGHxn1giXBI"
+				},
+				{
+					"Date": "2016-02-17",
+					"Text": "SAP CodeJam: IoT on HCP",
+					"Location": "Hannover",
+					"Link": "http://scn.sap.com/community/events/codejam/blog/2016/02/21/recap-iot-codejam-hannover-inwerken-ag"
+				},
+				{
+					"Date": "2015-05-21",
+					"Text": "SAP CodeJam: SAP Gateway and SAPUI5",
+					"Location": "Hannover",
+					"Link": "http://scn.sap.com/community/events/codejam/blog/2015/06/04/codejam-at-inwerken-ag-on-the-topics-gateway-and-sapui5"
+				},
+				{
+					"Date": "2015-05-08",
+					"Text": "SAP CodeJam: SAP Gateway and SAPUI5",
+					"Location": "Bielefeld",
+					"Link": "https://plus.google.com/+TammenitsolutionsDe1/posts/8CB1B42CnR6"
+				},
+				{
+					"Date": "2014-06-20",
+					"Text": "SAP CodeJam: SAPUI5",
+					"Location": "Bielefeld",
+					"Link": "https://plus.google.com/105160728659002417199/posts/XKfWsamCxD1"
+				},
+				{
+					"Date": "2013-11-01",
+					"Text": "SAP TechEd Amsterdam",
+					"Location": "Amsterdam, Netherlands",
+					"Link": ""
+				},
+				{
+					"Date": "2013-01-11",
+					"Text": "SAP CodeJam: SAP Mobile platform",
+					"Location": "Bielefeld, Germany",
+					"Link": "http://scn.sap.com/community/events/codejam/blog/2012/11/19/sap-codejam-bielefeld"
+				},
+				{
+					"Date": "2008-11-01",
+					"Text": "SAP TechEd Berlin",
+					"Location": "Berlin, Germany",
+					"Link": ""
+				},
+				{
+					"Date": "2006-11-01",
+					"Text": "SAP TechEd Amsterdam",
+					"Location": "Amsterdam, Netherlands",
+					"Link": ""
+				},
+				{
+					"Date": "2005-11-01",
+					"Text": "SAP TechEd Vienna",
+					"Location": "Vienna, Austria",
+					"Link": ""
+				}
+			],
 			"Rates": {
 				"Hourly": "matter of negotiation",
 				"Dayly": "Ask me",
@@ -166,6 +232,18 @@
 					"Image": "webapp/images/plus_google_com.png",
 					"Address": "+TammenitsolutionsDe1",
 					"Link": "https://plus.google.com/+TammenitsolutionsDe1"
+				},
+				{
+					"Name": "XING",
+					"Image": "webapp/images/xing.png",
+					"Address": "Helmut Tammen",
+					"Link": "http://www.xing.com/profile/Helmut_Tammen"
+				},
+				{
+					"Name": "SAP Community Network",
+					"Image": "",
+					"Address": "Helmut Tammen",
+					"Link": "http://scn.sap.com/people/helmut.tammen2"
 				}
 			],
 			"JobTitle": "Senior Architect & Developer",

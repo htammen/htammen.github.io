@@ -13,10 +13,14 @@
 									<Image width="194px" height="226px" id="__image0" src="https://avatars3.githubusercontent.com/u/847143"/>
 								</content>
 							</CustomTile>
-							<StandardTile title="About me" info="Info" icon="sap-icon://customer" number="1" 
+							<StandardTile title="About me" info="Bio" icon="sap-icon://customer" number="1" 
 								press="showAboutMe" removable="false"/>
-							<StandardTile title="My projects" info="Info"
-								icon="sap-icon://work-history" number="2" removable="false"/>
+							<StandardTile title="My projects" info="Work"
+								icon="sap-icon://work-history" number="2" removable="false"
+								press="comingNext"/>
+							<StandardTile title="My customers" info="Info"
+								icon="sap-icon://work-history" number="2" removable="false"
+								press="comingNext"/>
 						</tiles>
 					</TileContainer>
 				</content>

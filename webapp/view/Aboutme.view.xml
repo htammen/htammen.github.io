@@ -10,6 +10,7 @@
 		   xmlns:branch="de.tammenit.ui5.homepage.view.SharedBlocks.branches"
 		   xmlns:itskills="de.tammenit.ui5.homepage.view.SharedBlocks.itskills"
 		   xmlns:certificates="de.tammenit.ui5.homepage.view.SharedBlocks.certificates"
+		   xmlns:trainings="de.tammenit.ui5.homepage.view.SharedBlocks.trainings"
 		   controllerName="de.tammenit.ui5.homepage.controller.Aboutme"
 		   height="100%">
 	<!--
@@ -136,7 +137,7 @@
 						</subSections>
 					</ObjectPageSection>
 
-					<ObjectPageSection title="{i18n>view.profile.certificates}">
+					<ObjectPageSection title="{i18n>view.profile.certificates_and_trainings}">
 						<subSections>
 							<ObjectPageSubSection title="{i18n>view.profile.certificates}">
 								<blocks>
@@ -145,6 +146,16 @@
 											<ModelMapping externalModelName="undefined" externalPath="Certificates" internalModelName="model" />
 										</certificates:mappings>
 									</certificates:BlockCertificates>
+								</blocks>
+							</ObjectPageSubSection>
+
+							<ObjectPageSubSection title="{i18n>view.profile.trainings}">
+								<blocks>
+									<trainings:BlockTrainings id="trainings">
+										<trainings:mappings>
+											<ModelMapping externalModelName="undefined" externalPath="Trainings" internalModelName="model" />
+										</trainings:mappings>
+									</trainings:BlockTrainings>
 								</blocks>
 							</ObjectPageSubSection>
 						</subSections>

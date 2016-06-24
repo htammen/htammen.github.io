@@ -1,7 +1,8 @@
 sap.ui.define([
 		"de/tammenit/ui5/homepage/controller/BaseController",
-		"sap/ui/model/json/JSONModel"
-	], function(BaseController, JSONModel) {
+		"sap/ui/model/json/JSONModel",
+		"sap/m/MessageToast"
+	], function(BaseController, JSONModel, MessageToast) {
 	"use strict";
 	return BaseController.extend("de.tammenit.ui5.homepage.controller.Home", {
 		
@@ -39,11 +40,9 @@ sap.ui.define([
 			this.getModel("viewModel").setProperty("/busy", true);
 			this.getRouter().navTo("aboutme");
 		},
-		
-			onLinkPressed : function () {
-				sap.m.MessageToast.show("Hello world");
-				this.getRouter().navTo("home");
-			}
-		
+	
+		comingNext: function() {
+			MessageToast.show("Coming next");
+		}		
 	});
 });

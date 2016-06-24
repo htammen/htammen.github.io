@@ -1,0 +1,39 @@
+<mvc:View
+		xmlns:mvc="sap.ui.core.mvc"
+		xmlns:forms="sap.ui.layout.form"
+		xmlns:core="sap.ui.core"
+		xmlns="sap.m"
+		controllerName="de.tammenit.ui5.homepage.controller.SharedBlocks.trainings.Training">
+
+	<Table id="idTrainingsTable"
+		inset="false"
+		items="{model>}">
+		<headerToolbar>
+		</headerToolbar>
+		<columns>
+			<Column width="6em">
+				<Text text="{i18n>view.profile.block.training.column.date}" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				width="30em"
+				demandPopin="true">
+				<Text text="{i18n>view.profile.block.training.column.name}" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true">
+				<Text text="{i18n>view.profile.block.training.column.location}" />
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells>
+					<ObjectIdentifier title="{path: 'model>Date', formatter: '.formatDate'}"/>
+					<Link text="{model>Text}" href="{model>Link}" target="_blank"/>
+					<Text text="{model>Location}" />
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</mvc:View>

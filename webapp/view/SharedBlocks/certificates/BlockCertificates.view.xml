@@ -9,9 +9,6 @@
 		inset="false"
 		items="{model>}">
 		<headerToolbar>
-			<Toolbar>
-				<Title text="{i18n>view.profile.block.certificate.header}" level="H2"/>
-			</Toolbar>
 		</headerToolbar>
 		<columns>
 			<Column width="6em">
