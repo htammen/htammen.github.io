@@ -30,7 +30,7 @@ sap.ui.define([
 		 */
 		onAfterRendering: function() {
 			//sap.ui.core.BusyIndicator.hide();
-		}
+		},
 
 		/**
 		 * Called when the Controller is destroyed. Use this one to free resources and finalize activities.
@@ -39,6 +39,10 @@ sap.ui.define([
 		//	onExit: function() {
 		//
 		//	}
+		
+		downloadProfile: function() {
+			window.open("http://tammen-it-solutions.de/wp-content/uploads/2015/06/profil_ht.pdf");
+		}
 
 
 	});
