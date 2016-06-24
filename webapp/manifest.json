@@ -119,6 +119,12 @@
 			"js": [
 				{
 					"uri": "js/colorbrewer.js"
+				},
+				{
+					"uri": "bower_components/pdfmake/build/pdfmake.min.js"
+				},
+				{
+					"uri": "bower_components/pdfmake/build/vfs_fonts.js"
 				}
 			]
 		}
