@@ -41,7 +41,46 @@ sap.ui.define([
 		//	}
 		
 		downloadProfile: function() {
+			// open the PDF in a new window
+			//pdfMake.createPdf(this.createPDFDefinition()).open();
 			window.open("http://tammen-it-solutions.de/wp-content/uploads/2015/06/profil_ht.pdf");
+		},
+		
+		
+		createPDFDefinition: function() {
+			var ctx = this.getView().getBindingContext();
+			var i18n = this.getModel("i18n");
+			var profile = this.getModel().getProperty(ctx.getPath());
+			var docDefinition = {
+				pageSize: 'A4',
+				// [left, top, right, bottom] or [horizontal, vertical] or just a number for equal margins
+				pageMargins: [ 40, 60, 40, 60 ],
+				header: {
+					table: {
+						// headers are automatically repeated if the table spans over multiple pages
+						// you can declare how many rows should be treated as headers
+						headerRows: 1,
+						widths: [ '*', 'auto', 100, '*' ],
+						
+						body: [
+						  [ 'First', 'Second', 'Third', 'The last one' ],
+						  [ 'Value 1', 'Value 2', 'Value 3', 'Value 4' ],
+						  [ { text: 'Bold value', bold: true }, 'Val 2', 'Val 3', 'Val 4' ]
+						]
+					}	
+				},
+				footer: {
+					
+				},
+				content: [
+					i18n.getProperty("appTitle") + ": " + profile.Name,
+					profile.Availability,
+					profile.Birthday,
+					profile.Nationality
+				]
+			};
+			
+			return docDefinition;
 		}
 
 

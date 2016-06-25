@@ -15,8 +15,7 @@
 				<Text text="{i18n>view.profile.block.certificate.column.date}" />
 			</Column>
 			<Column
-				minScreenWidth="Tablet"
-				width="30em"
+				minScreenWidth="2048px"
 				demandPopin="true">
 				<Text text="{i18n>view.profile.block.certificate.column.name}" />
 			</Column>
