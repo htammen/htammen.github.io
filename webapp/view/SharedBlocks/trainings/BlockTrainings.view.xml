@@ -15,7 +15,7 @@
 				<Text text="{i18n>view.profile.block.training.column.date}" />
 			</Column>
 			<Column
-				minScreenWidth="Tablet"
+				minScreenWidth="Large"
 				width="30em"
 				demandPopin="true">
 				<Text text="{i18n>view.profile.block.training.column.name}" />
