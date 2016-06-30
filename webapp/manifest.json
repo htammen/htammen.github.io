@@ -94,6 +94,11 @@
 				"pattern": "aboutme",
 				"greedy": false,
 				"target": ["aboutme"]
+			}, {
+				"name": "projects",
+				"pattern": "projects",
+				"greedy": false,
+				"target": ["projects"]
 			}],
 			"targets": {
 				"home": {
@@ -104,6 +109,11 @@
 				"aboutme": {
 					"viewName": "Aboutme",
 					"viewId": "aboutme",
+					"viewLevel": 2
+				},
+				"projects": {
+					"viewName": "Projects",
+					"viewId": "projects",
 					"viewLevel": 2
 				},
 				"notFound": {

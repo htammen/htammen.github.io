@@ -17,7 +17,7 @@
 								press="showAboutMe" removable="false"/>
 							<StandardTile title="My projects" info="Work"
 								icon="sap-icon://work-history" number="2" removable="false"
-								press="comingNext"/>
+								press="showProjects"/>
 							<StandardTile title="My customers" info="Info"
 								icon="sap-icon://work-history" number="2" removable="false"
 								press="comingNext"/>

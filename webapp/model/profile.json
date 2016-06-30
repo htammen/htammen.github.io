@@ -590,6 +590,897 @@
 						}
 					]
 				}
+			],
+			"Projects": [
+				{
+					"Year": "Ongoing",
+					"items": [
+						{
+							"Start": "01/14",
+							"End": {"de": "heute"},
+							"Branch": {
+								"de": "Verschiedene",
+								"en": "Several"
+							},
+							"Header": {
+                                "de": "Erstellug einiger SAP HANA / HANA Cloud Platform Prototypen",
+                                "en": "Development of several SAP HANA / HANA Cloud Platform prototypes"},
+							"Duration": {"en" : "4 months", "de": "4 Monate"},
+							"Longtext": { 
+								"de":  "Entwicklung einiger interner Prototypen, um die Verwendung / den Einsatz von SAP HANA / SAP HANA Cloud Platform zu erlernen"
+							},
+							"Tools": {
+								"de": "SAPUI5, SAP HANA XS, SAP HANA Cloud Platform, SAP HANA Web Tools, SAP Web IDE"
+							}
+						},
+						{
+							"Start": "10/15",
+							"End": {"de": "heute", "en": "today"},
+							"Branch": {
+								"de": "Technologie",
+								"en": "Technology"
+							},
+							"Header": {
+                                "de": "Entwicklung eines OData Servers für node.js",
+                                "en": "Development of an OData server for node.js"},
+							"Duration": {"en" : "3 months", "de": "3 Monate"},
+							"Longtext": { 
+								"de":  "Entwicklung eines OData Servers als Ersatz / Ergänzung zu SAP Gateway für spezielle Einsatzzwecke.\nDie Entwicklung findet auf Basis von node.js und dem von IBM entwickelten MVC Framework Loopback statt.\nZiel ist es einen OData Server zu erstellen, der unabhängig von einer bestimmten Datenbank Daten persistiert.\nEs ist ebenfalls möglich für bestehende Datenbanken eine OData-Schnittstelle bereitzustellen."
+							},
+							"Tools": {
+								"de": "Javascript, Typescript, node.js, Git"
+							},
+                            "Link": "https://www.npmjs.com/package/n-odata-server"
+						},
+						{
+							"Start": "10/14",
+							"End": {"de": "heute", "en": "today"},
+							"Branch": {
+								"de": "Netzwerken",
+								"en": "Networking"
+							},
+							"Header": {
+                                "de": "Mitarbeit in verschiedenen Arbeitskreisen",
+                                "en": "Active participation in several work groups"},
+							"Duration": {"en" : "temporary", "de": "temporär"},
+							"Longtext": { 
+								"de":  "Seit 10/14 Mitglied im SAP-internen, geschlossenen Fiori Technology Council. Dort werden in ca. 2-4 wöchigen Abständen Neuigkeiten zu den Themen Fiori, HCP, Web IDE, ... vorgestellt.\nMitarbeit in mehreren CEIs (Customer Engagement Initiativen) der SAP. Z.B.: CEI Fiori like Apps on HCP, Annotation Modeler for SAP Web IDE, SAP Fiori Overview Page.\nVortragender zum Thema Custom Control Entwicklung in SAPUI5 auf der ersten SAP UI5Con in Frankfurt."
+							},
+							"Tools": {
+								"de": ""
+							}
+                        },
+						{
+							"Start": "---",
+							"End": {"de": "---"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Pflege, Wartung, Support bestehender Anwendungen",
+                                "en": "Maintenance and support of existing applications"},
+							"Duration": {"en" : "", "de": ""},
+							"Longtext": { 
+								"de":  "Pflege, Wartung, kleine Weiterentwicklungen von diversen selbst mitentwickelten  Awnedungen im Energieversorgungssektor.",
+                                "en": "Maintenance and support of existing applications as well as small enhancements of these apps in the sector of uitilities."
+							},
+							"Tools": {
+								"de": "Java, Grails, Groovy, Javascript"
+							}
+						},
+						{
+							"Start": "---",
+							"End": {"de": "---"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Wartung und fachlicher Betrieb einer SAP NWDI",
+                                "en": "Maintenance and business operation of SAP NWDI"},
+							"Duration": {"en" : "", "de": ""},
+							"Longtext": { 
+								"de":  "Fachlicher Betrieb einer SAP NWDI zum Transport von Java Anwendungen im SAP Netweaver Bereich.",
+                                "en": "Business operation of a SAP NWDI for tranport management of Java applications on SAP Netweaver."
+							},
+							"Tools": {
+								"de": "SAP Netweaver Development Infrastructure"
+							}
+						},
+						{
+							"Start": "---",
+							"End": {"de": "---"},
+							"Branch": {
+								"de": "Dienstleistung",
+								"en": "Services"
+							},
+							"Header": {
+                                "de": "Wartung und fachlicher Betrieb Wordpress Systeme",
+                                "en": "Maintenance and business operation of Wordpress systems"},
+							"Duration": {"en" : "", "de": ""},
+							"Longtext": { 
+								"de":  "Fachlicher Betrieb und Wartung von zwei Wordpress Systemen im Internet.",
+                                "en": "Business operation and maintenance of two Wordpress systems on the internet."
+							},
+							"Tools": {
+								"de": "HTML, Javascript, PHP, Wordpress"
+							}
+						}
+					]
+				},
+				{
+					"Year": "2016",
+					"items": [
+						{
+							"Start": "06/16",
+							"End": "06/16",
+							"Branch": {
+								"de": "Dienstleistung",
+								"en": "Services"
+							},
+							"Header": {
+                                "de": "Erstellung einer SAPUI5 Anwendung zur Verwaltung eines Beraterprofils",
+                                "en": "Development of a SAPUI5 application for management of a consultant profile"},
+							"Duration": {"en" : "5 days", "de": "5̈ Tage"},
+							"Longtext": { 
+								"de":  "Erstellung einer SAPUI5 Anwendung zur Bereitstellung und Pflege dieses Beraterprofils im Internet. Neben der Bereitstellung des Profils als SAPUI5 / HTML Anwendung wurde auch der Export in eine PDF Datei realisiert.",
+                                "en": "Development of a SAPUI5 application for provisioning and maintenance of this consultant profile on the internet. Beside the SAPUI5 / HTML view of the profile a PDF creation and download was also realized."
+							},
+							"Tools": {
+								"de": "SAPUI5 / OpenUI5, JSON, Git, Javascript"
+							}
+						},
+						{
+							"Start": "05/16",
+							"End": "05/16",
+							"Branch": {
+								"de": "Dienstleistung",
+								"en": "Services"
+							},
+							"Header": {
+                                "de": "Erstellung einer SAPUI5 Anwendung zur Verwaltung von Betriebsfahrten",
+                                "en": "Development of a SAPUI5 application for management of business trips"},
+							"Duration": {"en" : "5 days", "de": "5̈ Tage"},
+							"Longtext": { 
+								"de":  "Erstellung einer SAPUI5 Anwendung zur Pflege von betriebsbedinten Fahrten mit dem PKW. Das Backend wurde mithilfe des selbst entwickelten node.js OData Servers erstellt und in einer Cloud Foundry Anwendung auf der IBM Bluemix Cloud Plattform bereitgestellt. Das Frontend wird auf der HANA Cloud Platform der SAP ausgeführt.",
+                                "en": "Development of a SAPUI5 application for maintencance of business travels by car. The backend was developed with the self developmed node.js OData server and is running in a Cloud Foundry application on IBMs Bluemix Cloud Platform. The frontend ist running on SAPs HANA Cloud Platform."
+							},
+							"Tools": {
+								"de": "SAPUI5 / OpenUI5, OData, node.js, n-odata-server, Git, Javascript, Cloud Foundry, SAP HCP, IBM Bluemix Platform"
+							}
+						},
+						{
+							"Start": "03/16",
+							"End": "03/16",
+							"Branch": {
+								"de": "Dienstleistung",
+								"en": "Services"
+							},
+							"Header": {
+                                "de": "Erstellung einer SAPUI5 Anwendung zur Verwaltung von Downloadzahlen",
+                                "en": "Development of a SAPUI5 application for management of downloads"},
+							"Duration": {"en" : "8 days", "de": "8̈̈ Tage"},
+							"Longtext": { 
+								"de":  "Erstellung einer SAPUI5 Anwendung zur Pflege und grafischen Anzeige von Downloadzahlen des node.js OData Server npm Packages.\nDie Downloadzahlen können eingetragen und gepflegt werden und lassen sich in einer grafischen Sicht visualisieren.\nDie Backend Anwendung wird als Cloud Foundry Anwendung auf der IBM Bluemix Plattform ausgeführt.",
+                                "en": "Development of a SAPUI5 application for maintencance and graphical display of download numbers of the node.js OData server npm package.\nThe download numbers can be created and maintained. Additionally they can be displayed in a bar chart.\nThe backend part of the application is running as a Cloud Foundry app on IBM Bluemix Cloud Foundry Platform."
+							},
+							"Tools": {
+								"de": "SAPUI5 / OpenUI5, OData, node.js, n-odata-server, Git, Javascript, Cloud Foundry, SAP HCP, IBM Bluemix Platform, SVG"
+							}
+						},
+						{
+							"Start": "02/16",
+							"End": "03/16",
+							"Branch": {
+								"de": "Dienstleistung",
+								"en": "Services"
+							},
+							"Header": {
+                                "de": "Erstellung einer SAPUI5 Anwendung mit grafischer Visualisierung",
+                                "en": "Development of a SAPUI5 application with graphical visualization"},
+							"Duration": {"en" : "10 days", "de": "10 Tage"},
+							"Longtext": { 
+								"de":  "Erstellung einer SAPUI5 Anwendung zur grafischen Visualisierung von Teilnehmerzahlen bei einer Konferenz in einer Europakarte.\nDie Anwendung wurde als Demonstationsanwendung für die UI5Con Entwicklerkonferenz in Frankfurt erstellt.\nDer Backendteil der Anwendung läuft sowohl in einer Cloud Foundry Anwendung auf der IBM Bluemix Platform als auch während der Entwicklung in einer Cloud9 Instanz (nicht CF).",
+                                "en": "Development of a SAPUI5 application for graphical visualisation of attendees amounts at a conference.\nThis app was developed as a demonstration app for the UI5Con developer conference in Frankfurt / Germany.\nThe backend part of the application is running as a Cloud Foundry app on IBM Bluemix Cloud Foundry Platform as well as during development on a Cloud9 instance (no CF)."
+							},
+							"Tools": {
+								"de": "SAPUI5 / OpenUI5, OData, node.js, n-odata-server, Git, Javascript, SVG, UI5 congrol dev."
+							}
+						}
+					]
+				},
+				{
+					"Year": "2015",
+					"items": [
+						{
+							"Start": "04/15",
+							"End": {"de": "12/15"},
+							"Branch": {
+								"de": "Automobilindustrie",
+								"en": "Automotive"
+							},
+							"Header": {
+                                "de": "Entwicklung eines SAPUI5 Frontends im Logistikbereich",
+                                "en": "Development of a SAPUI5 frontend in the area of logistics"},
+							"Duration": {"en" : "6 months", "de": "6 Monate"},
+							"Longtext": { 
+								"de":  "Konzeptionelle Arbeit zur Entwicklung einer SAPUI5-Anwendung im Logistikbereich / Warehouse-Management.\nEntwicklung der SAPUI5-Anwendung\nErstellung eigener SAPUI5-Controls im Rahmen der Anwendungsentwicklung\nTechnische Beratung zu Git, I18n, Transportmanagement"
+							},
+							"Tools": {
+								"de": "SAPUI5, Javascript, Git, SAP R3"
+							}
+						},
+						{
+							"Start": "02/14",
+							"End": {"de": "12/15"},
+							"Branch": {
+								"de": "Dienstleistung",
+								"en": "Services"
+							},
+							"Header": {
+                                "de": "Erstellug einer SAPUI5 Anwendung für interne Administrationszwecke",
+                                "en": "Development of a SAPUI5 application for internal administration puposes"},
+							"Duration": {"en" : "3 months", "de": "3 Monate"},
+							"Longtext": { 
+								"de":  "Erstellung einer bisher nur firmenintern genutzten Anwendung für das Dienstleistungsgewerbe.\nEin Angestellter (Studend) wurde in die Erstellung von SAPUI5 Anwendungen eingewiesen und angelernt.\nMeine Aufgabe bestand in der Planung, Konzeption, Einarbeitung des Mitarbeiters sowie Entwicklung des SAPUI5 Frontends als auch des Grails Backends"
+							},
+							"Tools": {
+								"de": "SAPUI5, Grails, SAP HANA Cloud Platform, SAP Web IDE"
+							}
+						}
+					]
+				},
+				{
+					"Year": "2014",
+					"items": [
+						{
+							"Start": "11/14",
+							"End": {"de": "12/14"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "SSO Modul Entwicklung für SAML / OAuth im Kontext eines API Managers",
+                                "en": "Development of a SSO module for SAML / OAuth in context of an API manager"},
+							"Duration": {"en" : "1 month", "de": "1 Monat"},
+							"Longtext": { 
+								"de":  "Erstellung eines Konzeptes und Entwicklung eines Moduls für ein Single Sign On (SSO) Szenario mit SAML und oAuth.\nEs wurde ein Modul entwickelt, das es ermöglicht in einer gegebenen Security Infrastruktur ein Single Sign On mit einem SAML 2.0 IdP (Identity Provider) und einem oAuth 2.0 Authority Provider zu realisieren.\nZiel war es einen API Manager in die Security Infrastruktur eines Konzerns einzubinden."
+							},
+							"Tools": {
+								"de": "Java, WSO2 Api Manager, Entrust GetAccess SAML Server"
+							}
+						},
+						{
+							"Start": "10/11",
+							"End": {"de": "04/14"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Erweiterung einer Web Service Anwendung",
+                                "en": "Enhancement of a Web Service appliation"},
+							"Duration": {"en" : "4 months", "de": "4 Monate"},
+							"Longtext": { 
+								"de":  "Erweiterung einer Web Service Anwendung um neue Funktionalitäten. Erstellung von PDF-Berichten mit dem Adobe Document Service (ADS) und mit JasperReports.\nDurchführung der Teilprojektleitung."
+							},
+							"Tools": {
+								"de": "WebService Java, Adobe Document Service (ADS), JaperReport, SAP NW Web AS 7.0, SAP NWDI, GIT"
+							}
+						},
+						{
+							"Start": "05/13",
+							"End": {"de": "01/14"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Entwicklung einer Internetanwendung zur Unterstützung von Vertriebsprozessen",
+                                "en": "Development of an internet application for sales processes"},
+							"Duration": {"en" : "8 months", "de": "8 Monate"},
+							"Longtext": { 
+								"de":  "Es wurde eine Internetanwendung entwickelt, die es Großkunden ermöglicht Aufträge über mehrere Millionen Euro online zu erteilen. Eingebettet ist die Anwendung in ein Extranet Portal und eine Konzern-Security-Infrastruktur.\nDurchführung allgemeiner Anwendungsarchitekturberatung, sowie UI- und Security-Beratung.\nRealisierung der Anwendung in einem Team von 8 Entwicklern und einigen Part-Time-Beratern\nUmsetzung der Security-Implementierung mittels SAML 2.0\nTeilweise Übernahme der Teilprojektleitung"
+							},
+							"Tools": {
+								"de": "Java / J2EE, Spring Security (SAML), Maven"
+							}
+						}
+					]
+				},
+				{
+					"Year": "2013",
+					"items": [
+						{
+							"Start": "09/10",
+							"End": {"de": "04/13"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Entwicklung einer EEG (Erneuerbare Energien Gesetz) Internet Anwendung",
+                                "en": "Development of a EEG (German Energy Law) internet application"},
+							"Duration": {"en" : "9 months", "de": "9 Monate"},
+							"Longtext": { 
+								"de":  "Entwicklung und Pflege einer Anwendung zur Unterstützung eines EEG-Prozesses.\nEntwicklung der Anwendung mit dem Web-Framework Grails und der auf Java basierenden dynamischen Programmiersprache Groovy.\nAnbindung der Frontend-Anwendung an ein R/3 System mittels WebService-Aufrufe.\nErstellung eines PDF-Berichtes mit JasperReport.\nDurchführung der Projektleitung."
+							},
+							"Tools": {
+								"de": "Grails / Groovy, JasperReport, Javascript Framework ExtJS, GIT (SCM), Tomcat Application Server"
+							}
+						},
+						{
+							"Start": "04/11",
+							"End": {"de": "01/13"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Erweiterung einer Web Dynpro Java Anwendung",
+                                "en": "Enhancement of a Web Dynpro Java application"},
+							"Duration": {"en" : "8 months", "de": "8 Monate"},
+							"Longtext": { 
+								"de":  "Erweiterung einer Web Dynpro Java Anwendung um neue Funktionalitäten.\nErweiterung diverser PDF-Berichte mit dem Adobe Document Service (ADS).\nInternationalisierung der Anwendung für z.Zt. fünf Sprachen.\nDurchführung der Teilprojektleitung."
+							},
+							"Tools": {
+								"de": "Web Dynpro Java, Adobe Document Service (ADS), SAP NW Web AS 7.0, SAP NWDI"
+							}
+						},
+						{
+							"Start": "01/13",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "Dienstleistung",
+								"en": "Services"
+							},
+							"Header": {
+                                "de": "Entwicklung einer Internetanwendung für das Dienstleistungsgewerbe",
+                                "en": "Development of an internet application for the services sector"},
+							"Duration": {"en" : "3 months", "de": "3 Monate"},
+							"Longtext": { 
+								"de":  "Entwicklung einer Internetanwendung für das Dienstleistungsgewerbe mit Anforderungen in den Bereichen Usability, Security, Nachhaltigkeit."
+							},
+							"Tools": {
+								"de": "Web Framework Grails, Javascript Framework AngularJS, Javascript Framework SAPUI5, GIT (SCM)"
+							}
+						},
+						{
+							"Start": "09/12",
+							"End": {"de": "05/13"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Technische Qualitätssicherung Intranet Anwendung",
+                                "en": "Technical QA of an internet application"},
+							"Duration": {"en" : "1 month", "de": "1 Monat"},
+							"Longtext": { 
+								"de":  "Durchführung der technischen Qualitätssicherung in einem Intranetprojekt, das mit der Programmiersprache Java entwickelt wurde.\nDie Realisierung wurde von einem Dritt-Unternehmen durchgeführt. Die Aufgabe bestand in der Sicherstellung der Einhaltung der Qualitätsstandards des Kunden.\nKonzeptanalyse und -bewertung Sourcecodeanalyse"
+							},
+							"Tools": {
+								"de": "Java / J2EE, Sonar Sourcecodeanalyse"
+							}
+						},
+						{
+							"Start": "02/13",
+							"End": {"de": "02/13"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Erweiterung einer Web Dynpro Java Extranet Anwendung",
+                                "en": "Enhancement of a Web Dynpro Java application"},
+							"Duration": {"en" : "2 weeks", "de": "2 Wochen"},
+							"Longtext": { 
+								"de":  "Erweiterung einer Web-Dynpro Java Anwendung für Vertriebsprozesse in Energieversorgungsunternehmen."
+							},
+							"Tools": {
+								"de": "SAP NW Web AS 7.11, SAP NWDI, Web Dynpro Java"
+							}
+						}
+					]
+				},
+				{
+					"Year": "2012",
+					"items": [
+						{
+							"Start": "02/12",
+							"End": {"de": "04/12"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Entwicklung einer Single Sign On - Anwendung",
+                                "en": "Development of an Single Sign On application"},
+							"Duration": {"en" : "10 day", "de": "10 Tage"},
+							"Longtext": { 
+								"de":  "Entwicklung einer Anwendung, um SSO (Single Sign On) zu SAP ABAP Systemen in einer großen Infrastrukturlandschaft zu ermöglichen. Realisiert für einen J2EE-Server als UI-less Anwendung. Authentifizierung erfolgt mittels SAML"
+							},
+							"Tools": {
+								"de": "Java, SAP Netweaver Security, SAP NWDI"
+							}
+						},
+						{
+							"Start": "11/11",
+							"End": {"de": "01/12"},
+							"Branch": {
+								"de": "Automobilindustrie",
+								"en": "Automotive"
+							},
+							"Header": {
+                                "de": "Erstellung Java Entwicklungsrichtlinien",
+                                "en": "Creation of Java development guidelines"},
+							"Duration": {"en" : "1 month", "de": "1 Monat"},
+							"Longtext": { 
+								"de":  "Erstellung von Entwicklungsrichtlinien für Java Entwicklungen im SAP NWDI Umfeld und den SAP NW Versionen 7.0 bis 7.3."
+							},
+							"Tools": {
+								"de": "SAP NW Web AS 7.0 bis 7.3, SAP NWDI"
+							}
+						},
+						{
+							"Start": "02/13",
+							"End": {"de": "02/13"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Erweiterung einer Web Dynpro Java Extranet Anwendung",
+                                "en": "Enhancement of a Web Dynpro Java application"},
+							"Duration": {"en" : "2 weeks", "de": "2 Wochen"},
+							"Longtext": { 
+								"de":  "Erweiterung einer Web-Dynpro Java Anwendung für Vertriebsprozesse in Energieversorgungsunternehmen."
+							},
+							"Tools": {
+								"de": "SAP NW Web AS 7.11, SAP NWDI, Web Dynpro Java"
+							}
+						}
+					]
+				},
+				{
+					"Year": "Older",
+					"items": [
+						{
+							"Start": "01/10",
+							"End": {"de": "08/10"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Entwicklung einer Smartmeter Internet Anwendung",
+                                "en": "Development of a smartmeter internet application"},
+							"Duration": {"en" : "8 months", "de": "8 Monate"},
+							"Longtext": { 
+								"de":  "Entwicklung der Frontendanwendung eines großen Smartmeterprojektes.\nDie Frontendanwendung wurde als HTML- und Adobe Flex Anwendung realisiert.\nDas Team der Frontendanwendung bestand aus fünf Personen. Das Gesamtprojekt hatte ca. 30 Mitarbeiter."
+							},
+							"Tools": {
+								"de": "Java EE, Spring Framework, HTML, Adobe Flex, Hudson CI Tool, SAP NW Web AS 7.1"
+							}
+						},
+						{
+							"Start": "12/09",
+							"End": {"de": "12/09"},
+							"Branch": {
+								"de": "Automobilindustrie",
+								"en": "Automotive"
+							},
+							"Header": {
+                                "de": "Erweiterung einer SAP SRM Anwendung",
+                                "en": "Enhancement of a SAP SRM application"},
+							"Duration": {"en" : "10 days", "de": "10 Tage"},
+							"Longtext": { 
+								"de":  "Erweiterung eines bestehenden Standard SAP SRM Anwendung um kundenspezifische Funktionen.\nErstellung bzw. Erweiterung von SAP ITS WebTemplates. Anpassung der ABAP Backend Funktionalitäten."
+							},
+							"Tools": {
+								"de": "ITS HTMLB Programmierung, ABAP Workbench"
+							}
+						},
+						{
+							"Start": "02/13",
+							"End": {"de": "02/13"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Erweiterung einer Web Dynpro Java Extranet Anwendung",
+                                "en": "Enhancement of a Web Dynpro Java application"},
+							"Duration": {"en" : "2 weeks", "de": "2 Wochen"},
+							"Longtext": { 
+								"de":  "Erweiterung einer Web-Dynpro Java Anwendung für Vertriebsprozesse in Energieversorgungsunternehmen."
+							},
+							"Tools": {
+								"de": "SAP NW Web AS 7.11, SAP NWDI, Web Dynpro Java"
+							}
+						},
+						{
+							"Start": "11/09",
+							"End": {"de": "12/09"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Erweiterung einer Anwendung um SAML SSO",
+                                "en": "SAML SSO enhancement of an application"},
+							"Duration": {"en" : "2 weeks", "de": "2 Wochen"},
+							"Longtext": { 
+								"de":  "Im Rahmen eines Security-Infrastruktur Projektes wurde eine bestehende J2EE Anwendung derart erweitert, dass die Authentifizierung mittels SAML 2.0 erfolgt. Die Umstellung diente als Prototyp für weitere im Konzern entwickelte Anwendungen. Weiterhin wurde die Anwendung in einen produktionsreifen und wart- und supportbaren Zustand versetzt."
+							},
+							"Tools": {
+								"de": "Java 6.0, Tomcat Application Server 6.0, Spring Security Framework"
+							}
+						},
+						{
+							"Start": "05/09",
+							"End": {"de": "09/09"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Web Dynpro / Flex / Portal Evaluierung",
+                                "en": "Web Dynpro / Flex / Portal Evaluation"},
+							"Duration": {"en" : "5 months", "de": "5 Monate"},
+							"Longtext": { 
+								"de":  "Technische Beratung im SAP Netweaver Portal / Web AS / Web Dynpro Umfeld\nEvaluierung einiger technischer Möglichkeiten im Rahmen eines großen Vertriebskalkulationssystems.\nEinsatz von Adobe Flex / Flash Islands zur Darstellung komplexer Grafiken mit Massendaten (Lastganganzeige)\nEvaluierung des praktischen Einsatzes der Suspend/Resume Funktionalität von Web Dynpro im SAP Netweaver Portal."
+							},
+							"Tools": {
+								"de": "Web AS 7.10 und 7.11 Java, SAP NW Portal, Adobe Flex, Web Dynpro Java"
+							}
+						},
+						{
+							"Start": "03/09",
+							"End": {"de": "05/09"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Web Dynpro Vertriebskalkulation",
+                                "en": "Web Dynpro sales calculation"},
+							"Duration": {"en" : "3 months", "de": "3 Monate"},
+							"Longtext": { 
+								"de":  "Unterstützung bei der Erstellung eines Vertriebskalkulationssystem eines Energieversorgers.\nZiel dieses Projektes war es Entscheidungsvorlagen für die Planung eines großen Vertriebskalkulationsprogrammes zu erstellen. Dazu wurde ein kleineres Modul des Gesamtprojektes sowie einige Prototypen der zusätzlich geplanten Module entwickelt Für die Entwicklung wurde Web Dynpro Java auf der neuesten SAP Netweaver 7.1 Plattform eingesetzt.\nNeben der Entwicklung wurde technologische UI- sowie Secutiy- Beratung durchgeführt. Hierbei wurden Web Dynpro Java, Web Dynpro ABAP und Adobe Flex betrachtet."
+							},
+							"Tools": {
+								"de": "Web AS 7.10 und 7.11 Java, Adobe Flex, Web Dynpro Java, Web Dynpro ABAP, Web Netweaver Portal"
+							}
+						},
+						{
+							"Start": "05/08",
+							"End": {"de": "05/14"},
+							"Branch": {
+								"de": "Dienstleistung",
+								"en": "Services"
+							},
+							"Header": {
+                                "de": "Entwicklung einer Web-Anwendung mit Grails / Adobe Flex",
+                                "en": "Development of a Web application with Grails / Adobe Flex"},
+							"Duration": {"en" : "18 months", "de": "18 Monate"},
+							"Longtext": { 
+								"de":  "Entwicklung einer Web-Anwendung, die unterschiedliche Dienste im Internet zur Verfügung stellt.\nEvaluierung der einzusetzenden Technologien. Durchführung des Projektmanagements. Festlegung der Architektur. Entwicklung einiger Module des Gesamtpaketes.\nSecurity technische Absicherung der Anwendung mit Spring Security."
+							},
+							"Tools": {
+								"de": "Scriptsprache Groovy, Web Framework Grails, Adobe Flex, UML, Eclipse, Tomcat, MySQL, Spring Security"
+							}
+						},
+						{
+							"Start": "04/08",
+							"End": {"de": "12/08"},
+							"Branch": {
+								"de": "Automobilindustrie",
+								"en": "Automotive"
+							},
+							"Header": {
+                                "de": "QM SAP Netweaver Java / Portal / BI",
+                                "en": "QM SAP Netweaver Java / Portal / BI"},
+							"Duration": {"en" : "9 months", "de": "9 Monate"},
+							"Longtext": { 
+								"de":  "Beratung bei der Einführung von Qualitätssicherungssicherungsmaßnahmen im SAP Netweaver Java Umfeld eines Netweaver BI Portals.\nErstellung von Entwicklungsrichtlinien für SAP Netweaver Java Anwendungen.\nEinführung einer NWDI und CTS+ mit Erstellung von Konzepten und Guides für verschiedene Projektrollen (Admininstrator, Projektmanager, Entwickler, ...)."
+							},
+							"Tools": {
+								"de": "SAP Netweaver Java, SAP Netweaver Web AS, SAP Netweaver Portal, SAP Netweaver BI, SAP Netweaver NWDI / CTS+"
+							}
+						},
+						{
+							"Start": "04/08",
+							"End": {"de": "04/08"},
+							"Branch": {
+								"de": "Automobilindustrie",
+								"en": "Automotive"
+							},
+							"Header": {
+                                "de": "Einführung NWDI u. CTS+",
+                                "en": "Introduction NWDI and CTS+"},
+							"Duration": {"en" : "6 days", "de": "6 Tage"},
+							"Longtext": { 
+								"de":  "Einführung der SAP Netweaver Development Infrastructure und CTS+ in einem Großprojekt.\nInstallation und Konfiguration der NWDI und CTS+."
+							},
+							"Tools": {
+								"de": "SAP Netweaver NWDI / CTS+, SAP Netweaver Java, SAP Netweaver Web AS"
+							}
+						},
+						{
+							"Start": "10/07",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Web Service Inbetriebsetzungsauftrag",
+                                "en": "Web Service Inbetriebsetzungsauftrag"},
+							"Duration": {"en" : "3 months", "de": "3 Monate"},
+							"Longtext": { 
+								"de":  "Zur Entgegennahme und Weiterverarbeitung eines Inbetriebsetzungsauftrages der Sparten Gas, Wasser, Strom wurde ein Web Service entwickelt. Dieser wird auf einem SAP Web AS (Java Stack) ausgeführt.\nDie entgegen genommenen Daten werden in einen XML-Stream transformiert. Daraus wird mit Hilfe des Adobe Document Service eine PDF-Datei generiert. Die erzeugten Dateien werden in ein cFolders - System (ABAP-Stack) zur weiteren Bearbeitung abgelegt.\nDie Anwendung wurde in die SAP Netweaver Security Infrastruktur integriert.\nWeiterentwicklung im Sommer/Herbst 2008."
+							},
+							"Tools": {
+								"de": "Web AS 6.40 Java, Adobe Document Service (ADS), XML Generierung mit Castor (Open Source), SAP Netweaver Security"
+							}
+						},
+						{
+							"Start": "08/07",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "Automobilindustrie",
+								"en": "Automotive"
+							},
+							"Header": {
+                                "de": "Betriebsführungskonzept SAP Netweaver",
+                                "en": "Operation concept SAP Netweaver"},
+							"Duration": {"en" : "1.5 months", "de": "1,5 Monate"},
+							"Longtext": { 
+								"de":  "Erarbeitung eines Konzeptes zur Betriebsführung einer komplexen SAP Systemlandschaft mit den Komponenten XI, NWDI, CTS+, SAP R/3 4.6, SolMan, SAP Netweaver 04 und SAP Netweaver 2004s. Gemeinsam mit dem Kunden wurde in diversen Workshops ein Grobkonzept für den Betrieb der SAP Systemlandschaft erarbeitet. Der Kunde wurde in den Workshops mit den Einzelsystemen und der Interaktion der Systeme vertraut gemacht."
+							},
+							"Tools": {
+								"de": "SAP Netweaver"
+							}
+						},
+						{
+							"Start": "10/06",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "Finanzdienstleistung",
+								"en": "Financial services"
+							},
+							"Header": {
+                                "de": "Konfiguration der und Einführung in die NWDI",
+                                "en": "Configuration and Introduction NWDI"},
+							"Duration": {"en" : "6 days", "de": "6 Tage"},
+							"Longtext": { 
+								"de":  "Bei dem Kunden wurde eine installierte NWDI zunächst konfiguriert.\nDaraufhin wurden die Administratoren in die Benutzung eingewiesen.\nAbschließend wurden einige lokale Entwicklungsprojekte gemeinsam mit den Entwicklern in die NWDI migriert. Dabei wurde teilweise auch eine Entwicklungsarchitekturberatung durchgeführt."
+							},
+							"Tools": {
+								"de": "SAP Netweaver Development Infrastructure (NWDI), SAP Netweaver Web AS 6.40, Web Dynpro, J2EE"
+							}
+						},
+						{
+							"Start": "09/06",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "IT-Dienstleistung",
+								"en": "IT services"
+							},
+							"Header": {
+                                "de": "Evaluierung der SAP KMC Komponente",
+                                "en": "Evaluation of SAP KMC Component"},
+							"Duration": {"en" : "10 days", "de": "10 Tage"},
+							"Longtext": { 
+								"de":  "Im Rahmen dieses Projektes sollte die SAP Knowledge Management und Collaboration (KMC) Komponente auf Ihre Tauglichkeit für den Einsatz als Wissensmanagementsystem für einen IT-Dienstleister evaluiert werden.\nZunächst wurden das Portal und die KMC Komponente installiert und konfiguriert. Anschließend wurde ein Prototyp für die Umsetzung realisiert, um die Möglichkeiten der KMC Komponente zu demonstrieren. Abschließend wurde ein Nutzungskonzept für deren Einsatz erstellt. Dieses wurde dem Kunden in einem Workshop vorgestellt und diskutiert."
+							},
+							"Tools": {
+								"de": "SAP Netweaver Portal, KMC Komponente des Portals"
+							}
+						},
+						{
+							"Start": "08/06",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "Automobilindustrie",
+								"en": "Automotive"
+							},
+							"Header": {
+                                "de": "SAP NWDI Konfiguration",
+                                "en": "SAP NWDI Configuration"},
+							"Duration": {"en" : "3 days", "de": "3 Tage"},
+							"Longtext": { 
+								"de":  "Für den Kunden wurde eine bereits installierte NWDI konfiguriert. Die grundsätzliche Konfiguration des Systems wurde vorgenommen, sowie Entwicklungstracks angelegt und konfiguriert."
+							},
+							"Tools": {
+								"de": "SAP Netweaver Web AS 6.40, SAP NWDI"
+							}
+						},
+						{
+							"Start": "08/06",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "SAP Portal Security Beratung",
+                                "en": "SAP Portal Security consulting"},
+							"Duration": {"en" : "2 days", "de": "2 Tage"},
+							"Longtext": { 
+								"de":  "In einem zweitägigen Workshop wurde ein Grobkonzept für eine Security Infrastruktur zur Bereitstellung von SAP-Netweaver Portalanwendungen im Internet erarbeitet."
+							},
+							"Tools": {
+								"de": "SAP Netweaver Portal / SAP Web AS 6.40"
+							}
+						},
+						{
+							"Start": "06/06",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "IT Dienstleistung",
+								"en": "IT services"
+							},
+							"Header": {
+                                "de": "Web Dynpro for Java / NWDI Schulung",
+                                "en": "Web Dynpro for Java / NWDI education"},
+							"Duration": {"en" : "2 days", "de": "2 Tage"},
+							"Longtext": { 
+								"de":  "Durchführung einer Web Dynpro for Java Schulung in einem mittelständischen IT-Beratungshaus. Die in der Schulung entwickelten Anwendungen wurden mit Hilfe der Netweaver Development Infrastructure erstellt."
+							},
+							"Tools": {
+								"de": "SAP Netweaver / Web AS 6.40 Java, Web Dynpro for Java, NWDI"
+							}
+						},
+						{
+							"Start": "2005",
+							"End": {"de": "heute", "en": "today"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Allgemeine technische SAP Netweaver Beratung",
+                                "en": "General technical SAP Netweaver consulting"},
+							"Duration": {"en" : "12 months", "de": "12 Monate"},
+							"Longtext": { 
+								"de":  "Ansprechpartner während der gesamten Zeit für die technische Administration und Konfiguration der SAP Web AS Systemlandschaft.\nIn diesem Zusammenhang wurde auch Beratung in Security Fragen zum Aufbau einer sicheren Infrastruktur für Intranet und Extranet Anwendungen durchgeführt."
+							},
+							"Tools": {
+								"de": "SAP Netweaver / Web AS 6.40 Java, SAP Netweaver Security"
+							}
+						},
+						{
+							"Start": "2005",
+							"End": {"de": "heute", "en": "today"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Aufbau einer NWDI",
+                                "en": "Setup of a NWDI"},
+							"Duration": {"en" : "8 months", "de": "8 Monate"},
+							"Longtext": { 
+								"de":  "Erstellung eines Konzeptes für die konzernweite Einführung der SAP Netweaver Development Infrastructure. Die Aufgabe bestand darin sowohl ein Infrastruktur- als auch ein Nutzungskonzept zu erstellen, das von den Entwicklungsabteilungen und der Betriebsabteilung getragen wird.\nDie konzeptionelle Arbeit im NWDI Umfeld fand in Abstimmung mit der NWDI Entwicklungsabteilung der SAP statt.\nEs findet weiterhin eine kontinuierliche Betreuung der NWDI Verantwortlichen des Unternehmens statt."
+							},
+							"Tools": {
+								"de": "SAP Netweaver / Web AS 6.40 Java, SAP Netweaver Development Infrastructure"
+							}
+						},
+						{
+							"Start": "2005",
+							"End": {"de": "heute", "en": "today"},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Beratung SAP Netweaver Entwicklung",
+                                "en": "Consulting SAP Netweaver Entwicklung"},
+							"Duration": {"en" : "8 months", "de": "8 Monate"},
+							"Longtext": { 
+								"de":  "In mehreren SAP Netweaver Entwicklungsprojekten beratende und konzeptionelle Tätigkeit. Ausübung der Rollen des \"Technical Solutions Architects\" sowie des \"Software Architects\".\nEs wurden Web Dynpro Anwendungen entwickelt, die das Adaptive RFC Model, das Java Bean Model sowie EJBs einsetzen. Neben SAP spezifischen Technologien wurden Hibernate und das Spring Framework eingesetzt.\nAußerdem wurden die Anwendungen in die konzerneigene Security-Landschaft eingebunden."
+							},
+							"Tools": {
+								"de": "SAP Netweaver / Web AS 6.40 Java, SAP Netweaver Developer Studio, NWDI, WebDynpro, J2EE, Hibernate, Spring, SAP Netweaver Security"
+							}
+						},
+						{
+							"Start": "2005",
+							"End": {"de": "", "en": ""},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Web Dynpro / Portal Schulung",
+                                "en": "Web Dynpro / Portal education"},
+							"Duration": {"en" : "4 days", "de": "4 Tage"},
+							"Longtext": { 
+								"de":  "Durchführung einer viertägigen Web Dynpro / Portal Schulung."
+							},
+							"Tools": {
+								"de": "SAP Netweaver / Web AS 6.40 Java, Web Dynpro, SAP Enterprise Portal 6.0"
+							}
+						},
+						{
+							"Start": "2005",
+							"End": {"de": "11/05", "en": "11/05"},
+							"Branch": {
+								"de": "Automobilindustrie",
+								"en": "Automotive"
+							},
+							"Header": {
+                                "de": "Erstellung mehrerer Web Dynpro Anwendungen für Manager",
+                                "en": "Development of several Web Dynpro applications for managers"},
+							"Duration": {"en" : "4 months", "de": "4 Monate"},
+							"Longtext": { 
+								"de":  "Für einen der größten europäischen Automobilhersteller wurden mehrere kleinere Web Dynpro Anwendungen erstellt, die Manager bei der Überwachung neuer Automobilprojekte unterstüzen.\nDie erstellten Web Dynpro Anwendungen wurden teilweise unter Verwendung des Adaptive RFC Models an R/3 Systeme angebunden. In einem Fall wurde das Java Bean Model verwendet.\nIn einer Anwendung wurde die Datenhaltung in der Datenbank des Web AS Java Stacks vorgenommen. Dazu wurde mit den Java Persistenzmechanismen des Web AS gearbeitet.\nÜbernahme der technischen Projektleitung für die Entwicklungstätigkeiten.\nVerantwortung für den technischen Betrieb der Entwicklungs- und Testserver, die über einen Java und ABAP Stack verfügten. Beratung bei und Konfiguration der technischen Security auf dem Web AS.\nBetrieb und Konfiguration eines Netweaver Development Infrastructure Systems, auf das auch weitere Entwicklungsteams Zugriff haben."
+							},
+							"Tools": {
+								"de": "SAP Netweaver / Web AS 6.40 Java und ABAP, SAP Netweaver Developer Studio, SAP Netweaver Development Infrastructure, WebDynpro, J2EE, Web AS Persistenz, SAP Netweaver Security"
+							}
+						},
+						{
+							"Start": "2004",
+							"End": {"de": "", "en": ""},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Erstellung eines Portals zur Unterstützung von Netzbauprozessen",
+                                "en": "Creation of a portal for energy network construction processes"},
+							"Duration": {"en" : "5 months", "de": "5 Monate"},
+							"Longtext": { 
+								"de":  "Für einen der größten europäischen Energieversorger wurde ein Portal zur Unterstützung von Netzbauprozessen erstellt.\nDie Erstellung einer größeren Web Dynpro Anwendung, die in das Enterprise Portal integriert wurde, nahm einen großen Teil der Arbeitszeit in Anspruch. Die Business Logik wurde in einem über RFC angebundenen R/3 System realisiert.\nNeben der Entwicklung einer anspruchsvollen Web Dynpro Anwendung mit R/3 Anbindung bestand die besondere Herausforderung in diesem Projekt darin die Web Dynpro Anwendung innerhalb des Enterprise Portals mit R/3 Transaktionen, die via ITS eingebunden wurden, zu einer geschlossenen Gesamtanwendung zu verbinden.\nNeben der Anwendungsentwicklung war ich für die technische Beratung der SAP Web AS Betriebsabteilung in Fragen zur Security und Konfiguration zuständig.\nWeiterhin installierte und betrieb ich ein Netweaver Development Infrastructure System.\nDie Anbindung des R/3 Backend Systems an die Web Dynpro Anwendungen erfolgte mit Hilfe des Adaptive RFC Models der Web Dynpro Technologie."
+							},
+							"Tools": {
+								"de": "SAP Netweaver / Web AS 6.40, SAP Netweaver Developer Studio, SAP ́s Netweaver Development Infrastructure, WebDynpro, J2EE, SAP EP 6.0, SAP Netweaver Security"
+							}
+						},
+						{
+							"Start": "2004",
+							"End": {"de": "", "en": ""},
+							"Branch": {
+								"de": "Automobilindustrie",
+								"en": "Automotive"
+							},
+							"Header": {
+                                "de": "Web Dynpro / Portal Schulung",
+                                "en": "Web Dynpro / Portal education"},
+							"Duration": {"en" : "4 days", "de": "4 Tage"},
+							"Longtext": { 
+								"de":  "Durchführung einer viertägigen Web Dynpro / Portal Schulung."
+							},
+							"Tools": {
+								"de": "SAP Netweaver / Web AS 6.40 Java, Web Dynpro, SAP Enterprise Portal 6.0"
+							}
+						},
+						{
+							"Start": "2004",
+							"End": {"de": "", "en": ""},
+							"Branch": {
+								"de": "Automobilindustrie",
+								"en": "Automotive"
+							},
+							"Header": {
+                                "de": "Entwicklung eines Portals zur Unterstützung des KFZ- Konstruktionsprozesses",
+                                "en": "Development of a portal for automotive construction processes"},
+							"Duration": {"en" : "8 months", "de": "8 Monate"},
+							"Longtext": { 
+								"de":  "Für einen der größten europäischen Automobilhersteller wurde ein Portal zur Unterstützung des Konstruktionsprozesses von Automobilen erstellt.\nEin Großteil der Arbeit bestand in der Entwicklung einiger Web Dynpro Anwendungen, die als Business Logik Schicht bestehende R/3 Systeme verwendeten.\nIn diesem Projekt bestand die eigene Aufgabe in der Entwicklung der Web Dynpro Anwendungen, der Konfiguration und Administration des Portals, der Konfiguration und Administration des separaten SAP Web AS sowie der Erstinstallation des Java Web AS (später wurde eine Neuinstallation des ABAP + JAVA Web AS durchgeführt).\nNeben der technischen Arbeit war ich an der Erstellung des Fach- sowie des technischen Konzeptes beteiligt.\nIm Rahmen dieses Projektes wurde die Netweaver Development Infrastructure eingesetzt.\nDie Anbindung des R/3 Backend Systems an die Web Dynpro Anwendungen erfolgte mit Hilfe des Adaptive RFC Models der Web Dynpro Technologie.\nWeiterhin wurde ein Dokumentenverwaltungssystem mittels EJB und HTTP(S) an eine der Anwendungen angebunden."
+							},
+							"Tools": {
+								"de": "SAP Netweaver / Web AS 6.40, SAP Netweaver Developer Studio, SAP ́s Netweaver Development Infrastructure, WebDynpro, J2EE, SAP EP 6.0, SAP Netweaver Security"
+							}
+						}
+					]
+				}
 			]
 		}
 	]

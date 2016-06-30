@@ -44,6 +44,10 @@
 				</headerTitle>
 		 
 				<headerContent>
+					<layout:VerticalLayout class="sapUiMediumMarginTop">
+						<m:Label text="Profile" design="Bold" class="projectfontlarge"/>
+					</layout:VerticalLayout>
+
 					<layout:VerticalLayout>
 						<m:Link text="{Phone/Mobile}"/>
 						<m:Link text="{Email/Work}"/>

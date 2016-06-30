@@ -34,11 +34,19 @@ sap.ui.define([
 		},
 		
 		/**
-		 *@memberOf de.tammenit.ui5.homepage.controller.Home
+		 * Navigates to the aboutme route where the profile is displayed
 		 */
 		showAboutMe: function() {
 			this.getModel("viewModel").setProperty("/busy", true);
 			this.getRouter().navTo("aboutme");
+		},
+		
+		/**
+		 * Navigates to the projects route where the projects are displayed
+		 */
+		showProjects: function() {
+			this.getModel("viewModel").setProperty("/busy", true);
+			this.getRouter().navTo("projects");
 		},
 	
 		comingNext: function() {

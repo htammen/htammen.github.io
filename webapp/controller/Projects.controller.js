@@ -3,7 +3,7 @@ sap.ui.define([
 ], function(BaseController) {
 	"use strict";
 
-	return BaseController.extend("de.tammenit.ui5.homepage.controller.Aboutme", {
+	return BaseController.extend("de.tammenit.ui5.homepage.controller.Projects", {
 
 		/**
 		 * Called when a controller is instantiated and its View controls (if available) are already created.
