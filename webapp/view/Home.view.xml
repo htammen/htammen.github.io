@@ -1,4 +1,4 @@
-<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout"
 	controllerName="de.tammenit.ui5.homepage.controller.Home">
 	<App id="app">
 		<pages>
@@ -6,23 +6,73 @@
 				busy="{viewModel>/busy}"
 				busyIndicatorDelay="{viewModel>/delay}">
 				<content>
-					<TileContainer editable="false" allowAdd="false" id="__container0">
-						<tiles>
-							<CustomTile id="__tile1">
-								<content>
-									<Image width="194px" height="226px" id="__image0" src="https://avatars3.githubusercontent.com/u/847143"/>
-								</content>
-							</CustomTile>
-							<StandardTile title="About me" info="Bio" icon="sap-icon://customer" number="1" 
-								press="showAboutMe" removable="false"/>
-							<StandardTile title="My projects" info="Work"
-								icon="sap-icon://work-history" number="2" removable="false"
-								press="showProjects"/>
-							<StandardTile title="My customers" info="Info"
-								icon="sap-icon://work-history" number="2" removable="false"
-								press="comingNext"/>
-						</tiles>
-					</TileContainer>
+					<FlexBox 
+						alignItems="Center"
+						justifyContent="Center">
+						<SlideTile  class="sapUiSmallMargin">
+							<tiles>
+								<GenericTile header="Welcome"
+									frameType="TwoByOne"
+									headerImage="sap-icon://hint"
+									size="L"
+									>
+									<tileContent>
+										<TileContent>
+											<content>
+												<NewsContent contentText="Here you get a lot of information about me and my my work."/>
+											</content>
+										</TileContent>
+									</tileContent>
+								</GenericTile>
+								<GenericTile header="PDF Download"
+									frameType="TwoByOne"
+									headerImage="sap-icon://hint"
+									size="L"
+									>
+									<tileContent>
+										<TileContent>
+											<content>
+												<NewsContent contentText="You can also download the data as PDF file"/>
+											</content>
+										</TileContent>
+									</tileContent>
+								</GenericTile>
+								<GenericTile header="How to use"
+									frameType="TwoByOne"
+									headerImage="sap-icon://hint"
+									size="L"
+									>
+									<tileContent>
+										<TileContent>
+											<content>
+												<NewsContent contentText="Just click on one of the tiles below and go to my bio, my project or my customers"/>
+											</content>
+										</TileContent>
+									</tileContent>
+								</GenericTile>
+							</tiles>
+						</SlideTile>
+						<SlideTile  class="sapUiSmallMargin">
+							<tiles>
+								<GenericTile class="picture1" frameType="TwoByOne"/>
+								<GenericTile class="picture2" frameType="TwoByOne"/>
+								<GenericTile class="picture3" frameType="TwoByOne"/>
+								<GenericTile class="picture4" frameType="TwoByOne"/>
+							</tiles>
+						</SlideTile>
+					</FlexBox>
+						<TileContainer height="60%" editable="false" allowAdd="false" id="__container0">
+							<tiles>
+								<StandardTile title="About me" info="Bio" icon="sap-icon://customer" 
+									press="showAboutMe" removable="false"/>
+								<StandardTile title="My projects" info="Work"
+									icon="sap-icon://work-history" removable="false"
+									press="showProjects"/>
+								<StandardTile title="My customers" info="Info"
+									icon="sap-icon://work-history" removable="false"
+									press="comingNext"/>
+							</tiles>
+						</TileContainer>
 				</content>
 			</Page>
 		</pages>

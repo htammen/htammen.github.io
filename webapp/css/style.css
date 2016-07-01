@@ -3,3 +3,31 @@
 .projectfontlarge {
 	font-size: 24px;
 }
+
+.picture1 {
+	background-image: url(../images/Helmut_2_1.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture2 {
+	background-image: url(../images/helmut_sdn3.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture3 {
+	background-image: url(../images/helmut_gruen.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture4 {
+	background-image: url(../images/helmut2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
