@@ -1478,6 +1478,366 @@
 							"Tools": {
 								"de": "SAP Netweaver / Web AS 6.40, SAP Netweaver Developer Studio, SAP ́s Netweaver Development Infrastructure, WebDynpro, J2EE, SAP EP 6.0, SAP Netweaver Security"
 							}
+						},
+						{
+							"Start": "2004",
+							"End": {"de": "", "en": ""},
+							"Branch": {
+								"de": "Chemieindustrie",
+								"en": "Chemical industry"
+							},
+							"Header": {
+                                "de": "Erstellung einer Web Dynpro Anwendung zur Antragsbearbeitung und Integration in ein SAP EP 6.0",
+                                "en": "Development of a Web Dynpro Java app and integration into SAP EP 6.0"},
+							"Duration": {"en" : "5 months", "de": "5 Monate"},
+							"Longtext": { 
+								"de":  "Es wurde eine Web Dynpro Anwendung entwickelt, die das bisher vorhandene manuelle Antragswesen ersetzen sollte.\nZunächst wurde gemeinsam mit dem Kunden das Fach- und anschließend das technische Konzept erstellt.\nDanach Übernahme der techn. Projektleitung und Realisierung von ca. 50% der Anwendung. Zwei weitere Mitarbeiter wurden parallel in die Web Dynpro Programmierung eingeführt.\nAls Backend - Technologie wurden EJBs eingesetzt, die mit Hilfe von Standard J2EE Design Pattern an die Web Dynpro Anwendung angebunden wurden. Die Datenhaltung erfolgte innerhalb des Java Stack des SAP Web AS\nWeitere Herausforderungen waren die Anbindung der SAP R/3 Workflow-Engine, die Abarbeitung der Workitems mittels der Universal Worklist des SAP Enterprise Portals, die administrative Anbindung des Firmen LDAPs an den Web As, die programmatische Anbindung des LDAPs an die Web Dynpro Anwendung sowie die Anbindung eines Biztalk Servers, des Microsoft Active Directories sowie eines R/3 Systems.\nNeben der Anwendungsentwicklung wurde Unterstützung bei der Konfiguration des Web AS geleistet sowie die erstellten Web Dynpro Anwendungen in ein SAP Enterprise Portal 6.0 integriert und die Universal Worklist des Portals konfiguriert."
+							},
+							"Tools": {
+								"de": "SAP Netweaver / Web AS 6.30, SAP Netweaver Developer Studio, WebDynpro, J2EE, SAP EP 6.0"
+							}
+						},
+						{
+							"Start": "2004",
+							"End": {"de": "", "en": ""},
+							"Branch": {
+								"de": "Chemieindustrie",
+								"en": "Chemical industry"
+							},
+							"Header": {
+                                "de": "Ablösung BEA Appl. Server durch SAP Web AS",
+                                "en": "Replacement of BEA application server by SAP Web AS"},
+							"Duration": {"en" : "1 month", "de": "1 Monat"},
+							"Longtext": { 
+								"de":  "Es wurde evaluiert, ob und mit welchem Aufwand die bestehende BEA J2EE Applikationsserverlandschaft durch SAP Web AS 6.30 bzw. 6.40 erfolgen kann. Dazu wurde der Portierungsaufwand bestehender J2EE Applikationen sowie die Einsatzmöglichkeit der Web Dynpro Technologie geprüft.\nDie eigene Aufgabe bestand in der Erstellung einer Web Dynpro Anwendung sowie der Schulung des J2EE - Entwicklungsleiters und seiner Mitarbeiter. Außerdem wurde Unterstützung bei der Administration des SAP Web AS geleistet.\nDas Projekt wurde gemeinsam mit der SAP durchgeführt."
+							},
+							"Tools": {
+								"de": "SAP Netweaver Developer Studio, SAP Netweaver / Web AS 6.30, J2EE, WebDynpro"
+							}
+						},
+						{
+							"Start": "2004",
+							"End": {"de": "", "en": ""},
+							"Branch": {
+								"de": "Energieversorgung, Chemie, Bergbau",
+								"en": "Utilities, Chemistry, Mining"
+							},
+							"Header": {
+                                "de": "Einführung eines Infrastruktur-Portals",
+                                "en": "Introduction of an infrastructure portal"},
+							"Duration": {"en" : "1 month", "de": "1 Monat"},
+							"Longtext": { 
+								"de":  "Bei dem IT-Dienstleister eines Großkonzerns (Energieversorgung, Chemie, Bergbau) wurde ein Infrastruktur-Portal bereitgestellt, das sowohl konzerneigenen als auch Fremdkunden die Möglichkeit bietet Content - Portalprojekte zu betreiben.\nDie eigene Aufgabe bestand in der Erstellung eines Betriebskonzeptes sowie der Unterstützung bei der Erstellung des Betriebsführungshandbuches"
+							},
+							"Tools": {
+								"de": "SAP EP 6.0"
+							}
+						},
+						{
+							"Start": "2003",
+							"End": {"de": "2004"},
+							"Branch": {
+								"de": "Chemieindustrie",
+								"en": "Chemical industry"
+							},
+							"Header": {
+                                "de": "Erstellung eines HR-Portals mit WebDynro Technologie",
+                                "en": "Creation of a HR portal with Web Dynpro technology"},
+							"Duration": {"en" : "3 month", "de": "3 Monat"},
+							"Longtext": { 
+								"de":  "Im Rahmen eines PoC Projektes wurde ein HR-Portal erstellt, in dem neben der Verwendung von Standard-Technologien wie z.B. KM zur Realisierung von kundenspezifischen Anforderungen die WebDynpro Technologie auf Basis des Web AS 6.30 eingesetzt wurde.\nDie eigene Aufgabe bestand in der Entwicklung der WebDynpro Anwendungen sowie der Installation und Administration des Web AS. Die Arbeit wurde in enger Zusammenarbeit mit der Web AS Enablingabteilung der SAP durchgeführt.\nZur Anbindung der Fremdsysteme des Kunden an die WebDynpro Anwendungen wurden Webservices programmiert, die wiederum selbst entwickelte EJBs verwendeten. Letztere kommunizierten mit den Backend-Systemen des Kunden über JDBC (Open-SQL) bzw. SAP JCo im Falle der R/3 Anbindung.\nCustomizing Tabellen wurden mit Hilfe des Java Data Dictionary angelegt und auf sie mit Open SQL zugegriffen.\nBei der Realisierung der WebDynpros wurde die Inter- iView/WebDynpro-Kommunikation mittels des EPCF- Frameworks (Clientside Eventing) realisiert. Zur Gestaltung der Benutzeroberflächen wurden teilweise komplexe Controls wie z.B. TreeView oder TabControl eingesetzt bzw. die dynamische Anpassung der Oberfläche realisiert.\nDie Anwendungen wurden für Mehrsprachigkeit vorbereitet.\nDie Einbindung der WebDynpros in das Portal erfolgte mit Hilfe des Application Integrators.\nDas Projekt wurde gemeinsam mit der SAP durchgeführt."
+							},
+							"Tools": {
+								"de": "SAP EP 6.0, SAP Netweaver / Web AS 6.30, SAP Netweaver Developer Studio, Webservices, J2EE, EJB, WebDynpro"
+							}
+						},
+						{
+							"Start": "2003",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Erstellung eines CRM - Portalprototypen",
+                                "en": "Creation of a CRM portal prototype"},
+							"Duration": {"en" : "2 weeks", "de": "2 Wochen"},
+							"Longtext": { 
+								"de":  "Mitwirkung bei der Erstellung eines Portalprototypen für ein CRM Projekt eines Energieversorgers. Das Portal ermöglicht die Abarbeitung fest definierter Prozesse für die Rolle des Key Account Managers.\nDie eigene Arbeit bestand in der Administration des Portals, der Entwicklung eines iViews zur Anzeige von Vertagsdaten aus einem Fremdsystem, der Anbindung eines GIS-Systems mittels eines selbst programmierten iViews sowie der Erstellung einiger URL- iViews mit Hilfe des iViewCatchers.\nDie Administrationsarbeit bestand in der Pflege der Rollen, Anlage von Portalseiten, Anlage von iViews sowie der Konfiguration derselben Die Anbindung des GIS-Systems wurde in die Standard-BSP Applikation des CRM-Moduls durch eine BSP-Erweiterungstechnik integriert. Die Kommunikation mit dem GIS-System wurde über eine XML-Schnittstelle durchgeführt. Zur Verarbeitung der XML-Streams wurde JDOM, eine Java Klassenbibliothek zur Verarbeitung von XML eingesetzt.\nMit Hilfe des iView-Catchers wurden interessante Kundeninformationen von Fremdseiten in das Portal integriert. Der iView-Catcher erlaubt dabei alle unwichtigen Informationen der Fremdseite auszublenden.\nDas Projekt wurde im Auftrag der SAP durchgeführt."
+							},
+							"Tools": {
+								"de": "SAP EP 5.0, Eclipse, XML, Java, JDOM, iView Programmierung"
+							}
+						},
+						{
+							"Start": "2003",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "Allgemeine Industrie",
+								"en": "General industry"
+							},
+							"Header": {
+                                "de": "Erstellung einer Businesscard für SAP EP 6.0 (HR)",
+                                "en": "Creation of a business card for SAP EP 6.0 (HR)"},
+							"Duration": {"en" : "2 months", "de": "2 Monate"},
+							"Longtext": { 
+								"de":  "Erstellung einer neuen Businesscard für den KM-Bereich des SAP EP 6.0. Umfangreiche Erweiterung der Standard Businesscard durch Funktionen wie Wissensbereiche (Skills), Fremdsprachenkenntnisse, Veröffentlichungen, aktuelle Aktivitäten / Projekte, aktuelle Teilnahme in Collaboration Rooms. Technisch realisiert wurde das Projekt durch die Entwicklung von iViews unter Zuhilfenahme der KM-API (Ablage der Daten ins KM), Collaboration Room API und der Standard Portal API.\nEine komfortble Benutzerführung wurde durch ausgeklügelte Zusammenarbeit von serverseitigem Java- und clientseitigem Javascript-Code erreicht.\nAls Format für die Ablage der Daten ins KM wurde XML gewählt. Zum Zugriff auf die Daten wurde das JAXB ähnliche XML - Framework DocSOAP eingesetzt."
+							},
+							"Tools": {
+								"de": "SAP EP 6.0, Eclipse, XML, Java, DocSOAP XML Framework, EP 6.0 KM API, EP 6.0 Collaboration API"
+							}
+						},
+						{
+							"Start": "2003",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "Internet",
+								"en": "Internet"
+							},
+							"Header": {
+                                "de": "Erstellung eines Internet - Portals",
+                                "en": "Creation of an internet portal"},
+							"Duration": {"en" : "3 months", "de": "3 Monate"},
+							"Longtext": { 
+								"de":  "Erstellung eines Internet - Portals auf Basis des Open Source Portal - Frameworks Apache JetSpeed."
+							},
+							"Tools": {
+								"de": "Apache Jetspeed 1.4, Eclipse, XML, XSL, Java"
+							}
+						},
+						{
+							"Start": "2003",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Erweiterung eines Mitarbeiterportals / Techn. Schulung",
+                                "en": "Enhancement of an employee portal and technical education"},
+							"Duration": {"en" : "2.5 months", "de": "2,5 Monate"},
+							"Longtext": { 
+								"de":  "Weiterentwicklung der im vorgenannten Projekt entwickelten iViews.\nSchulung interner Mitarbeiter in der iView - Programmierung."
+							},
+							"Tools": {
+								"de": "SAP - Enterprise Portal 5.0, Java, J2EE, SAP R/3 Rel. 4.6c, ABAP"
+							}
+						},
+						{
+							"Start": "2002",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Erstellung eines Mitarbeiterportals",
+                                "en": "Creation of an employee portal"},
+							"Duration": {"en" : "6 months", "de": "6 Monate"},
+							"Longtext": { 
+								"de":  "Entwicklung einiger iViews (Portlets) innerhalb eines SAP - Portalservers zur Unterstützung von Kundendienstmitarbeitern bei der täglichen Routinearbeit.\nZeitweise Administration des Portals."
+							},
+							"Tools": {
+								"de": "SAP - Enterprise Portal 5.0, Java, J2EE, SAP R/3 Rel. 4.6c, ABAP"
+							}
+						},
+						{
+							"Start": "2002",
+							"End": {"de": "2003"},
+							"Branch": {
+								"de": "Finanzdienstleistung",
+								"en": "Financial services"
+							},
+							"Header": {
+                                "de": "SAP Releasewechsel von 4.0 auf 4.6C",
+                                "en": "SAP release change from 4.0 to 4.6C"},
+							"Duration": {"en" : "2 months", "de": "2 Monate"},
+							"Longtext": { 
+								"de":  "Unterstützung des Releasewechsels von 4.0 auf 4.6C im Bereich SD. Umsetzung kundeneigener SAP Standard - Erweiterungen mit dem Schwerpunkt Variantenkonfiguration und Batch - Input."
+							},
+							"Tools": {
+								"de": "SAP R/3 Rel. 4.6c, ABAP"
+							}
+						},
+						{
+							"Start": "2001",
+							"End": {"de": "2002"},
+							"Branch": {
+								"de": "Finanzdienstleistung",
+								"en": "Financial services"
+							},
+							"Header": {
+                                "de": "CRM - SAP Kopplung, SD - Schnittstelle für Großkunden",
+                                "en": "Linkage of CRM and SAP, SD - Interface for huge customers"},
+							"Duration": {"en" : "11 months", "de": "11 Monate"},
+							"Longtext": { 
+								"de":  "Kopplung eines CRM - mit einem SAP - System. Das CRM - System übermittelt Aufträge via IDOCs an SAP. SAP sendet Auftragsbestätigungen sowie Liefer- und Rechnungsdaten an das CRM zurück.\nWeiterhin wurde eine SD - Schnittstelle für einen Großkunden realisiert. Der Kunde übermittelt dabei Aufträge im Excel - Format. Diese werden ins SAP - System übernommen.\nDiverse andere Programmiertätigkeiten im SD - Umfeld mit Schwerpunkt Druckstrasse, Konditionstechnik, Variantenkonfiguration (KMAT), Workflow."
+							},
+							"Tools": {
+								"de": "SAP R/3 Rel. 4.0, ABAP, SAP Business Workflow"
+							}
+						},
+						{
+							"Start": "2001",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "Energieversorgung",
+								"en": "Utilities"
+							},
+							"Header": {
+                                "de": "Schnittstellenrealisierung SAP R/3, IS-U",
+                                "en": "Interface implemenation SAP R/3, IS-U"},
+							"Duration": {"en" : "11 months", "de": "11 Monate"},
+							"Longtext": { 
+								"de":  "Realisierung verschiedener Schnittstellen zwischen SAP IS-U (Branchenlösung für Versorgungsunternehmen) und anderen Programmen wie z.B. Lotus Notes. Die Schnittstellen wurden bidirektional entwickelt, sowohl vom Fremd- ins IS-U- als auch vom IS-U- ins Fremdsystem.\nEine der Schnittstellen wurde auf DCOM - Basis realisiert."
+							},
+							"Tools": {
+								"de": "SAP R/3 Rel. 4.6, IS-U, ABAP, Excel, DCOM"
+							}
+						},
+						{
+							"Start": "2000",
+							"End": {"de": "2001"},
+							"Branch": {
+								"de": "Elektronik",
+								"en": "Electronic"
+							},
+							"Header": {
+                                "de": "EDI Umsetzung im SAP R/3 System",
+                                "en": "EDI implementation in SAP R/3 system"},
+							"Duration": {"en" : "2 months", "de": "2 Monate"},
+							"Longtext": { 
+								"de":  "Mitarbeit an einem großen SAP R/2 auf R/3 Migrationsprojekt. Zuständig für die EDI Kommunikation auf R/3 Seite."
+							},
+							"Tools": {
+								"de": "SAP R/3 Rel. 4.6, ABAP"
+							}
+						},
+						{
+							"Start": "2000",
+							"End": {"de": ""},
+							"Branch": {
+								"de": "Medizintechnik",
+								"en": "Medical technology"
+							},
+							"Header": {
+                                "de": "Entwicklung eines Stammdatenharmonisierungsprogramms unter SAP R/3",
+                                "en": "Development of a harmonizing application for material master data"},
+							"Duration": {"en" : "5 months", "de": "5 Monate"},
+							"Longtext": { 
+								"de":  "Entwicklung eines Programms zur Harmonisierung (Abgleich) der Stammdatenbestände auf 16 SAP R/3 und einigen nicht R/3 Systemen.\nProgrammierung in ABAP - Objects (Objektorientiertes ABAP)."
+							},
+							"Tools": {
+								"de": "SAP R/3 Rel. 4.6, ABAP, ABAP-OO"
+							}
+						},
+						{
+							"Start": "1998",
+							"End": {"de": "2000"},
+							"Branch": {
+								"de": "Baugewerbe",
+								"en": "Building industry"
+							},
+							"Header": {
+                                "de": "Erstellung von Schnittstellen zwischen SAP und individ. Software",
+                                "en": "Implemenation of interfaces between SAP and individual software"},
+							"Duration": {"en" : "5 months", "de": "5 Monate"},
+							"Longtext": { 
+								"de":  "Entwicklung einiger COM - Server (Automatisierungsserver), um die Kommunikation zwischen einem branchenspezifischen Anwendungsprogramm und beliebigen anderen Programmen wie MS - Excel, MS - Access und SAP R/3 zu ermöglichen."
+							},
+							"Tools": {
+								"de": "Delphi, Windows, COM/DCOM"
+							}
+						},
+						{
+							"Start": "1998",
+							"End": {"de": "1999"},
+							"Branch": {
+								"de": "Baugewerbe",
+								"en": "Building industry"
+							},
+							"Header": {
+                                "de": "Kaufmännische Standardsoftware",
+                                "en": "Standard business software"},
+							"Duration": {"en" : "6 months", "de": "6 Monate"},
+							"Longtext": { 
+								"de":  "Entwicklung eines OO - Models zur Kapselung des Zugriffs auf SQL - Daten und Umsetzung des Models anhand diverser Klassen."
+							},
+							"Tools": {
+								"de": "Delphi, Pascal"
+							}
+						},
+						{
+							"Start": "1994",
+							"End": {"de": "1996"},
+							"Branch": {
+								"de": "Baugewerbe",
+								"en": "Building industry"
+							},
+							"Header": {
+                                "de": "Kaufmännische Standardsoftware",
+                                "en": "Standard business software"},
+							"Duration": {"en" : "12 months", "de": "12 Monate"},
+							"Longtext": { 
+								"de":  "Aufbau eines Application Framework.\nEntwurf und Programmierung eines Application Framework, um eine einheitliche Benutzeroberfläche im gesamten Produkt zu gewährleisten und systeminterne Operationen zu kapseln. Basisklassenprogrammierung und Komponentenentwicklung."
+							},
+							"Tools": {
+								"de": "Delphi, Pascal, C++"
+							}
+						},
+						{
+							"Start": "1994",
+							"End": {"de": "2000"},
+							"Branch": {
+								"de": "Baugewerbe",
+								"en": "Building industry"
+							},
+							"Header": {
+                                "de": "Kaufmännische Standardsoftware",
+                                "en": "Standard business software"},
+							"Duration": {"en" : "12 months", "de": "12 Monate"},
+							"Longtext": { 
+								"de":  "Entwicklung eines kaufmännsichen Standardsoftwarepaketes für das Baugewerbe.\nDatenbankkonzeption, Systemarchitektur, Entwicklung eines Application Frameworks, Entwicklung verschiedener Datenbank - Utilities, OOA / OOD, COM / DCOM - Programmierung, Anwendungsprogrammierung."
+							},
+							"Tools": {
+								"de": "Windows, OO - und SQL - Datenbanken, Delphi, Pascal, C++"
+							}
+						},
+						{
+							"Start": "1990",
+							"End": {"de": "1994"},
+							"Branch": {
+								"de": "Medizintechnik",
+								"en": "Medical technology"
+							},
+							"Header": {
+                                "de": "Entwicklung eines Softwarepaketes für die medizinische Diagnostik",
+                                "en": "Software development for medical diagnostics"},
+							"Duration": {"en" : "48 months", "de": "48 Monate"},
+							"Longtext": { 
+								"de":  "Anbindung externer Daten (HOST - Daten), Anbindung externer Geräte Über serielle Kommunikation, Erstellung von Reports, Datenbankkonzeption."
+							},
+							"Tools": {
+								"de": "MS - DOS, xBase"
+							}
+						},
+						{
+							"Start": "1990",
+							"End": {"de": "2005"},
+							"Branch": {
+								"de": "Allgemein",
+								"en": "General"
+							},
+							"Header": {
+                                "de": "Tools, Utilities, interne Projekte",
+                                "en": "Tools, Utilities, internal projects"},
+							"Duration": {"en" : "", "de": ""},
+							"Longtext": { 
+								"de":  "Entwicklung kleinerer Programme und Tools im Java, XML, C+ +, Delphi, ABAP und MS Exchange - Server Umfeld. Java, J2EE, Struts, Jade, JDBC, XML, XSL, Cocoon, Tomcat, C++, Delphi, COM / DCOM, ADO, DAO, HTML, ABAP."
+							},
+							"Tools": {
+								"de": ""
+							}
 						}
 					]
 				}
