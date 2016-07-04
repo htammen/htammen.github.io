@@ -7,6 +7,7 @@
 				busyIndicatorDelay="{viewModel>/delay}">
 				<content>
 					<FlexBox 
+						wrap="Wrap"
 						alignItems="Center"
 						justifyContent="Center">
 						<SlideTile  class="sapUiSmallMargin">
