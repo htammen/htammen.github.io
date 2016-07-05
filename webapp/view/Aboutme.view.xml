@@ -13,11 +13,6 @@
 		   xmlns:trainings="de.tammenit.ui5.homepage.view.SharedBlocks.trainings"
 		   controllerName="de.tammenit.ui5.homepage.controller.Aboutme"
 		   height="100%">
-	<!--
-		   xmlns:sample="sap.uxap.sample.ObjectPageOnJSON"
-		   xmlns:goals="sap.uxap.sample.SharedBlocks.goals"
-		   xmlns:employment="sap.uxap.sample.SharedBlocks.employment"
-	-->
 	<m:Page title="{i18n>appTitle}" showNavButton="true" navButtonPress="onNavBack">
 		<m:content>
 			<ObjectPageLayout id="ObjectPageLayout"
@@ -132,7 +127,7 @@
 
 					<ObjectPageSection title="{i18n>view.profile.itskills}" subSections="{ITSkills}">
 						<subSections>
-							<ObjectPageSubSection title="{Name}">
+							<ObjectPageSubSection title="{path: 'Name', formatter: '.getCurrentLangValue'}">
 								<blocks>
 									<itskills:BlockITSkills id="itskills">
 										<itskills:mappings>

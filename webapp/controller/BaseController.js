@@ -58,6 +58,41 @@ sap.ui.define([
 				} else {
 					this.getRouter().navTo("home", {}, true);
 				}
+			},
+			
+			/**
+			 * This is a formatter for all language aware fields of the profile
+			 * If a file is language aware it can define its text in the following way:
+			 * "Date": {"en": "Birthday", "de": "Geburtstag"}
+			 * If it is not language aware the field is defined as follows:
+			 * "Date": "Birthday"
+			 * The function has a fallback logic so that it finds the best translation possible.
+			 */
+			getCurrentLangValue: function(obj) {
+				if(typeof obj === "object") {
+					var config = sap.ui.getCore().getConfiguration();
+					var sCurrentLanguage = config.getLanguage();
+					var retValue = obj[sCurrentLanguage];
+					if(retValue === undefined) {
+						// maybe sCurrentLanguage is something like "de-DE" and profile defines only text for "de"
+						sCurrentLanguage = config.getLocale().getLanguage(); // get the language "de" from locale
+						retValue = obj[sCurrentLanguage];
+						if(retValue === undefined) {
+							// fallback to an english text
+							retValue = obj.en;
+							if(retValue === undefined) {
+								// fallback to the first value 
+								if(Object.keys(obj).length > 0) {
+									sCurrentLanguage = Object.keys(obj)[0];
+									retValue = obj[sCurrentLanguage];
+								}
+							}
+						}
+					}
+					return retValue;
+				} else {
+					return obj;
+				}
 			}
 
 		});

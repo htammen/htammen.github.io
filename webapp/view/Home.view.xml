@@ -10,7 +10,7 @@
 						wrap="Wrap"
 						alignItems="Center"
 						justifyContent="Center">
-						<SlideTile  class="sapUiSmallMargin">
+						<SlideTile  class="sapUiSmallMargin" displayTime="7000">
 							<tiles>
 								<GenericTile header="{i18n>view.home.slider1.slide1.header}"
 									frameType="TwoByOne"
@@ -53,7 +53,7 @@
 								</GenericTile>
 							</tiles>
 						</SlideTile>
-						<SlideTile  class="sapUiSmallMargin">
+						<SlideTile  class="sapUiSmallMargin" displayTime="7000">
 							<tiles>
 								<GenericTile class="picture1" frameType="TwoByOne"/>
 								<GenericTile class="picture2" frameType="TwoByOne"/>

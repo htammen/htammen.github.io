@@ -34,34 +34,8 @@ sap.ui.define([
 				var utc2 = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
 				var _MS_PER_YEAR = 1000 * 60 * 60 * 24 * 365;
 				return Math.floor((utc2 - utc1) / _MS_PER_YEAR);
-			},
-			
-		getCurrentLangValue: function(obj) {
-			if(typeof obj === "object") {
-				var config = sap.ui.getCore().getConfiguration();
-				var sCurrentLanguage = config.getLanguage();
-				var retValue = obj[sCurrentLanguage];
-				if(retValue === undefined) {
-					// maybe sCurrentLanguage is something like "de-DE" and profile defines only text for "de"
-					sCurrentLanguage = config.getLocale().getLanguage(); // get the language "de" from locale
-					retValue = obj[sCurrentLanguage];
-					if(retValue === undefined) {
-						// fallback to an english text
-						retValue = obj.en;
-						if(retValue === undefined) {
-							// fallback to the first value 
-							if(Object.keys(obj).length > 0) {
-								sCurrentLanguage = Object.keys(obj)[0];
-								retValue = obj[sCurrentLanguage];
-							}
-						}
-					}
-				}
-				return retValue;
-			} else {
-				return obj;
 			}
-		}
+			
 
 		});
 	}
