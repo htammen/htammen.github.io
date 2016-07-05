@@ -26,7 +26,7 @@
 							  showEditHeaderButton="false"
 							  editHeaderButtonPress="handleEditBtnPress">
 				<headerTitle>
-					<ObjectPageHeader objectImageURI="https://avatars3.githubusercontent.com/u/847143"
+					<ObjectPageHeader objectImageURI="{Image}"
 									  objectTitle="{Name}"
 									  objectImageShape="Circle"
 									  objectImageAlt="{Name}"
@@ -45,7 +45,7 @@
 		 
 				<headerContent>
 					<layout:VerticalLayout class="sapUiMediumMarginTop">
-						<m:Label text="Profile" design="Bold" class="projectfontlarge"/>
+						<m:Label text="{i18n>view.profile.aboutme.header}" design="Bold" class="projectfontlarge"/>
 					</layout:VerticalLayout>
 
 					<layout:VerticalLayout>

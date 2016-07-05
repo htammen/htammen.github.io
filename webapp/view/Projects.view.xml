@@ -19,7 +19,7 @@
 							  editHeaderButtonPress="handleEditBtnPress"
 							  sections="{Projects}">
 				<headerTitle>
-					<ObjectPageHeader objectImageURI="https://avatars3.githubusercontent.com/u/847143"
+					<ObjectPageHeader objectImageURI="{Image}"
 									  objectTitle="{Name}"
 									  objectImageShape="Circle"
 									  objectImageAlt="{Name}"

@@ -2,7 +2,7 @@
 	controllerName="de.tammenit.ui5.homepage.controller.Home">
 	<App id="app">
 		<pages>
-			<Page title="My cool UI5 Homepage"
+			<Page title="{i18n>view.home.page.title}"
 				busy="{viewModel>/busy}"
 				busyIndicatorDelay="{viewModel>/delay}">
 				<content>
@@ -12,7 +12,7 @@
 						justifyContent="Center">
 						<SlideTile  class="sapUiSmallMargin">
 							<tiles>
-								<GenericTile header="Welcome"
+								<GenericTile header="{i18n>view.home.slider1.slide1.header}"
 									frameType="TwoByOne"
 									headerImage="sap-icon://hint"
 									size="L"
@@ -20,12 +20,12 @@
 									<tileContent>
 										<TileContent>
 											<content>
-												<NewsContent contentText="Here you get a lot of information about me and my my work."/>
+												<NewsContent contentText="{i18n>view.home.slider1.slide1.text}"/>
 											</content>
 										</TileContent>
 									</tileContent>
 								</GenericTile>
-								<GenericTile header="PDF Download"
+								<GenericTile header="{i18n>view.home.slider1.slide2.header}"
 									frameType="TwoByOne"
 									headerImage="sap-icon://hint"
 									size="L"
@@ -33,12 +33,12 @@
 									<tileContent>
 										<TileContent>
 											<content>
-												<NewsContent contentText="You can also download the data as PDF file"/>
+												<NewsContent contentText="{i18n>view.home.slider1.slide2.text}"/>
 											</content>
 										</TileContent>
 									</tileContent>
 								</GenericTile>
-								<GenericTile header="How to use"
+								<GenericTile header="{i18n>view.home.slider1.slide3.header}"
 									frameType="TwoByOne"
 									headerImage="sap-icon://hint"
 									size="L"
@@ -46,7 +46,7 @@
 									<tileContent>
 										<TileContent>
 											<content>
-												<NewsContent contentText="Just click on one of the tiles below and go to my bio, my project or my customers"/>
+												<NewsContent contentText="{i18n>view.home.slider1.slide3.text}"/>
 											</content>
 										</TileContent>
 									</tileContent>
@@ -64,12 +64,12 @@
 					</FlexBox>
 						<TileContainer height="60%" editable="false" allowAdd="false" id="__container0">
 							<tiles>
-								<StandardTile title="About me" info="Bio" icon="sap-icon://customer" 
+								<StandardTile title="{i18n>view.home.tile.aboutme}" info="{i18n>view.home.tile.aboutme.info}" icon="sap-icon://customer" 
 									press="showAboutMe" removable="false"/>
-								<StandardTile title="My projects" info="Work"
+								<StandardTile title="{i18n>view.home.tile.projects}" info="{i18n>view.home.tile.projects.info}"
 									icon="sap-icon://work-history" removable="false"
 									press="showProjects"/>
-								<StandardTile title="My customers" info="Info"
+								<StandardTile title="{i18n>view.home.tile.customers}" info="{i18n>view.home.tile.customers.info}"
 									icon="sap-icon://work-history" removable="false"
 									press="comingNext"/>
 							</tiles>
