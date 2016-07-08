@@ -53,7 +53,6 @@ sap.ui.define([
          * @returns {{pageSize: string, pageMargins: *[], header: {table: {headerRows: number, widths: *[], body: *[]}, style: string}, footer: {}, content: *[], styles: {header: {margin: number}, headermiddle: {alignment: string}, headerleft: {fontSize: number}, columnLeft: {fillColor: string}, header1: {alignment: string, fontSize: number, bold: string}}}}
          */
         createPDFDefinition: function() {
-            var that = this;
 			var ctx = this.getView().getBindingContext();
 			var i18n = this.getModel("i18n");
 			var profile = this.getModel().getProperty(ctx.getPath());
@@ -154,24 +153,25 @@ sap.ui.define([
             };
 
             var createProjects = function() {
+                console.log(this)
                 var mapArr = profile.Projects.map(function(obj) {
                     var tmpArr = [];
                     tmpArr = obj.items.map(function(project) {
                         var ret = [];
                         ret.push( [
-                            {text: that.getCurrentLangValue(project.Start) + " - " + that.getCurrentLangValue(project.End), style: 'headerProject'},
-                            {text: that.getCurrentLangValue(project.Duration)},
+                            {text: this.getCurrentLangValue(project.Start) + " - " + this.getCurrentLangValue(project.End), style: 'headerProject'},
+                            {text: this.getCurrentLangValue(project.Duration)},
                         ]);
                         ret.push( [
-                            {text: that.getCurrentLangValue(project.Branch), style: 'headerProject'},
-                            {text: that.getCurrentLangValue(project.Header), style: 'subHeaderProject'},
-                            {text: that.getCurrentLangValue(project.Longtext)},
-                            {text: that.getCurrentLangValue(project.Tools), style: 'projectTools'}
+                            {text: this.getCurrentLangValue(project.Branch), style: 'headerProject'},
+                            {text: this.getCurrentLangValue(project.Header), style: 'subHeaderProject'},
+                            {text: this.getCurrentLangValue(project.Longtext)},
+                            {text: this.getCurrentLangValue(project.Tools), style: 'projectTools'}
                         ]);
                         return ret
-                    });
+                    }.bind(this));
                     return tmpArr;
-                })
+                }.bind(this));
                 var retArr = [];
                 mapArr.forEach(function(obj) {
                     retArr = retArr.concat(obj)
@@ -429,7 +429,7 @@ sap.ui.define([
                         table: {
                             pageBreak: 'after',
                             widths: [ leftColumnWidth, '*' ],
-                            body: createProjects()
+                            body: createProjects.bind(this)()
                         }
                     },
                 ],
