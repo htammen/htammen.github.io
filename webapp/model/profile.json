@@ -15,6 +15,14 @@
 			"Regions": "currently only greater area around Hannover/Germany possible",
 			"Certificates": [
 				{
+					"Date": "2016-10-04",
+					"Text": "Big Data with SAP HANA Vora",
+					"Institute": "open.sap.com",
+					"Certificate": 1,
+					"Link": "webapp/resources/Big_Data_with_SAP_HANA_Vora-RecordOfAchievement.pdf",
+					"Rating": "98%"
+				},
+				{
 					"Date": "2016-04-08",
 					"Text": "Software Development on SAP HANA (Delta SPS 11)",
 					"Institute": "open.sap.com",
