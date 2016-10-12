@@ -62,18 +62,21 @@
 							</tiles>
 						</SlideTile>
 					</FlexBox>
-						<TileContainer height="60%" editable="false" allowAdd="false" id="__container0">
-							<tiles>
-								<StandardTile title="{i18n>view.home.tile.aboutme}" info="{i18n>view.home.tile.aboutme.info}" icon="sap-icon://customer" 
-									press="showAboutMe" removable="false"/>
-								<StandardTile title="{i18n>view.home.tile.projects}" info="{i18n>view.home.tile.projects.info}"
-									icon="sap-icon://work-history" removable="false"
-									press="showProjects"/>
-								<StandardTile title="{i18n>view.home.tile.customers}" info="{i18n>view.home.tile.customers.info}"
-									icon="sap-icon://work-history" removable="false"
-									press="comingNext"/>
-							</tiles>
-						</TileContainer>
+					<TileContainer height="60%" editable="false" allowAdd="false" id="__container0">
+						<tiles>
+							<StandardTile title="{i18n>view.home.tile.aboutme}" info="{i18n>view.home.tile.aboutme.info}" icon="sap-icon://customer" 
+								press="showAboutMe" removable="false"/>
+							<StandardTile title="{i18n>view.home.tile.projects}" info="{i18n>view.home.tile.projects.info}"
+								icon="sap-icon://work-history" removable="false"
+								press="showProjects"/>
+							<StandardTile title="{i18n>view.home.tile.customers}" info="{i18n>view.home.tile.customers.info}"
+								icon="sap-icon://work-history" removable="false"
+								press="comingNext"/>
+							<StandardTile title="{i18n>view.home.tile.pdf}" info="{i18n>view.home.tile.pdf.info}"
+								icon="sap-icon://pdf-attachment" removable="false"
+								press="showPDFDownload"/>
+						</tiles>
+					</TileContainer>
 				</content>
 			</Page>
 		</pages>

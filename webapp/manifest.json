@@ -99,6 +99,11 @@
 				"pattern": "projects",
 				"greedy": false,
 				"target": ["projects"]
+			}, {
+				"name": "pdf",
+				"pattern": "pdf",
+				"greedy": false,
+				"target": ["pdf"]
 			}],
 			"targets": {
 				"home": {
@@ -114,6 +119,11 @@
 				"projects": {
 					"viewName": "Projects",
 					"viewId": "projects",
+					"viewLevel": 2
+				},
+				"pdf": {
+					"viewName": "PDF",
+					"viewId": "pdf",
 					"viewLevel": 2
 				},
 				"notFound": {

@@ -48,6 +48,14 @@ sap.ui.define([
 			this.getModel("viewModel").setProperty("/busy", true);
 			this.getRouter().navTo("projects");
 		},
+		
+		/**
+		 * Navigates to the pdf download route target to enable the user to download some PDF versions of my profile
+		 */
+		showPDFDownload: function() {
+			this.getModel("viewModel").setProperty("/busy", true);
+			this.getRouter().navTo("pdf");
+		},
 	
 		comingNext: function() {
 			MessageToast.show("Coming next");
