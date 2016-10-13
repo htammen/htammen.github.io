@@ -18,6 +18,10 @@ sap.ui.define([
 			});
 			this.setModel(oViewModel, "viewModel");
 			
+			var pdfModel = new JSONModel();
+			pdfModel.loadData('./webapp/model/pdfs.json');
+			this.getView().setModel(pdfModel, "pdfs");
+
 			var oRouter = this.getRouter();
 			oRouter.getRoute("home").attachPatternMatched(function() {
 				this.getModel("viewModel").setProperty("/busy", false);

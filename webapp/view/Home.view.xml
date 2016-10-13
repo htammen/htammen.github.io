@@ -74,7 +74,7 @@
 								press="comingNext"/>
 							<StandardTile title="{i18n>view.home.tile.pdf}" info="{i18n>view.home.tile.pdf.info}"
 								icon="sap-icon://pdf-attachment" removable="false"
-								press="showPDFDownload"/>
+								press="showPDFDownload" number="{= ${pdfs>/pdfs}.length}"/>
 						</tiles>
 					</TileContainer>
 				</content>
