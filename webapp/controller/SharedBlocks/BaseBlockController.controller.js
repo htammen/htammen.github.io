@@ -34,6 +34,10 @@ sap.ui.define([
 				var utc2 = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
 				var _MS_PER_YEAR = 1000 * 60 * 60 * 24 * 365;
 				return Math.floor((utc2 - utc1) / _MS_PER_YEAR);
+			},
+
+			isLink: function (link) {
+
 			}
 			
 

@@ -12,3 +12,6 @@ extended_runnable_file.html
 preview.json
 cp.project.properties.json
 /.user.project.json
+node_modules
+*.iml
+.idea

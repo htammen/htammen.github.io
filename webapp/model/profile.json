@@ -8,8 +8,15 @@
 			"Birthday": "1964-04-21",
 			"Nationality": "german",
 			"Graduation": "Graduate Mechanical Engineer",
-			"OtherGratuations": [
-				{"Text": "Bremer Ingenieurpreis for the Diploma Thesis. It was chosen out of five universities / colleges and serveral faculties within these institutes"}
+			"OtherGraduations": [
+				{
+					"Text": "Bremer Ingenieurpreis for the Diploma Thesis. It was chosen out of five universities / colleges and serveral faculties within these institutes",
+					"Link": "http://tammen-it-solutions.de/wp-content/uploads/2017/01/Bremer-Ingenieurpreis.pdf"
+				},
+				{
+					"Text": "SAP Community: Member of the month December 2016",
+					"Link": "https://blogs.sap.com/2016/12/14/helmut-tammen-member-of-the-month-december-2016"
+				}
 			],
 			"ExperienceSince": "IT experience on the job since 1990",
 			"Regions": "currently only greater area around Hannover/Germany possible",
@@ -622,7 +629,7 @@
 								"en": "Technology"
 							},
 							"Header": {
-                                "de": "Entwicklung eines OData Servers für node.js",
+                                "de": "Entwicklung eines OData Servers für node.js",
                                 "en": "Development of an OData server for node.js"},
 							"Duration": {"en" : "3 months", "de": "3 Monate"},
 							"Longtext": { 
@@ -711,8 +718,113 @@
 					]
 				},
 				{
+					"Year": "2017",
+					"items": [
+						{
+							"Start": "12/16",
+							"End": {
+								"de": "01/17"
+							},
+							"Branch": {
+								"de": "Automobilindustrie",
+								"en": "Automotive"
+							},
+							"Header": {
+								"de": "Umstellung einer SAPUI5 Anwendung auf Fiori Launchpad",
+								"en": "Refactoring of a SAPUI5 application for Fiori Launchpad"
+							},
+							"Duration": {
+								"en": "2 weeks",
+								"de": "2 Wochen"
+							},
+							"Longtext": {
+								"de": "Umstellung einer SAPUI5 Anwendung, die mit und für ein proprietäres UI Framework entwickelt wurde, auf mehrere SAP Fiori Anwendungen.\nEinbettung der Anwendungen in das Fiori Launchpad",
+								"en": "Refactoring of a SAPUI5 application for Fiori Launchpad. The application has been developed for a with and for a proprietary UI framework based on SAPUI5.\nIntegration of the applications in Fiori Launchpad."
+							},
+							"Tools": {
+								"de": "SAPUI5, Fiori, Fiori Launchpad, Javascript, Git, SAP R3"
+							}
+						}
+					]
+				},
+				{
 					"Year": "2016",
 					"items": [
+						{
+							"Start": "12/16",
+							"End": {"de": "01/17"},
+							"Branch": {
+								"de": "Automobilindustrie",
+								"en": "Automotive"
+							},
+							"Header": {
+								"de": "Umstellung einer SAPUI5 Anwendung auf Fiori Launchpad",
+								"en": "Refactoring of a SAPUI5 application for Fiori Launchpad"},
+							"Duration": {"en" : "2 weeks", "de": "2 Wochen"},
+							"Longtext": {
+								"de":  "Umstellung einer SAPUI5 Anwendung, die mit und für ein proprietäres UI Framework entwickelt wurde, auf mehrere SAP Fiori Anwendungen.\nEinbettung der Anwendungen in das Fiori Launchpad",
+								"en": "Refactoring of a SAPUI5 application for Fiori Launchpad. The application has been developed for a with and for a proprietary UI framework based on SAPUI5.\nIntegration of the applications in Fiori Launchpad."
+							},
+							"Tools": {
+								"de": "SAPUI5, Fiori, Fiori Launchpad, Javascript, Git, SAP R3"
+							}
+						},
+						{
+							"Start": "11/16",
+							"End": {"de": "11/16"},
+							"Branch": {
+								"de": "Automobilindustrie",
+								"en": "Automotive"
+							},
+							"Header": {
+								"de": "Durchführung eines PoC zur Evaluierung des Fiori Launchpad",
+								"en": "PoC for evaluation of Fiori Launchpad"},
+							"Duration": {"en" : "2 weeks", "de": "2 Wochen"},
+							"Longtext": {
+								"de":  "Im Rahmen eines größeren Projektes wurde ein PoC durchgeführt, der zum Ziel hatte die Ablösung eines proprietär auf SAPUI5 basierenden Frameworks durch Fiori / Fiori Launchpad zu prüfen.\nTechnische Durchführung des PoC und Präsentation der Ergebnisse\nErstellung eines Administrationsdokumentes für das Fiori Launchpad.",
+								"en": "Execution of a PoC in a bigger project with the aim to replace a proprietary SAPUI5 frontend framework with Fiori / Fiori Launchpad.\nTechnical execution of the PoC and presentation of the results.\nCreation of an administrator guide for maintaining Fiori Launchpad."
+							},
+							"Tools": {
+								"de": "SAPUI5, Fiori, Fiori Launchpad, Javascript, Git, SAP R3"
+							}
+						},
+						{
+							"Start": "04/15",
+							"End": {"de": "09/16"},
+							"Branch": {
+								"de": "Automobilindustrie",
+								"en": "Automotive"
+							},
+							"Header": {
+								"de": "Entwicklung eines SAPUI5 Frontends im Logistikbereich",
+								"en": "Development of a SAPUI5 frontend in the area of logistics"},
+							"Duration": {"en" : "6 months", "de": "6 Monate"},
+							"Longtext": {
+								"de":  "Konzeptionelle Arbeit zur Entwicklung einer SAPUI5-Anwendung im Logistikbereich / Warehouse-Management.\nEntwicklung der SAPUI5-Anwendung\nEinbettung der Anwendung in eigenes vom Kunden entwickeltes UI Framework, das Fiori Launchpad ersetzen sollte.\nErstellung eigener SAPUI5-Controls im Rahmen der Anwendungsentwicklung\nErstellung einer SVG Grafik zur visuellen Abbildung von Lagerprozessen und Entwicklung von Javascript Modulen zur dynamischen Anpassung der Grafik zur Laufzeit.\nTechnische Beratung zu Git, I18n, Transportmanagement"
+							},
+							"Tools": {
+								"de": "SAPUI5, Javascript, Git, SAP R3"
+							}
+						},
+						{
+							"Start": "09/16",
+							"End": "09/16",
+							"Branch": {
+								"de": "Dienstleistung",
+								"en": "Services"
+							},
+							"Header": {
+								"de": "Entwicklung der SAPUI5 Anwendung SAP Community Tag List",
+								"en": "Development of SAPUI5 application SAP Community Tag List"},
+							"Duration": {"en" : "5 days", "de": "5̈ Tage"},
+							"Longtext": {
+								"de":  "Entwicklung einer SAPUI5 Anwendung für die SAP Community, die von der SAP übernommen und auf deren Server deployt wurde.\nErhalt der Auszeichnung 'Member of the Month' der SAP Community für diese Anwendung und andere Aktivitäten.\nURL: https://taxobrowser- a04c73542.dispatcher.hana.ondemand.com/index.html",
+								"en": "Development of a SAPUI5 application for the SAP Community. This application has been deployed to a SAP Server later on.\nReceived the 'Memeber of the Month' reward for this and other community activities.\nURL: https://taxobrowser- a04c73542.dispatcher.hana.ondemand.com/index.html"
+							},
+							"Tools": {
+								"de": "SAPUI5 / OpenUI5, JSON, Git, Javascript"
+							}
+						},
 						{
 							"Start": "06/16",
 							"End": "06/16",
@@ -796,17 +908,17 @@
 					"items": [
 						{
 							"Start": "04/15",
-							"End": {"de": "12/15"},
+							"End": {"de": "09/16"},
 							"Branch": {
 								"de": "Automobilindustrie",
 								"en": "Automotive"
 							},
 							"Header": {
-                                "de": "Entwicklung eines SAPUI5 Frontends im Logistikbereich",
-                                "en": "Development of a SAPUI5 frontend in the area of logistics"},
+								"de": "Entwicklung eines SAPUI5 Frontends im Logistikbereich",
+								"en": "Development of a SAPUI5 frontend in the area of logistics"},
 							"Duration": {"en" : "6 months", "de": "6 Monate"},
-							"Longtext": { 
-								"de":  "Konzeptionelle Arbeit zur Entwicklung einer SAPUI5-Anwendung im Logistikbereich / Warehouse-Management.\nEntwicklung der SAPUI5-Anwendung\nErstellung eigener SAPUI5-Controls im Rahmen der Anwendungsentwicklung\nTechnische Beratung zu Git, I18n, Transportmanagement"
+							"Longtext": {
+								"de":  "Konzeptionelle Arbeit zur Entwicklung einer SAPUI5-Anwendung im Logistikbereich / Warehouse-Management.\nEntwicklung der SAPUI5-Anwendung\nEinbettung der Anwendung in eigenes vom Kunden entwickeltes UI Framework, das Fiori Launchpad ersetzen sollte.\nErstellung eigener SAPUI5-Controls im Rahmen der Anwendungsentwicklung\nErstellung einer SVG Grafik zur visuellen Abbildung von Lagerprozessen und Entwicklung von Javascript Modulen zur dynamischen Anpassung der Grafik zur Laufzeit.\nTechnische Beratung zu Git, I18n, Transportmanagement"
 							},
 							"Tools": {
 								"de": "SAPUI5, Javascript, Git, SAP R3"

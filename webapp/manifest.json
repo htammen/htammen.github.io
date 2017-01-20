@@ -50,6 +50,9 @@
 			"viewName": "de.tammenit.ui5.homepage.view.Home",
 			"type": "XML"
 		},
+		"resourceRoots": {
+			"com.penninkhof.controls": "./bower_components/ui5-qrcode/control"
+		},
 		"dependencies": {
 			"minUI5Version": "1.30.0",
 			"libs": {

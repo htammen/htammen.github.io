@@ -103,10 +103,10 @@ sap.ui.define([
 
             var otherGraduation = function() {
                 var arr = [];
-                if(profile.OtherGratuations.length > 0) {
+                if(profile.OtherGraduations.length > 0) {
                     arr.push( { text: '', style: 'columnLeft' } );
                     var arrGrad = [];
-                    profile.OtherGratuations.forEach(function(grad) {
+                    profile.OtherGraduations.forEach(function(grad) {
                         arrGrad.push({text: grad.Text});
                     });
                     arr.push(arrGrad);

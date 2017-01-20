@@ -1,0 +1,22 @@
+{
+  "name": "htammen.github.io",
+  "version": "1.0.0",
+  "description": "My SAPUI5 Homepage",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htammen/htammen.github.io.git"
+  },
+  "author": "Helmut Tammen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/htammen/htammen.github.io/issues"
+  },
+  "homepage": "https://github.com/htammen/htammen.github.io#readme",
+  "devDependencies": {
+    "bower": "^1.8.0"
+  }
+}

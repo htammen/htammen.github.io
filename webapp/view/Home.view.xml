@@ -1,11 +1,12 @@
 <mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout"
+		  xmlns:semantic="sap.m.semantic"
 	controllerName="de.tammenit.ui5.homepage.controller.Home">
 	<App id="app">
 		<pages>
-			<Page title="{i18n>view.home.page.title}"
+			<semantic:FullscreenPage title="{i18n>view.home.page.title}"
 				busy="{viewModel>/busy}"
 				busyIndicatorDelay="{viewModel>/delay}">
-				<content>
+				<semantic:content>
 					<FlexBox 
 						wrap="Wrap"
 						alignItems="Center"
@@ -74,8 +75,11 @@
 									press="comingNext"/>
 							</tiles>
 						</TileContainer>
-				</content>
-			</Page>
+				</semantic:content>
+				<semantic:customShareMenuContent>
+					<Button icon="sap-icon://bar-code" press="onQRCode"/>
+				</semantic:customShareMenuContent>
+			</semantic:FullscreenPage>
 		</pages>
 	</App>
 </mvc:View>

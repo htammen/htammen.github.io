@@ -31,3 +31,8 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+/* draw a bullet point before each graduation entry */
+.graduation:before {
+	content: "• ";
+}

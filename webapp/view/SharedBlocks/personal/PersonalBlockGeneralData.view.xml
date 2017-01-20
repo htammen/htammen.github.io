@@ -1,6 +1,6 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core"
 		xmlns:l="sap.ui.layout" xmlns:forms="sap.ui.layout.form" xmlns="sap.m"
-		controllerName="de.tammenit.ui5.homepage.controller.SharedBlocks.BaseBlockController">
+		controllerName="de.tammenit.ui5.homepage.controller.SharedBlocks.general.General">
 
 	<forms:SimpleForm labelSpanL="4" labelSpanM="4"
 					  labelSpanS="4" emptySpanL="0" emptySpanM="0" emptySpanS="0"
@@ -24,8 +24,11 @@
 			</l:content>
 		</l:Grid>	
 		<Label text="{i18n>view.profile.block.personalblock.generaldata.othergraduations}"></Label>
-		<l:VerticalLayout content="{OtherGratuations}">
-			<Text text="{Text}"/>
+		<l:VerticalLayout content="{OtherGraduations}">
+			<HBox>
+				<Link text="{Text}" href="{Link}" target="_blank" visible="{parts: ['Link'], formatter: '.isLink'}" class="graduation"/>
+				<Text text="{Text}" visible="{parts: ['Link'], formatter: '.isText'}" class="graduation"/>
+			</HBox>
 		</l:VerticalLayout>
 	</forms:SimpleForm>
 

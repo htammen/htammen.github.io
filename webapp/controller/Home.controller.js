@@ -14,7 +14,8 @@ sap.ui.define([
 		onInit: function() {
 			var oViewModel = new JSONModel({
 				busy : false,
-				delay : 0
+				delay : 0,
+				qrCode: window.location.href
 			});
 			this.setModel(oViewModel, "viewModel");
 			
@@ -51,6 +52,31 @@ sap.ui.define([
 	
 		comingNext: function() {
 			MessageToast.show("Coming next");
-		}		
+		},
+
+		/* =========== QR Code Dialog ================================ */
+		onQRCode: function(oEvent) {
+			this._getDialog();
+			// delay because addDependent will do a async rerendering and the actionSheet will immediately close without it.
+			var oButton = oEvent.getSource();
+			jQuery.sap.delayedCall(0, this, function () {
+				this._oDialog.openBy(oButton);
+			});
+
+			//this._getDialog().open();
+		},
+
+		_getDialog: function() {
+			if (!this._oDialog) {
+				this._oDialog = sap.ui.xmlfragment("de.tammenit.ui5.homepage.view.fragments.QRCodeDialog", this);
+				this.getView().addDependent(this._oDialog);
+			}
+			return this._oDialog;
+		},
+
+		onDialogClose: function() {
+			this._getDialog().close();
+		},
+
 	});
 });
