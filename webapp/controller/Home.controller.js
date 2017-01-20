@@ -19,6 +19,10 @@ sap.ui.define([
 			});
 			this.setModel(oViewModel, "viewModel");
 			
+			var pdfModel = new JSONModel();
+			pdfModel.loadData('./webapp/model/pdfs.json');
+			this.getView().setModel(pdfModel, "pdfs");
+
 			var oRouter = this.getRouter();
 			oRouter.getRoute("home").attachPatternMatched(function() {
 				this.getModel("viewModel").setProperty("/busy", false);
@@ -48,6 +52,14 @@ sap.ui.define([
 		showProjects: function() {
 			this.getModel("viewModel").setProperty("/busy", true);
 			this.getRouter().navTo("projects");
+		},
+		
+		/**
+		 * Navigates to the pdf download route target to enable the user to download some PDF versions of my profile
+		 */
+		showPDFDownload: function() {
+			this.getModel("viewModel").setProperty("/busy", true);
+			this.getRouter().navTo("pdf");
 		},
 	
 		comingNext: function() {

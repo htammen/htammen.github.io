@@ -15,3 +15,4 @@ cp.project.properties.json
 node_modules
 *.iml
 .idea
+/preview_hidden.html
