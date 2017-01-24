@@ -36,3 +36,15 @@
 .graduation:before {
 	content: "• ";
 }
+
+/* background image of tile at print page always covers the complete tile, resp. is adjusted to the tile size */
+.pdfTile {
+	background-size: cover;
+	border-radius: 10px;
+	background-color: aliceblue;
+}
+.pdfTile:hover {
+	background-size: cover;
+	border-radius: 10px;
+	background-color: aquamarine;
+}

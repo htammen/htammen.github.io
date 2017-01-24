@@ -27,12 +27,14 @@
 									  isObjectIconAlwaysVisible="false"
 									  isObjectTitleAlwaysVisible="false"
 									  isObjectSubtitleAlwaysVisible="false">
+						<!--
 						<actions>
 							<ObjectPageHeaderActionButton icon="sap-icon://pull-down" text="show section" 
 								type="Emphasized"
 								tooltip="{i18n>view.profile.downloadpdf.tooltip}"
 								press="downloadProfile"/>
 						</actions>
+						-->
 					</ObjectPageHeader>
 				</headerTitle>
 		 

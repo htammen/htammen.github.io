@@ -61,6 +61,14 @@ sap.ui.define([
 			this.getModel("viewModel").setProperty("/busy", true);
 			this.getRouter().navTo("pdf");
 		},
+
+		/**
+		 * Navigates to the print route where the profile can be printed resp. a PDF can be created
+		 */
+		showPrintView: function () {
+			this.getModel("viewModel").setProperty("/busy", true);
+			this.getRouter().navTo("print");
+		},
 	
 		comingNext: function() {
 			MessageToast.show("Coming next");

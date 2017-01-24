@@ -76,6 +76,9 @@
 							<StandardTile title="{i18n>view.home.tile.pdf}" info="{i18n>view.home.tile.pdf.info}"
 								icon="sap-icon://pdf-attachment" removable="false"
 								press="showPDFDownload" number="{= ${pdfs>/pdfs}.length}"/>
+							<StandardTile title="{i18n>view.home.tile.print}" info="{i18n>view.home.tile.print.info}"
+										  icon="sap-icon://print" removable="false"
+										  press="showPrintView"/>
 						</tiles>
 					</TileContainer>
 				</semantic:content>

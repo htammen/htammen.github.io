@@ -107,6 +107,11 @@
 				"pattern": "pdf",
 				"greedy": false,
 				"target": ["pdf"]
+			}, {
+				"name": "print",
+				"pattern": "print",
+				"greedy": false,
+				"target": ["print"]
 			}],
 			"targets": {
 				"home": {
@@ -127,6 +132,11 @@
 				"pdf": {
 					"viewName": "PDF",
 					"viewId": "pdf",
+					"viewLevel": 2
+				},
+				"print": {
+					"viewName": "Print",
+					"viewId": "print",
 					"viewLevel": 2
 				},
 				"notFound": {
