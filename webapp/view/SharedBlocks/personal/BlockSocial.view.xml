@@ -1,5 +1,8 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:forms="sap.ui.layout.form"
-		  xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:commons="sap.ui.commons" xmlns="sap.m">
+		  xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout"
+		  xmlns:commons="sap.ui.commons" xmlns="sap.m"
+		  controllerName="de.tammenit.ui5.homepage.controller.SharedBlocks.BaseBlockController"
+	>
 
 	<forms:SimpleForm labelSpanL="4" labelSpanM="4"
 					  labelSpanS="4" emptySpanL="0" emptySpanM="0" emptySpanS="0"
@@ -12,9 +15,9 @@
 					<layout:HorizontalLayout>
 						<Image
 							class="sapUiSmallMarginEnd" 
-							src="{Image}"
+							src="{path: 'Image', formatter: '.getUrl'}"
 							width="21px"/>
-						<Link text="{Address}" href="{Link}" target="_blank"/>
+						<Link text="{Address}" href="{path: 'Link', formatter: '.getUrl'}" target="_blank"/>
 					</layout:HorizontalLayout>
 				</layout:VerticalLayout>
 			</CustomListItem>

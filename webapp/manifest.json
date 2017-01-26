@@ -73,7 +73,10 @@
 				}
 			},
 			"": {
-				"dataSource": "mainService"
+				"type": "sap.ui.model.json.JSONModel"
+			},
+			"pdfModel": {
+				"type": "sap.ui.model.json.JSONModel"
 			}
 		},
 		"routing": {

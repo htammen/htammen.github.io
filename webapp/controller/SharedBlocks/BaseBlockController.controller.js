@@ -1,6 +1,7 @@
 sap.ui.define([
-		"de/tammenit/ui5/homepage/controller/BaseController"
-	], function (Controller) {
+		"de/tammenit/ui5/homepage/controller/BaseController",
+		"sap/ui/core/format/DateFormat"
+	], function (Controller, DateFormat) {
 		"use strict";
 
 		return Controller.extend("de.tammenit.ui5.homepage.controller.SharedBlocks.BaseBlockController", {
@@ -22,7 +23,7 @@ sap.ui.define([
 			formatBirthdayYearOfBirth: function(birthday) {
 				var d = Date.parse(birthday);
 				var date = new Date(d);
-				var df = sap.ui.core.format.DateFormat.getDateInstance({pattern: 'y'});
+				var df = DateFormat.getDateInstance({pattern: 'y'});
 				return df.format(date);
 			},
 			
@@ -37,9 +38,17 @@ sap.ui.define([
 			},
 
 			isLink: function (link) {
+				if(link) {
+					return true;
+				} else {
+					return false;
+				}
+			},
 
+			isText: function (link) {
+				return !this.isLink(link);
 			}
-			
+
 
 		});
 	}

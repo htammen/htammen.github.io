@@ -26,7 +26,7 @@
 		<Label text="{i18n>view.profile.block.personalblock.generaldata.othergraduations}"></Label>
 		<l:VerticalLayout content="{OtherGraduations}">
 			<HBox>
-				<Link text="{Text}" href="{Link}" target="_blank" visible="{parts: ['Link'], formatter: '.isLink'}" class="graduation"/>
+				<Link text="{Text}" href="{path: 'Link', formatter: '.getUrl'}" target="_blank" visible="{parts: ['Link'], formatter: '.isLink'}" class="graduation"/>
 				<Text text="{Text}" visible="{parts: ['Link'], formatter: '.isText'}" class="graduation"/>
 			</HBox>
 		</l:VerticalLayout>

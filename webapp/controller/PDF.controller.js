@@ -15,7 +15,9 @@ sap.ui.define([
 			this.getView().bindElement("/Profiles/0");
 
 			var pdfModel = new JSONModel();
-			pdfModel.loadData('./webapp/model/pdfs.json');
+			var sModelPath = jQuery.sap.getModulePath(this._getComponentName(), "/model/pdfs.json");
+			pdfModel.loadData(sModelPath);
+			// pdfModel.loadData('./webapp/model/pdfs.json');
 			this.getView().setModel(pdfModel, "pdfs");
 		},
 

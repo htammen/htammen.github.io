@@ -21,7 +21,7 @@
 							  showEditHeaderButton="false"
 							  editHeaderButtonPress="handleEditBtnPress">
 				<headerTitle>
-					<ObjectPageHeader objectImageURI="{Image}"
+					<ObjectPageHeader objectImageURI="{path: 'Image', formatter: '.getUrl'}"
 									  objectTitle="{Name}"
 									  objectImageShape="Circle"
 									  objectImageAlt="{Name}"
@@ -41,20 +41,7 @@
 				</headerTitle>
 		 
 				<headerContent>
-					<layout:VerticalLayout class="sapUiMediumMarginTop">
-						<m:Label text="{i18n>view.profile.aboutme.header}" design="Bold" class="projectfontlarge"/>
-					</layout:VerticalLayout>
-
-					<layout:VerticalLayout>
-						<m:Link text="{Phone/Mobile}"/>
-						<m:Link text="{Email/Work}"/>
-					</layout:VerticalLayout>
-		 
-					<layout:VerticalLayout>
-						<m:HBox><m:Label text="{i18n>view.profile.residence}" class="sapUiSmallMarginEnd"/><m:Label text="{Addresses/WorkAddress/City}, {Addresses/WorkAddress/Country}"/></m:HBox>
-						<m:HBox><m:Label text="{i18n>view.profile.availability}" class="sapUiSmallMarginEnd"/><m:Label text="{Availability}"/></m:HBox>
-						<m:HBox><m:Label text="{i18n>view.profile.regions}" class="sapUiSmallMarginEnd"/><m:Label text="{Regions}"/></m:HBox>
-					</layout:VerticalLayout>
+					<core:Fragment fragmentName="de.tammenit.ui5.homepage.view.fragments.HeaderContent" type="XML" />
 				</headerContent>
 		 
 				<sections>

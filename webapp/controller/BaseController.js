@@ -93,6 +93,36 @@ sap.ui.define([
 				} else {
 					return obj;
 				}
+			},
+
+			formatEmailLink: function (email) {
+				var subject = "Contact from your github homepage";
+				var body = "Hi,\nI saw your github profile and would like to contact you regarding ...\n\nBest regards\n";
+				return sap.m.URLHelper.normalizeEmail(email, subject, body);
+			},
+
+			getUrl: function (url) {
+				if(url && url.match(/^https?:\/\//)) {
+					return url;
+				} else
+				{
+					var sModulePath = jQuery.sap.getModulePath(this._getComponentName(), "");
+					if (sModulePath !== "") sModulePath += "/";
+
+					return sModulePath + url;
+				}
+			},
+
+			_getComponentName: function () {
+				if(!this.getOwnerComponent()) {
+					// construct the component name from classname. This is almost correct in every case
+					// at least in this application
+					var className = this.getMetadata().getName();
+					var idx = className.indexOf('.controller');
+					return className.slice(0, idx);
+				} else {
+					return this.getOwnerComponent().getMetadata().getComponentName();
+				}
 			}
 
 		});

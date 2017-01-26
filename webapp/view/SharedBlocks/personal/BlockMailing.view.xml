@@ -3,7 +3,9 @@
 		xmlns:forms="sap.ui.layout.form"
 		xmlns:core="sap.ui.core"
 		xmlns:layout="sap.ui.layout"
-		xmlns="sap.m">
+		xmlns="sap.m"
+		controllerName="de.tammenit.ui5.homepage.controller.SharedBlocks.BaseBlockController"
+	>
 
 	<forms:SimpleForm labelSpanL="4" labelSpanM="4"
 					  labelSpanS="4" emptySpanL="0" emptySpanM="0" emptySpanS="0"
@@ -13,9 +15,9 @@
 
 		<core:Title text="{i18n>view.profile.block.mailing.header}"/>
 		<Label text="{i18n>view.profile.block.mailing.work}"/>
-		<Text text="{Email/Work}"/>
+		<Link text="{Email/Work}" href="{path: 'Email/Work', formatter: '.formatEmailLink'}"/>
 		<Label text="{i18n>view.profile.block.mailing.home}"/>
-		<Text text="{Email/Home}"/>
+		<Link text="{Email/Home}" href="{path: 'Email/Home', formatter: '.formatEmailLink'}"/>
 
 	</forms:SimpleForm>
 </mvc:View>

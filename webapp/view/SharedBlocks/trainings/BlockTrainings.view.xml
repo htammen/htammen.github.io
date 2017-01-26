@@ -30,7 +30,10 @@
 			<ColumnListItem>
 				<cells>
 					<ObjectIdentifier title="{path: 'model>Date', formatter: '.formatDate'}"/>
-					<Link text="{model>Text}" href="{model>Link}" target="_blank"/>
+					<HBox>
+						<Link text="{model>Text}" href="{path: 'model>Link', formatter: '.getUrl'}" target="_blank" visible="{parts: ['model>Link'], formatter: '.isLink'}"/>
+						<Text text="{model>Text}" visible="{parts: ['model>Link'], formatter: '.isText'}"/>
+					</HBox>
 					<Text text="{model>Location}" />
 				</cells>
 			</ColumnListItem>

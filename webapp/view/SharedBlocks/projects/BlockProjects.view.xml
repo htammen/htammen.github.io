@@ -40,7 +40,7 @@
 					<Text text="{path: 'model>Branch', formatter: '.getCurrentLangValue'}"/>
 					<Text text="{path: 'model>Duration', formatter: '.getCurrentLangValue'}" />
 					<HBox>
-						<Link visible="{path:'model>Link', formatter: '.isLinkVisible'}" text="{path: 'model>Header', formatter: '.getCurrentLangValue'}" href="{model>Link}" target="_blank" emphasized="true"/>
+						<Link visible="{path:'model>Link', formatter: '.isLinkVisible'}" text="{path: 'model>Header', formatter: '.getCurrentLangValue'}" href="{path: 'model>Link', formatter: '.getUrl'}" target="_blank" emphasized="true"/>
 						<Label visible="{path:'model>Link', formatter: '.isTextVisible'}" text="{path: 'model>Header', formatter: '.getCurrentLangValue'}" design="Bold"/>
 					</HBox>
 					<Text text="{path: 'model>Longtext', formatter: '.getCurrentLangValue'}"/>	

@@ -15,6 +15,11 @@ sap.ui.define([
 		onInit: function() {
 			this.getView().bindElement("/Profiles/0");
 
+			var imageModel = new JSONModel({
+				pdfFull: "./images/pdffull.png",
+				projects: "./images/projects.png"
+			});
+			this.setModel(imageModel, "imgModel");
 		},
 
 		/**
@@ -38,7 +43,8 @@ sap.ui.define([
 		onPressFullPDF: function () {
 			// open the PDF in a new window
 			new Promise( function (resolve, reject) {
-				this.toBase64Url("webapp/images/logo_tammenit.png", function (dataURL) {
+				var sImagePath = jQuery.sap.getModulePath(this._getComponentName(), "/images/logo_tammenit.png");
+				this.toBase64Url(sImagePath, function (dataURL) {
 					resolve(dataURL);
 				})
 

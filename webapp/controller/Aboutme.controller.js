@@ -30,7 +30,7 @@ sap.ui.define([
 		 */
 		onAfterRendering: function() {
 			//sap.ui.core.BusyIndicator.hide();
-		},
+		}
 
 	});
 

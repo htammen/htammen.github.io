@@ -3,7 +3,7 @@
 		{
 			"Name": "Helmut Tammen",
 			"Slogan": "I love my job",
-			"Image": "webapp/images/Helmut_2_1.jpg",
+			"Image": "./images/Helmut_2_1.jpg",
 			"Availability": "07/2016",
 			"Birthday": "1964-04-21",
 			"Nationality": "german",
@@ -26,7 +26,7 @@
 					"Text": "Big Data with SAP HANA Vora",
 					"Institute": "open.sap.com",
 					"Certificate": 1,
-					"Link": "webapp/resources/Big_Data_with_SAP_HANA_Vora-RecordOfAchievement.pdf",
+					"Link": "./resources/Big_Data_with_SAP_HANA_Vora-RecordOfAchievement.pdf",
 					"Rating": "98%"
 				},
 				{
@@ -34,7 +34,7 @@
 					"Text": "Software Development on SAP HANA (Delta SPS 11)",
 					"Institute": "open.sap.com",
 					"Certificate": 1,
-					"Link": "webapp/resources/HANA_SPS11.pdf",
+					"Link": "./resources/HANA_SPS11.pdf",
 					"Rating": "100%"
 				},
 				{
@@ -42,7 +42,7 @@
 					"Text": "Creating Business Value with User Experience",
 					"Institute": "open.sap.com",
 					"Certificate": 1,
-					"Link": "webapp/resources/Creating_Business_Value_with_User_Experience.pdf",
+					"Link": "./resources/Creating_Business_Value_with_User_Experience.pdf",
 					"Rating": "100%"
 				},
 				{
@@ -50,7 +50,7 @@
 					"Text": "Build Your Own SAP Fiori App in the Cloud",
 					"Institute": "open.sap.com",
 					"Certificate": 1,
-					"Link": "webapp/resources/Build_your_own_Fiori_app_in_the_cloud.pdf",
+					"Link": "./resources/Build_your_own_Fiori_app_in_the_cloud.pdf",
 					"Rating": "100%"
 				},
 				{
@@ -58,7 +58,7 @@
 					"Text": "SAP Business Suite 4 SAP HANA in a Nutshell",
 					"Institute": "open.sap.com",
 					"Certificate": 1,
-					"Link": "webapp/resources/S4Hana_in_a_nutshell.pdf",
+					"Link": "./resources/S4Hana_in_a_nutshell.pdf",
 					"Rating": "50%"
 				},
 				{
@@ -66,7 +66,7 @@
 					"Text": "Sicherheit im Internet",
 					"Institute": "open.hpi.de",
 					"Certificate": 1,
-					"Link": "webapp/resources/Sicherheit_im_Internet.pdf",
+					"Link": "./resources/Sicherheit_im_Internet.pdf",
 					"Rating": "83%"
 				},
 				{
@@ -74,7 +74,7 @@
 					"Text": "Next Steps in Software Development on SAP HANA",
 					"Institute": "open.sap.com",
 					"Certificate": 1,
-					"Link": "webapp/resources/Next_Steps_in_Software_Development_on_SAP_HANA.pdf",
+					"Link": "./resources/Next_Steps_in_Software_Development_on_SAP_HANA.pdf",
 					"Rating": "98%"
 				},
 				{
@@ -82,7 +82,7 @@
 					"Text": "Introduction to SAP Fiori UX",
 					"Institute": "open.sap.com",
 					"Certificate": 1,
-					"Link": "webapp/resources/Introduction_to_SAP_Fiori_UX.pdf",
+					"Link": "./resources/Introduction_to_SAP_Fiori_UX.pdf",
 					"Rating": "96%"
 				},
 				{
@@ -90,7 +90,7 @@
 					"Text": "SAP's UX Strategy in a Nutshell by SamYen",
 					"Institute": "open.sap.com",
 					"Certificate": 1,
-					"Link": "webapp/resources/SAPs_UX_Strategy_in_a_Nutshell.pdf",
+					"Link": "./resources/SAPs_UX_Strategy_in_a_Nutshell.pdf",
 					"Rating": "100%"
 				},
 				{
@@ -98,7 +98,7 @@
 					"Text": "An Introduction to SAP HANA by Dr. Vishal Sikka",
 					"Institute": "open.sap.com",
 					"Certificate": 1,
-					"Link": "webapp/resources/An_Introduction_to_SAP_HANA.pdf",
+					"Link": "./resources/An_Introduction_to_SAP_HANA.pdf",
 					"Rating": "87%"
 				},
 				{
@@ -106,7 +106,7 @@
 					"Text": "Next Steps in SAP HANA Cloud Platform",
 					"Institute": "open.sap.com",
 					"Certificate": 1,
-					"Link": "webapp/resources/Next_Steps_in_SAP_HANA_Cloud_Platform.pdf",
+					"Link": "./resources/Next_Steps_in_SAP_HANA_Cloud_Platform.pdf",
 					"Rating": "98%"
 				},
 				{
@@ -114,7 +114,7 @@
 					"Text": "Sustainability and Business Innovation",
 					"Institute": "open.sap.com",
 					"Certificate": 1,
-					"Link": "webapp/resources/Sustainability_and_Business_Innovation.pdf",
+					"Link": "./resources/Sustainability_and_Business_Innovation.pdf",
 					"Rating": "94%"
 				},
 				{
@@ -122,7 +122,7 @@
 					"Text": "Introduction to Software Development on SAP HANA",
 					"Institute": "open.sap.com",
 					"Certificate": 1,
-					"Link": "webapp/resources/Introduction_to_Software_Development_on_SAP_HANA.pdf",
+					"Link": "./resources/Introduction_to_Software_Development_on_SAP_HANA.pdf",
 					"Rating": "93%"
 				}
 			],
@@ -233,31 +233,31 @@
 			"SocialAccounts": [
 				{
 					"Name": "LinkedIn",
-					"Image": "webapp/images/linkedin.png",
+					"Image": "./images/linkedin.png",
 					"Address": "/helmuttammen",
 					"Link": "https://de.linkedin.com/in/helmuttammen"
 				},
 				{
 					"Name": "Twitter",
-					"Image": "webapp/images/Twitter.png",
+					"Image": "./images/Twitter.png",
 					"Address": "@helmuttammen",
 					"Link": "https://twitter.com/helmuttammen"
 				},
 				{
 					"Name": "G+",
-					"Image": "webapp/images/g+138.png",
+					"Image": "./images/gPlus138.png",
 					"Address": "+TammenitsolutionsDe1",
 					"Link": "https://plus.google.com/+TammenitsolutionsDe1"
 				},
 				{
 					"Name": "XING",
-					"Image": "webapp/images/xing.png",
+					"Image": "./images/xing.png",
 					"Address": "Helmut Tammen",
 					"Link": "http://www.xing.com/profile/Helmut_Tammen"
 				},
 				{
 					"Name": "SAP Community Network",
-					"Image": "",
+					"Image": "./images/sap.jpg",
 					"Address": "Helmut Tammen",
 					"Link": "http://scn.sap.com/people/helmut.tammen2"
 				}

@@ -9,21 +9,8 @@ sap.ui.define([
 			if(BaseController.prototype.onInit) {
 				BaseController.prototype.onInit.apply(this, arguments);
 			}
-		},
-
-		isLink: function (link) {
-			if(link) {
-				return true;
-			} else {
-				return false;
-			}
-		},
-
-		isText: function (link) {
-			return !this.isLink(link);
 		}
 
-		
 	});
 
 });

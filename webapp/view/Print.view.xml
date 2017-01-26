@@ -1,33 +1,26 @@
 <core:View xmlns:core="sap.ui.core" xmlns="sap.uxap" xmlns:layout="sap.ui.layout" xmlns:m="sap.m"
 		   xmlns:semantic="sap.m.semantic"
 		   xmlns:forms="sap.ui.layout.form"
-	controllerName="de.tammenit.ui5.homepage.controller.Print" height="100%">
+		   controllerName="de.tammenit.ui5.homepage.controller.Print" height="100%">
 	<!--
 		   xmlns:sample="sap.uxap.sample.ObjectPageOnJSON"
 		   xmlns:goals="sap.uxap.sample.SharedBlocks.goals"
 		   xmlns:employment="sap.uxap.sample.SharedBlocks.employment"
 	-->
-	<semantic:FullscreenPage title="{i18n>appTitle}" showNavButton="true" navButtonPress="onNavBack" showFooter="false" >
+	<semantic:FullscreenPage title="{i18n>appTitle}" showNavButton="true" navButtonPress="onNavBack" showFooter="false">
 		<semantic:content>
-			<ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="false" showTitleInHeaderContent="true" showEditHeaderButton="false"
-				editHeaderButtonPress="handleEditBtnPress">
+			<ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="false" showTitleInHeaderContent="true"
+							  showEditHeaderButton="false"
+							  editHeaderButtonPress="handleEditBtnPress">
 				<headerTitle>
-					<ObjectPageHeader objectImageURI="{Image}" objectTitle="{Name}" objectImageShape="Circle" objectImageAlt="{Name}"
-						objectSubtitle="{JobTitle}" isObjectIconAlwaysVisible="false" isObjectTitleAlwaysVisible="false" isObjectSubtitleAlwaysVisible="false"></ObjectPageHeader>
+					<ObjectPageHeader objectImageURI="{path: 'Image', formatter: '.getUrl'}" objectTitle="{Name}"
+									  objectImageShape="Circle" objectImageAlt="{Name}"
+									  objectSubtitle="{JobTitle}" isObjectIconAlwaysVisible="false"
+									  isObjectTitleAlwaysVisible="false"
+									  isObjectSubtitleAlwaysVisible="false"></ObjectPageHeader>
 				</headerTitle>
 				<headerContent>
-					<layout:VerticalLayout class="sapUiMediumMarginTop">
-						<m:Label text="{i18n>view.profile.print.header}" design="Bold" class="projectfontlarge"/>
-					</layout:VerticalLayout>
-					<layout:VerticalLayout>
-						<m:Link text="{Phone/Mobile}"/>
-						<m:Link text="{Email/Work}"/>
-					</layout:VerticalLayout>
-					<layout:VerticalLayout>
-						<m:HBox><m:Label text="{i18n>view.profile.residence}" class="sapUiSmallMarginEnd"/><m:Label text="{Addresses/WorkAddress/City}, {Addresses/WorkAddress/Country}"/></m:HBox>
-						<m:HBox><m:Label text="{i18n>view.profile.availability}" class="sapUiSmallMarginEnd"/><m:Label text="{Availability}"/></m:HBox>
-						<m:HBox><m:Label text="{i18n>view.profile.regions}" class="sapUiSmallMarginEnd"/><m:Label text="{Regions}"/></m:HBox>
-					</layout:VerticalLayout>
+					<core:Fragment fragmentName="de.tammenit.ui5.homepage.view.fragments.HeaderContent" type="XML"/>
 				</headerContent>
 				<sections>
 					<ObjectPageSection>
@@ -35,10 +28,12 @@
 							<ObjectPageSubSection title="{i18n>view.print.section.header}">
 								<m:HBox>
 									<m:items>
-										<m:GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout pdfTile" header="{i18n>view.profile.print.tile.fullpdf.header}"
-											subheader="{i18n>view.profile.print.tile.fullpdf.subheader}"
-											headerImage="webapp/images/pdffull.png"
-											press="onPressFullPDF">
+										<m:GenericTile
+												class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout pdfTile"
+												header="{i18n>view.profile.print.tile.fullpdf.header}"
+												subheader="{i18n>view.profile.print.tile.fullpdf.subheader}"
+												headerImage="{path: 'imgModel>/pdfFull', formatter: '.getUrl'}"
+												press="onPressFullPDF">
 											<m:tileContent>
 												<m:TileContent unit="~ 17 pages">
 													<m:content>
@@ -46,11 +41,13 @@
 												</m:TileContent>
 											</m:tileContent>
 										</m:GenericTile>
-										<m:GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout pdfTile" header="{i18n>view.profile.print.tile.anonympdf.header}"
-													   subheader="{i18n>view.profile.print.tile.anonympdf.subheader}"
-													   headerImage="webapp/images/pdffull.png"
-													   state="Disabled"
-													   press="onPressAnonymousPDF">
+										<m:GenericTile
+												class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout pdfTile"
+												header="{i18n>view.profile.print.tile.anonympdf.header}"
+												subheader="{i18n>view.profile.print.tile.anonympdf.subheader}"
+												headerImage="{path: 'imgModel>/pdfFull', formatter: '.getUrl'}"
+												state="Disabled"
+												press="onPressAnonymousPDF">
 											<m:tileContent>
 												<m:TileContent unit="~ 14 pages">
 													<m:content>
@@ -58,11 +55,13 @@
 												</m:TileContent>
 											</m:tileContent>
 										</m:GenericTile>
-										<m:GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout pdfTile" header="{i18n>view.profile.print.tile.projects.header}"
-													   subheader="{i18n>view.profile.print.tile.projects.subheader}"
-													   headerImage="webapp/images/projects.png"
-													   state="Disabled"
-													   press="onPressAnonymousPDF">
+										<m:GenericTile
+												class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout pdfTile"
+												header="{i18n>view.profile.print.tile.projects.header}"
+												subheader="{i18n>view.profile.print.tile.projects.subheader}"
+												headerImage="{path: 'imgModel>/projects', formatter: '.getUrl'}"
+												state="Disabled"
+												press="onPressAnonymousPDF">
 											<m:tileContent>
 												<m:TileContent unit="~ 10 pages">
 													<m:content>
