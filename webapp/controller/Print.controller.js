@@ -1,8 +1,9 @@
 sap.ui.define([
 	"de/tammenit/ui5/homepage/controller/BaseController",
 	"sap/ui/model/json/JSONModel",
+	"de/tammenit/ui5/homepage/model/models",
 	"sap/m/MessageToast"
-], function(BaseController, JSONModel, MessageToast) {
+], function(BaseController, JSONModel, Models, MessageToast) {
 	"use strict";
 
 	return BaseController.extend("de.tammenit.ui5.homepage.controller.Print", {
@@ -20,6 +21,7 @@ sap.ui.define([
 				projects: "./images/projects.png"
 			});
 			this.setModel(imageModel, "imgModel");
+
 		},
 
 		/**
@@ -37,7 +39,8 @@ sap.ui.define([
 		 * @memberOf de.tammenit.ui5.homepage.view.Aboutme
 		 */
 		onAfterRendering: function() {
-			//sap.ui.core.BusyIndicator.hide();
+			var title = this.getModel("i18n").getProperty("view.profile.print.header");
+			this.setModel(Models.createHeaderFragmentController(title), "headerModel");
 		},
 
 		onPressFullPDF: function () {

@@ -4,7 +4,7 @@
 		xmlns:core="sap.ui.core">
 
 	<layout:VerticalLayout class="sapUiMediumMarginTop">
-		<m:Label text="{i18n>view.profile.aboutme.header}" design="Bold" class="projectfontlarge"/>
+		<m:Label text="{headerModel>/title}" design="Bold" class="projectfontlarge"/>
 	</layout:VerticalLayout>
 
 	<layout:VerticalLayout>

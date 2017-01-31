@@ -4,7 +4,7 @@
 			"Name": "Helmut Tammen",
 			"Slogan": "I love my job",
 			"Image": "./images/Helmut_2_1.jpg",
-			"Availability": "07/2016",
+			"Availability": "03/2017",
 			"Birthday": "1964-04-21",
 			"Nationality": "german",
 			"Graduation": "Graduate Mechanical Engineer",
@@ -223,10 +223,10 @@
 					"Country": "Germany"
 				},
 				"WorkAddress": {
-					"Street": "Herrenstraße",
-					"Housenum": "3-5",
-					"Zipcode": "30159",
-					"City": "Hannover",
+					"Street": "Pastor-Badenhop-Weg",
+					"Housenum": "5",
+					"Zipcode": "30938",
+					"City": "Burgwedel",
 					"Country": "Germany"
 				}
 			},

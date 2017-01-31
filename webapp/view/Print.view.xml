@@ -26,51 +26,54 @@
 					<ObjectPageSection>
 						<subSections>
 							<ObjectPageSubSection title="{i18n>view.print.section.header}">
-								<m:HBox>
-									<m:items>
-										<m:GenericTile
-												class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout pdfTile"
-												header="{i18n>view.profile.print.tile.fullpdf.header}"
-												subheader="{i18n>view.profile.print.tile.fullpdf.subheader}"
-												headerImage="{path: 'imgModel>/pdfFull', formatter: '.getUrl'}"
-												press="onPressFullPDF">
-											<m:tileContent>
-												<m:TileContent unit="~ 17 pages">
-													<m:content>
-													</m:content>
-												</m:TileContent>
-											</m:tileContent>
-										</m:GenericTile>
-										<m:GenericTile
-												class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout pdfTile"
-												header="{i18n>view.profile.print.tile.anonympdf.header}"
-												subheader="{i18n>view.profile.print.tile.anonympdf.subheader}"
-												headerImage="{path: 'imgModel>/pdfFull', formatter: '.getUrl'}"
-												state="Disabled"
-												press="onPressAnonymousPDF">
-											<m:tileContent>
-												<m:TileContent unit="~ 14 pages">
-													<m:content>
-													</m:content>
-												</m:TileContent>
-											</m:tileContent>
-										</m:GenericTile>
-										<m:GenericTile
-												class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout pdfTile"
-												header="{i18n>view.profile.print.tile.projects.header}"
-												subheader="{i18n>view.profile.print.tile.projects.subheader}"
-												headerImage="{path: 'imgModel>/projects', formatter: '.getUrl'}"
-												state="Disabled"
-												press="onPressAnonymousPDF">
-											<m:tileContent>
-												<m:TileContent unit="~ 10 pages">
-													<m:content>
-													</m:content>
-												</m:TileContent>
-											</m:tileContent>
-										</m:GenericTile>
-									</m:items>
-								</m:HBox>
+								<m:VBox>
+									<m:HBox>
+										<m:items>
+											<m:GenericTile
+													class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout pdfTile"
+													header="{i18n>view.profile.print.tile.fullpdf.header}"
+													subheader="{i18n>view.profile.print.tile.fullpdf.subheader}"
+													headerImage="{path: 'imgModel>/pdfFull', formatter: '.getUrl'}"
+													press="onPressFullPDF">
+												<m:tileContent>
+													<m:TileContent unit="~ 17 pages">
+														<m:content>
+														</m:content>
+													</m:TileContent>
+												</m:tileContent>
+											</m:GenericTile>
+											<m:GenericTile
+													class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout pdfTile"
+													header="{i18n>view.profile.print.tile.anonympdf.header}"
+													subheader="{i18n>view.profile.print.tile.anonympdf.subheader}"
+													headerImage="{path: 'imgModel>/pdfFull', formatter: '.getUrl'}"
+													state="Disabled"
+													press="onPressAnonymousPDF">
+												<m:tileContent>
+													<m:TileContent unit="~ 14 pages">
+														<m:content>
+														</m:content>
+													</m:TileContent>
+												</m:tileContent>
+											</m:GenericTile>
+											<m:GenericTile
+													class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout pdfTile"
+													header="{i18n>view.profile.print.tile.projects.header}"
+													subheader="{i18n>view.profile.print.tile.projects.subheader}"
+													headerImage="{path: 'imgModel>/projects', formatter: '.getUrl'}"
+													state="Disabled"
+													press="onPressAnonymousPDF">
+												<m:tileContent>
+													<m:TileContent unit="~ 10 pages">
+														<m:content>
+														</m:content>
+													</m:TileContent>
+												</m:tileContent>
+											</m:GenericTile>
+										</m:items>
+									</m:HBox>
+									<m:Text text="{i18n>view.profile.print.notification}"/>
+								</m:VBox>
 								<!--
 								<forms:Form width="100%">
 									<forms:layout>

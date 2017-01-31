@@ -1,7 +1,8 @@
 sap.ui.define([
 	"de/tammenit/ui5/homepage/controller/BaseController",
-	"sap/ui/model/json/JSONModel"
-], function(BaseController, JSONModel) {
+	"sap/ui/model/json/JSONModel",
+	"de/tammenit/ui5/homepage/model/models"
+], function(BaseController, JSONModel, Models) {
 	"use strict";
 
 	return BaseController.extend("de.tammenit.ui5.homepage.controller.PDF", {
@@ -36,7 +37,8 @@ sap.ui.define([
 		 * @memberOf de.tammenit.ui5.homepage.view.Aboutme
 		 */
 		onAfterRendering: function() {
-			//sap.ui.core.BusyIndicator.hide();
+			var title = this.getModel("i18n").getProperty("view.profile.pdfs.header");
+			this.setModel(Models.createHeaderFragmentController(title), "headerModel");
 		}
 	});
 

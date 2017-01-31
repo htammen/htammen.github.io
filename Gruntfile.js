@@ -15,7 +15,12 @@ module.exports = function (grunt) {
                         expand: true,
 						cwd: "<%= componentFolder %>",
                         src: [
-                            '**',
+                        	'index.html',
+							'css/*.css',
+                            'resource/**',
+							'model/*.json',
+							'images/**',
+							'bower_components/**',
                             '!localService/**'
                         ],
                         dest: '<%= gruntBuildFolderName %>'
@@ -132,7 +137,7 @@ module.exports = function (grunt) {
     // grunt task at runtime
     grunt.registerTask('dev', ['watch']);
     // build application sources for deployment to R/3 system
-    grunt.registerTask('production', ['clean:buildDirectory', 'less:compile', 'copy:production', 'uglify:js', 'openui5_preload', 'copy:debugFiles']);
+    grunt.registerTask('production', ['clean:buildDirectory', 'less:compile', 'copy:production', 'uglify:js', 'openui5_preload']);
     // build application sources for deployment to R/3 system but enclose mockdata
     grunt.registerTask('test', ['production', 'copy:test']);
 };
