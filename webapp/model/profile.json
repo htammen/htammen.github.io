@@ -4,7 +4,7 @@
 			"Name": "Helmut Tammen",
 			"Slogan": "I love my job",
 			"Image": "./images/Helmut_2_1.jpg",
-			"Availability": "03/2017",
+			"Availability": "07/2017",
 			"Birthday": "1964-04-21",
 			"Nationality": "german",
 			"Graduation": "Graduate Mechanical Engineer",
@@ -728,6 +728,56 @@
 				{
 					"Year": "2017",
 					"items": [
+						{
+							"Start": "03/17",
+							"End": {
+								"de": "07/17"
+							},
+							"Branch": {
+								"de": "Einzelhandel / Großhandel",
+								"en": "Retail"
+							},
+							"Header": {
+								"de": "SAPUI5 Anwendung zur digitalen Signierung von Dokumenten",
+								"en": "SAPUI5 application to digtally sign documents"
+							},
+							"Duration": {
+								"en": "3 months",
+								"de": "3 Monate"
+							},
+							"Longtext": {
+								"de": "Erstellung einer SAPUI5 / Fiori Anwendung zur digitalen Signierung von Dokumenten mit Adobe Sign.\nImplementierung der OData Services im SAP R/3 backend.\nImplementierung des Workflows im SAP R/3 backend.",
+								"en": "Implementation of a SAPUI5 application to digitally sign documents with Adobe Sign.\nImplementation of the OData services in R/3 Gateway backend.\nImplementation of the business workflow in SAP R/3 backend."
+							},
+							"Tools": {
+								"de": "SAPUI5, Javascript, Git, SAP R3, SAP Gateway, OData, ABAP, SAP Business Workflow"
+							}
+						},
+						{
+							"Start": "02/17",
+							"End": {
+								"de": "06/17"
+							},
+							"Branch": {
+								"de": "Stahlindustrie",
+								"en": "Steel industry"
+							},
+							"Header": {
+								"de": "SAPUI5 Anwendung zur Anzeige des Werksgeländes in 3D-Ansicht",
+								"en": "SAPUI5 application for displaying plant overview in 3D-model"
+							},
+							"Duration": {
+								"en": "3 months",
+								"de": "3 Monate"
+							},
+							"Longtext": {
+								"de": "Erstellung einer SAPUI5 Anwendung zur virtuellen Ansicht und Navigation des kompletten Werksgeländes eines großen Stahlherstellers. Das Gelände kann in einer 3D-Ansicht durchwandert werden.\nIn die Hallen des Werkes kann hinein navigiert werden. Die Anlagen der Hallen können dann wiederum in einer 3D-Ansicht betrachtet werden.\nImplementierung der OData Services im SAP R/3 backend",
+								"en": "Implementation of a SAPUI5 application to virtually view and navigate the complete factory site of a big steel producer in a 3D-model. The users can navigate deeper into the production halls and can view those also in a 3D-model.\nImplementation of the OData services in R/3 Gateway backend."
+							},
+							"Tools": {
+								"de": "SAPUI5, Javascript, Git, SAP R3, SAP Gateway, OData, ABAP"
+							}
+						},
 						{
 							"Start": "12/16",
 							"End": {
