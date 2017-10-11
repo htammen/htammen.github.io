@@ -729,6 +729,31 @@
 					"Year": "2017",
 					"items": [
 						{
+							"Start": "08/17",
+							"End": {
+								"de": "10/17"
+							},
+							"Branch": {
+								"de": "Telekommunikation",
+								"en": "Telecommunication"
+							},
+							"Header": {
+								"de": "SAPUI5 Anwendung zur Leasingvertragsverwaltung",
+								"en": "SAPUI5 application for administration of lease contracts"
+							},
+							"Duration": {
+								"en": "3 months",
+								"de": "3 Monate"
+							},
+							"Longtext": {
+								"de": "Erstellung einer SAP / SAPUI5 Anwendung zur Verwaltung von Leasingverträgen in einem international tätigen Telekommunikationsunternehmen.\nImplementierung der OData Services im SAP R/3 backend. Implementierung der SAPUI5 Anwendung im Frontend.",
+								"en": "Implementation of a SAPUI5 application to maintain lease contracts in an international acting telecomunication enterprise.\nImplementation of the OData services in SAP R/3 Gateway.\nImplementation of the SAPUI5 frontend application."
+							},
+							"Tools": {
+								"de": "SAPUI5, Javascript, Git, SAP R3, SAP Gateway, OData, ABAP"
+							}
+						},
+						{
 							"Start": "03/17",
 							"End": {
 								"de": "07/17"
@@ -739,7 +764,7 @@
 							},
 							"Header": {
 								"de": "SAPUI5 Anwendung zur digitalen Signierung von Dokumenten",
-								"en": "SAPUI5 application to digtally sign documents"
+								"en": "SAPUI5 application to digitally sign documents"
 							},
 							"Duration": {
 								"en": "3 months",
