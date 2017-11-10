@@ -4,6 +4,7 @@
   "description": "My SAPUI5 Homepage",
   "main": "index.html",
   "scripts": {
+    "start": "node static_server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
