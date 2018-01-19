@@ -41,7 +41,7 @@
 					<Text text="{path: 'model>Duration', formatter: '.getCurrentLangValue'}" />
 					<HBox>
 						<Link visible="{path:'model>Link', formatter: '.isLinkVisible'}" text="{path: 'model>Header', formatter: '.getCurrentLangValue'}" href="{path: 'model>Link', formatter: '.getUrl'}" target="_blank" emphasized="true"/>
-						<Label visible="{path:'model>Link', formatter: '.isTextVisible'}" text="{path: 'model>Header', formatter: '.getCurrentLangValue'}" design="Bold"/>
+						<Label visible="{path:'model>Link', formatter: '.isTextVisible'}" text="{path: 'model>Header', formatter: '.getCurrentLangValue'}" design="Bold" wrapping="true"/>
 					</HBox>
 					<Text text="{path: 'model>Longtext', formatter: '.getCurrentLangValue'}"/>	
 					<Text text="{path: 'model>Tools', formatter: '.getCurrentLangValue'}"/>	
