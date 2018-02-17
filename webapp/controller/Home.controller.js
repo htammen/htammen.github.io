@@ -1,10 +1,13 @@
 sap.ui.define([
 		"de/tammenit/ui5/homepage/controller/BaseController",
 		"sap/ui/model/json/JSONModel",
-		"sap/m/MessageToast"
-	], function(BaseController, JSONModel, MessageToast) {
+		"sap/m/MessageToast",
+		"de/tammenit/ui5/homepage/model/formatter",
+	], function(BaseController, JSONModel, MessageToast, formatter) {
 	"use strict";
 	return BaseController.extend("de.tammenit.ui5.homepage.controller.Home", {
+		
+		formatter: formatter,
 		
 		/**
 		 * Called when a controller is instantiated and its View controls (if available) are already created.
@@ -23,6 +26,8 @@ sap.ui.define([
 			pdfModel.loadData('./webapp/model/pdfs.json');
 			this.getView().setModel(pdfModel, "pdfs");
 
+			this.getView().bindElement("/Profiles/0");
+			
 			var oRouter = this.getRouter();
 			oRouter.getRoute("home").attachPatternMatched(function() {
 				this.getModel("viewModel").setProperty("/busy", false);

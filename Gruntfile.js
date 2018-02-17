@@ -119,7 +119,7 @@ module.exports = function (grunt) {
 							'!localService/**'
                         ]
                     },
-					dest:'<%= gruntBuildFolderName %>',
+					dest:'<%= componentFolder %>',
 					compress:true
 				},
 				components: true
@@ -137,7 +137,8 @@ module.exports = function (grunt) {
     // grunt task at runtime
     grunt.registerTask('dev', ['watch']);
     // build application sources for deployment to R/3 system
-    grunt.registerTask('production', ['clean:buildDirectory', 'less:compile', 'copy:production', 'uglify:js', 'openui5_preload']);
+    //grunt.registerTask('production', ['clean:buildDirectory', 'less:compile', 'copy:production', 'uglify:js', 'openui5_preload']);
+    grunt.registerTask('production', ['clean:buildDirectory', 'less:compile', 'openui5_preload']);
     // build application sources for deployment to R/3 system but enclose mockdata
     grunt.registerTask('test', ['production', 'copy:test']);
 };
