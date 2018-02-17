@@ -729,9 +729,34 @@
 					"Year": "2017",
 					"items": [
 						{
+							"Start": "11/17",
+							"End": {
+								"de": "02/18"
+							},
+							"Branch": {
+								"de": "Versicherungen",
+								"en": "Insurance industry"
+							},
+							"Header": {
+								"de": "SAPUI5 Anwendung für Investitions-Genehmigungsprozess",
+								"en": "SAPUI5 application for investment approval process"
+							},
+							"Duration": {
+								"en": "2 months",
+								"de": "2 Monate"
+							},
+							"Longtext": {
+								"de": "Erstellung einer SAP / SAPUI5 Anwendung zur Verwaltung und Einreichung von Investionsanträgen in einem großen national tätigen Versicherungsunternehmen.\nImplementierung der OData Services im SAP R/3 backend. Implementierung der SAPUI5 Anwendung im Frontend.\nUp- und Download von Dokumenten.\nAnbindung an einen SAP Workflow.",
+								"en": "Creation of a SAP / SAPUI5 application the allows submission and administration of investment requests in a big german company of the insurance sector.\nImplementation of the OData Service in SAP R/3 backend. Implementation of SAPUI5 application in frontend.\nUp- and download of documents.\nIntegration of SAP business workflow."
+							},
+							"Tools": {
+								"de": "SAPUI5, Javascript, Git, SAP R3, SAP Gateway, OData, ABAP"
+							}
+						},
+						{
 							"Start": "08/17",
 							"End": {
-								"de": "10/17"
+								"de": "03/18"
 							},
 							"Branch": {
 								"de": "Telekommunikation",
@@ -742,8 +767,8 @@
 								"en": "SAPUI5 application for administration of lease contracts"
 							},
 							"Duration": {
-								"en": "3 months",
-								"de": "3 Monate"
+								"en": "8 months",
+								"de": "8 Monate"
 							},
 							"Longtext": {
 								"de": "Erstellung einer SAP / SAPUI5 Anwendung zur Verwaltung von Leasingverträgen in einem international tätigen Telekommunikationsunternehmen.\nImplementierung der OData Services im SAP R/3 backend. Implementierung der SAPUI5 Anwendung im Frontend.",
