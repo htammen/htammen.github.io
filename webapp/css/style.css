@@ -1,5 +1,12 @@
 /* Enter your custom styles here */
 
+/* This is a style for the PWA splash screen */
+#splash-screen {
+    color: #244C7C;
+    text-align: center;
+}
+
+
 .projectfontlarge {
 	font-size: 24px;
 }

@@ -7,6 +7,34 @@
 
 		<title>Homepage</title>
 
+<!-- PWA related meta tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<!-- PWA manifest -->
+<link rel="manifest" href="webapp/manifest.json">
+	
+<!-- Add to home screen for Safari on iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Consultant Profile">
+	
+<!-- Windows related -->
+<meta name="msapplication-TileImage" content="webapp/icons/mstile-150x150.png">
+<meta name="msapplication-TileColor" content="#427CAC">
+
+<!-- Statusbar Color for Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#427CAC">
+	
+<!-- Icons -->
+<link rel="icon" type="image/png" sizes="32x32" href="webapp/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="webapp/icons/favicon-16x16.png">
+<link rel="shortcut icon" href="webapp/icons/favicon.svg">
+<link rel="apple-touch-icon" href="webapp/icons/apple-touch-icon.png">
+<link rel="mask-icon" href="webapp/icons/safari-pinned-tab.svg" color="#5bbad5">
+
+<!-- Register service worker -->
+<script src="register-worker.js"></script>
+
 		<script id="sap-ui-bootstrap"
 			src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
 			data-sap-ui-libs="sap.m"
@@ -15,7 +43,7 @@
 			data-sap-ui-resourceroots='{"de.tammenit.ui5.homepage": "webapp"}'>
 		</script>
 
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="webapp/text/css" href="css/style.css">
 
 		<script>
 			sap.ui.getCore().attachInit(function() {
@@ -30,6 +58,10 @@
 	</head>
 
 	<body class="sapUiBody" id="content">
+        <div id="splash-screen">
+            <h1>UI5 IconExplorer as a Progressive Web Application</h1>
+            <img src="webapp/icons/icon.svg" alt="PWA SAPUI5 Profile - Helmut Tammen">
+        </div>
 	</body>
 
 </html>
