@@ -1,12 +1,12 @@
 let CACHE_NAME = 'ui5-consultantprofile-pwa-v1.0.0';
 let RESOURCES_TO_PRELOAD = [
 	'index.html',
+	'webapp/Component-preload.js',
+	'openui5/resources/sap-ui-messagebundle-preload.js',
     'register-worker.js',
     'webapp/manifest.json'
 ];
 
-//	'webapp/Component-preload.js',
-//	'openui5/resources/sap-ui-messagebundle-preload.js',
 //	'webapp/icons/icon.svg',
 
 
