@@ -1,5 +1,9 @@
 let CACHE_NAME = 'ui5-consultantprofile-pwa-v1.0.0';
+// Stated in this blog https://www.captechconsulting.com/blogs/my-experience-using-service-workers from 07/16 (maybe old)
+// It’s important to note here that the root is required when adding assets to the cache in the Install Event. 
+// If excluded, the code in the next section, Service Worker Fetch Event, will produce an error.
 let RESOURCES_TO_PRELOAD = [
+	'/',
 	'index.html',
 	'webapp/Component-preload.js',
     'register-worker.js',
@@ -18,20 +22,9 @@ RESOURCES_TO_PRELOAD = RESOURCES_TO_PRELOAD.concat([
     `${cdnBase}sap/m/themes/sap_belize/library.css`,
     `${cdnBase}sap/ui/core/themes/base/fonts/SAP-icons.woff2`,
     `${cdnBase}sap/m/library-preload.js`,
+    `${cdnBase}sap/uxap/library-preload.js`,
     `${cdnBase}sap/ui/core/themes/sap_belize/library.css`
 ]);
-/*
-//Preload UI5 core and libraries by install
-var cdnBase = 'https://openui5.hana.ondemand.com/resources/';
-RESOURCES_TO_PRELOAD = RESOURCES_TO_PRELOAD.concat([
-    cdnBase + "sap-ui-core.js",
-    cdnBase + "sap/ui/core/library-preload.js",
-    cdnBase + "sap/m/themes/sap_belize/library.css",
-    cdnBase + "sap/ui/core/themes/base/fonts/SAP-icons.woff2",
-    cdnBase + "sap/m/library-preload.js",
-    cdnBase + "sap/ui/core/themes/sap_belize/library.css"
-]);
-*/
 
 // Preload some resources during install
 self.addEventListener('install', function (event) {
