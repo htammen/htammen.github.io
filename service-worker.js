@@ -23,7 +23,9 @@ RESOURCES_TO_PRELOAD = RESOURCES_TO_PRELOAD.concat([
     `${cdnBase}sap/ui/core/themes/base/fonts/SAP-icons.woff2`,
     `${cdnBase}sap/m/library-preload.js`,
     `${cdnBase}sap/uxap/library-preload.js`,
-    `${cdnBase}sap/ui/core/themes/sap_belize/library.css`
+    `${cdnBase}sap/ui/core/themes/sap_belize/library.css`,
+    `${cdnBase}sap/ui/thirdparty/zyngascroll.js`,
+    `${cdnBase}sap/ui/core/cldr/de.json`
 ]);
 
 // Preload some resources during install
