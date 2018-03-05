@@ -36,7 +36,7 @@
 													headerImage="{path: 'imgModel>/pdfFull', formatter: '.getUrl'}"
 													press="onPressFullPDF">
 												<m:tileContent>
-													<m:TileContent unit="~ 17 pages">
+													<m:TileContent unit="{i18n>view.profile.print.tile.fullpdf.footer}">
 														<m:content>
 														</m:content>
 													</m:TileContent>

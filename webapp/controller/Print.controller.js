@@ -111,7 +111,12 @@ sap.ui.define([
 		createPDFDefinition: function(imgURL) {
 			var ctx = this.getView().getBindingContext();
 			var i18n = this.getModel("i18n");
-			var profile = this.getModel().getProperty(ctx.getPath());
+			var originProfile = this.getModel().getProperty(ctx.getPath());
+			// copy profile
+			var profile = jQuery.extend(true, {}, originProfile);
+			// cut off all projects that are older than 4 years
+			profile.Projects.splice(5,9)
+			
 //######### pdfmake begin #############
 			var languages = function() {
 				var flatLanguages = profile.Languages.map(function(obj) {
