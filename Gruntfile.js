@@ -142,6 +142,7 @@ module.exports = function (grunt) {
     grunt.registerTask('production', ['clean:buildDirectory', 'less:compile', 'openui5_preload']);
     // build application sources for deployment to R/3 system but enclose mockdata
     grunt.registerTask('test', ['production', 'copy:test']);
+    grunt.registerTask('default', ['production']);
 };
 
 
