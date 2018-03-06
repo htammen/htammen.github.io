@@ -19,7 +19,8 @@ module.exports = function (grunt) {
 							'css/*.css',
                             'resource/**',
 							'model/*.json',
-							'images/**',
+                            'images/**',
+                            'icons/**',
 							'bower_components/**',
                             '!localService/**'
                         ],
