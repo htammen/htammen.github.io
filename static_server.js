@@ -1,3 +1,17 @@
+const	express = require('express'),
+		port = process.argv[2] || 8080,
+		app = express();
+
+app.use('/', express.static('.'));
+app.get('/', function(req, res){
+	res.redirect('/index.html');;
+});
+
+app.listen(port, function () {
+  console.log(`app listening on port ${port}`);
+});
+
+/*
 var http = require("http"),
 	url = require("url"),
 	httpProxy = require('http-proxy'),
@@ -103,3 +117,4 @@ http.createServer(function(request, response) {
 }).listen(parseInt(port, 10));
 
 console.log("Static file server running at\n  => http://localhost:" + port + "/\nCTRL + C to shutdown");
+*/
