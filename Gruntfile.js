@@ -3,8 +3,10 @@ module.exports = function (grunt) {
     grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
         componentFolder: 'webapp',
+        pwaSourceFolder: 'pwa',
         gruntBuildFolderName: 'dist',
-		namespacePrefix: 'de/tammenit/ui5/homepage',
+        namespacePrefix: 'de/tammenit/ui5/homepage',
+        pwaNamespacePrefix: 'sap/ui/thirdpary',
         clean: {
             buildDirectory: '<%= gruntBuildFolderName %>'
         },
@@ -108,21 +110,31 @@ module.exports = function (grunt) {
 		openui5_preload: {
 			component:{
 				options:{
-                    resources: {
-						cwd: "<%= componentFolder %>",
-						prefix: '<%= namespacePrefix %>',
-                        src: [
-                            '**/*.js',
-                            '**/*.fragment.xml',
-                            '**/*.json',
-                            '**/*.properties',
-                            '**/*.view.xml',
-							'!localService/**',
-							"!Component-preload.js",
-                        ]
-                    },
+                    resources: [
+                        {
+                            cwd: "<%= componentFolder %>",
+                            prefix: '<%= namespacePrefix %>',
+                            src: [
+                                '**/*.js',
+                                '**/*.fragment.xml',
+                                '**/*.json',
+                                '**/*.properties',
+                                '**/*.view.xml',
+                                '!pwa/**/*.js',
+                                '!localService/**',
+                                "!Component-preload.js",
+                            ]
+                        },
+                        {
+                            cwd: "<%= componentFolder %>/pwa",
+                            prefix: '<%= pwaNamespacePrefix %>',
+                            src: [
+                                'zyngascroll.js'
+                            ]
+                        }
+                    ],
 					dest:'<%= componentFolder %>',
-					compress:true
+					compress:false
 				},
 				components: true
 			}
