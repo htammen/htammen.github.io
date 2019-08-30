@@ -244,10 +244,10 @@
 					"Link": "https://twitter.com/helmuttammen"
 				},
 				{
-					"Name": "G+",
-					"Image": "./images/gPlus138.png",
-					"Address": "+TammenitsolutionsDe1",
-					"Link": "https://plus.google.com/+TammenitsolutionsDe1"
+					"Name": "Github",
+					"Image": "./images/github.png",
+					"Address": "https://github.com/htammen",
+					"Link": "https://github.com/htammen"
 				},
 				{
 					"Name": "XING",
