@@ -4,7 +4,7 @@
 			"Name": "Helmut Tammen",
 			"Slogan": "I love my job",
 			"Image": "./images/Helmut_2_1.jpg",
-			"Availability": "04/2018",
+			"Availability": "10/2019",
 			"Birthday": "1964-04-21",
 			"Nationality": "german",
 			"Graduation": "Graduate Mechanical Engineer",
@@ -19,7 +19,7 @@
 				}
 			],
 			"ExperienceSince": "IT experience on the job since 1990",
-			"Regions": "currently only greater area around Hannover/Germany possible",
+			"Regions": "currently only North Germany (Hannover, Bremen, Hamburg, Berlin, Kassel)",
 			"Certificates": [
 				{
 					"Date": "2016-10-04",
@@ -207,7 +207,7 @@
 			},
 			"Phone": {
 				"Mobile": "+49 170 88 22 491",
-				"Home": "+49 5139 98 48 140",
+				"Home": "+49 170 88 22 491",
 				"Work": ""
 			},
 			"Email": {
@@ -262,7 +262,7 @@
 					"Link": "http://scn.sap.com/people/helmut.tammen2"
 				}
 			],
-			"JobTitle": "Senior Architect & Developer",
+			"JobTitle": "SAP Solution Architect, Developer and DevOp",
 			"Languages": [
 				{
 					"Name": "german",
@@ -309,7 +309,7 @@
 					"Rating": 1
 				},
 				{
-					"Name": "Software Development",
+					"Name": "SAP Software Development",
 					"Rating": 1
 				}
 			],
@@ -408,19 +408,19 @@
 						},
 						{
 							"Name": "TypeScript",
-							"Rating": 3.5
-						},
-						{
-							"Name": "Groovy / Grails",
 							"Rating": 4
 						},
 						{
+							"Name": "Groovy / Grails",
+							"Rating": 3
+						},
+						{
 							"Name": "ABAP / 4",
-							"Rating": 2.5
+							"Rating": 3.5
 						},
 						{
 							"Name": "ABAP Objects",
-							"Rating": 2.5
+							"Rating": 3.5
 						},
 						{
 							"Name": "Pascal / Delphi",
@@ -476,7 +476,7 @@
 						},
 						{
 							"Name": "JDBC",
-							"Rating": 4.5
+							"Rating": 4
 						},
 						{
 							"Name": "Hibernate (Java)",
@@ -612,6 +612,31 @@
 					"Year": "Ongoing",
 					"items": [
 						{
+							"Start": "04/18",
+							"End": {
+								"de": "----"
+							},
+							"Branch": {
+								"de": "Öffentliche Verwaltung",
+								"en": "Public Administration"
+							},
+							"Header": {
+								"de": "SAPUI5 Anwendungen im SAP Enterprise Portal",
+								"en": "SAPUI5 applications in SAP Enterprise Portal"
+							},
+							"Duration": {
+								"en": "18 months",
+								"de": "18 Monate"
+							},
+							"Longtext": {
+								"de": "Erstellung diverser SAP / SAPUI5 Anwendungen innerhalb des SAP Enterprise Portals.\nKonfiguration des FLP (Fiori Launchpad) im Portal.\nImplementierung der Backend-Services im SAP Netweaver Java Stack. Implementierung der SAPUI5 Anwendungen im Frontend.",
+								"en": "Creation of serveral SAP / SAPUI5 applications inside the SAP Enterprise Poral.\nConfiguration of FLP (Fiori Launchpad) in portal environment.\nImplementation of backend services in SAP Netweaver Java Stack. Implementation of SAPUI5 applications in frontend."
+							},
+							"Tools": {
+								"de": "SAPUI5, Javascript, Typescript, SAPUI5 Tooling, Git, SAP Netweaver Java, SAP Enterprise Portal"
+							}
+						},
+						{
 							"Start": "01/14",
 							"End": {"de": "heute"},
 							"Branch": {
@@ -628,25 +653,6 @@
 							"Tools": {
 								"de": "SAPUI5, SAP HANA XS, SAP HANA Cloud Platform, SAP HANA Web Tools, SAP Web IDE"
 							}
-						},
-						{
-							"Start": "10/15",
-							"End": {"de": "heute", "en": "today"},
-							"Branch": {
-								"de": "Technologie",
-								"en": "Technology"
-							},
-							"Header": {
-                                "de": "Entwicklung eines OData Servers für node.js",
-                                "en": "Development of an OData server for node.js"},
-							"Duration": {"en" : "3 months", "de": "3 Monate"},
-							"Longtext": { 
-								"de":  "Entwicklung eines OData Servers als Ersatz / Ergänzung zu SAP Gateway für spezielle Einsatzzwecke.\nDie Entwicklung findet auf Basis von node.js und dem von IBM entwickelten MVC Framework Loopback statt.\nZiel ist es einen OData Server zu erstellen, der unabhängig von einer bestimmten Datenbank Daten persistiert.\nEs ist ebenfalls möglich für bestehende Datenbanken eine OData-Schnittstelle bereitzustellen."
-							},
-							"Tools": {
-								"de": "Javascript, Typescript, node.js, Git"
-							},
-                            "Link": "https://www.npmjs.com/package/n-odata-server"
 						},
 						{
 							"Start": "10/14",
@@ -689,25 +695,6 @@
 							"Start": "---",
 							"End": {"de": "---"},
 							"Branch": {
-								"de": "Energieversorgung",
-								"en": "Utilities"
-							},
-							"Header": {
-                                "de": "Wartung und fachlicher Betrieb einer SAP NWDI",
-                                "en": "Maintenance and business operation of SAP NWDI"},
-							"Duration": {"en" : "", "de": ""},
-							"Longtext": { 
-								"de":  "Fachlicher Betrieb einer SAP NWDI zum Transport von Java Anwendungen im SAP Netweaver Bereich.",
-                                "en": "Business operation of a SAP NWDI for tranport management of Java applications on SAP Netweaver."
-							},
-							"Tools": {
-								"de": "SAP Netweaver Development Infrastructure"
-							}
-						},
-						{
-							"Start": "---",
-							"End": {"de": "---"},
-							"Branch": {
 								"de": "Dienstleistung",
 								"en": "Services"
 							},
@@ -721,6 +708,36 @@
 							},
 							"Tools": {
 								"de": "HTML, Javascript, PHP, Wordpress"
+							}
+						}
+					]
+				},
+				{
+					"Year": "2018",
+					"items": [
+						{
+							"Start": "04/18",
+							"End": {
+								"de": "----"
+							},
+							"Branch": {
+								"de": "Öffentliche Verwaltung",
+								"en": "Public Administration"
+							},
+							"Header": {
+								"de": "SAPUI5 Anwendungen im SAP Enterprise Portal",
+								"en": "SAPUI5 applications in SAP Enterprise Portal"
+							},
+							"Duration": {
+								"en": "18 months",
+								"de": "18 Monate"
+							},
+							"Longtext": {
+								"de": "Erstellung diverser SAP / SAPUI5 Anwendungen innerhalb des SAP Enterprise Portals.\nKonfiguration des FLP (Fiori Launchpad) im Portal.\nImplementierung der Backend-Services im SAP Netweaver Java Stack. Implementierung der SAPUI5 Anwendungen im Frontend.",
+								"en": "Creation of serveral SAP / SAPUI5 applications inside the SAP Enterprise Poral.\nConfiguration of FLP (Fiori Launchpad) in portal environment.\nImplementation of backend services in SAP Netweaver Java Stack. Implementation of SAPUI5 applications in frontend."
+							},
+							"Tools": {
+								"de": "SAPUI5, Javascript, Typescript, SAPUI5 Tooling, Git, SAP Netweaver Java, SAP Enterprise Portal"
 							}
 						}
 					]
@@ -1014,6 +1031,25 @@
 				{
 					"Year": "2015",
 					"items": [
+						{
+							"Start": "10/15",
+							"End": {"de": "04/18"},
+							"Branch": {
+								"de": "Technologie",
+								"en": "Technology"
+							},
+							"Header": {
+                                "de": "Entwicklung eines OData Servers für node.js",
+                                "en": "Development of an OData server for node.js"},
+							"Duration": {"en" : "3 months", "de": "3 Monate"},
+							"Longtext": { 
+								"de":  "Entwicklung eines OData Servers als Ersatz / Ergänzung zu SAP Gateway für spezielle Einsatzzwecke.\nDie Entwicklung findet auf Basis von node.js und dem von IBM entwickelten MVC Framework Loopback statt.\nZiel ist es einen OData Server zu erstellen, der unabhängig von einer bestimmten Datenbank Daten persistiert.\nEs ist ebenfalls möglich für bestehende Datenbanken eine OData-Schnittstelle bereitzustellen."
+							},
+							"Tools": {
+								"de": "Javascript, Typescript, node.js, Git"
+							},
+                            "Link": "https://www.npmjs.com/package/n-odata-server"
+						},
 						{
 							"Start": "04/15",
 							"End": {"de": "09/16"},
