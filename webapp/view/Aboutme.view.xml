@@ -11,6 +11,7 @@
 		   xmlns:itskills="de.tammenit.ui5.homepage.view.SharedBlocks.itskills"
 		   xmlns:certificates="de.tammenit.ui5.homepage.view.SharedBlocks.certificates"
 		   xmlns:trainings="de.tammenit.ui5.homepage.view.SharedBlocks.trainings"
+		   xmlns:presentations="de.tammenit.ui5.homepage.view.SharedBlocks.presentations"
 		   controllerName="de.tammenit.ui5.homepage.controller.Aboutme"
 		   height="100%">
 	<m:Page title="{i18n>appTitle}" showNavButton="true" navButtonPress="onNavBack">
@@ -147,6 +148,16 @@
 											<ModelMapping externalModelName="undefined" externalPath="Trainings" internalModelName="model" />
 										</trainings:mappings>
 									</trainings:BlockTrainings>
+								</blocks>
+							</ObjectPageSubSection>
+
+							<ObjectPageSubSection title="{i18n>view.profile.presentations}">
+								<blocks>
+									<presentations:BlockPresentations id="presentations">
+										<presentations:mappings>
+											<ModelMapping externalModelName="undefined" externalPath="Presentations" internalModelName="model" />
+										</presentations:mappings>
+									</presentations:BlockPresentations>
 								</blocks>
 							</ObjectPageSubSection>
 						</subSections>

@@ -39,6 +39,34 @@
 	background-position: center;
 }
 
+.picture5 {
+	background-image: url(../images/helmut_brussels_1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture6 {
+	background-image: url(../images/helmut_brussels_2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture7 {
+	background-image: url(../images/Gruppenfoto_klein.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture8 {
+	background-image: url(../images/SpeakerFoto_klein.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 /* draw a bullet point before each graduation entry */
 .graduation:before {
 	content: "• ";
