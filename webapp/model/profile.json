@@ -200,6 +200,68 @@
 					"Link": ""
 				}
 			],
+			"Presentations": [
+				{
+					"Date": "2016-03-11",
+					"Text": {"de": "Die 1. UI5con", "en": "1st UIcon ever"},
+					"Title": "Building a Custom Graphic Control using SVG & Usage of node.js OData Server",
+					"Description": {
+						"en": "Presentation about how to build a custom graphic UI5 control with SVG leveraging an OData server developed by me with node.js",
+						"de": "Vorstellung der Entwicklung eines grafischen UI5 Custom Controls mithilfe von SVG und einem von mir entwickelten OData Servers mit node.js"
+					},
+					"Location": "Frankfurt (AOK Systems)",
+					"Links": [
+						{"type": "video", "url": "https://www.youtube.com/watch?v=vGHxn1giXBI&list=PLHUs_FUbq4dWyF0mYVK-vc8icVrlbCsJv&index=15&t=0s"},
+						{"type": "github", "url": "https://github.com/htammen/svg_sample_ui5con"}
+					]
+				},
+				{
+					"Date": "2017-03-11",
+					"Text": {"de": "1. UI5con bei der SAP", "en": "1st UI5con at SAP" },
+					"Title": "Virtual Tour around a company site with UI5",
+					"Description": {
+						"en": "Presentation of a project I realized at a customer to visualize the company site in walk-through a 3D-Model from bird-view to single asset details",
+						"de": "Vorstellung eines von mir realisierten Kunden-Projektes zur virtuellen Begehung des Firmengeländes, von der Vogelperspektive bis in die Werkshallen"
+					},
+					"Location": "St. Leon-Rot (SAP)",
+					"Links": [
+					]
+				},
+				{
+					"Date": "2018-06-22",
+					"Text": {"de": "UI5con bei der SAP", "en": "UI5con at SAP" },
+					"Title": "UI5 goes PWA",
+					"Description": {"en": "Presentation about how to implement a UI5 app as Progressive Web Application (PWA), the new way to create mobile applications", 
+									"de": "Vortrag über die Erstellung einer UI5 Anwendung als Progressive Web Application (PWA), die neue Art mobile Anwendungen zu entwickeln" },
+					"Location": "St. Leon-Rot (SAP)",
+					"Links": [
+						{"type": "video", "url": "https://www.youtube.com/watch?v=Zhn95ttkqm4"},
+						{"type": "slides", "url": "https://prezi.com/p/xagpdap4xlqb/"},
+						{"type": "tutorial", "url": "https://docs.google.com/document/d/e/2PACX-1vSL0PopINmTwX9GWiRyteMUQRQG-YDPsyQujthnRch7nGKWLSCPM4hsraGsrsrVD9PWyH_UVJmixL7k/pub"}
+					]
+				},
+				{
+					"Date": "2020-02-14",
+					"Text": {"de": "UI5con Belgien", "en": "UI5con Belgium"},
+					"Title": "UI5 with Typescript",
+					"Description": {"en": "Presentation about how to use Typescript language to develop UI5 applications", "de": "Vortrag wie die Programmiersprache Typescript für die Erstellung von UI5 Anwendungen genutzt werden kann"},
+					"Location": {"en": "Brussels (SAP / Flexso)", "de": "Brüssel (SAP / Flexso"},
+					"Links": [
+						{
+							"type": "video",
+							"url": "TBD"
+						},
+						{
+							"type": "github",
+							"url": "https://github.com/htammen/ui5con_typescript"
+						},
+						{
+							"type": "slides",
+							"url": "https://github.com/htammen/ui5con_typescript/tree/master/presi"
+						}
+					]
+				}
+			],
 			"Rates": {
 				"Hourly": "matter of negotiation",
 				"Dayly": "Ask me",
