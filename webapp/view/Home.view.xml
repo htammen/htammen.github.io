@@ -93,7 +93,7 @@
 							<StandardTile title="{i18n>view.home.tile.aboutme}" info="{i18n>view.home.tile.aboutme.info}" icon="sap-icon://customer"
 								press="showAboutMe" removable="false"/>
 							<StandardTile title="{i18n>view.home.tile.projects}" info="{i18n>view.home.tile.projects.info}"
-								icon="sap-icon://work-history" removable="false"
+								icon="sap-icon://capital-projects" removable="false"
 								press="showProjects"/>
 							<StandardTile title="{i18n>view.home.tile.customers}" info="{i18n>view.home.tile.customers.info}"
 								icon="sap-icon://work-history" removable="false"

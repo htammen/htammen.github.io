@@ -128,6 +128,42 @@
 			],
 			"Trainings": [
 				{
+					"Date": "2020-02-14",
+					"Text": "UI5Con in Brussels / Belgium",
+					"Location": "SAP",
+					"Link": ""
+				},
+				{
+					"Date": "2019-10-08",
+					"Text": "SAP TechEd Barcelona",
+					"Location": "Barcelona, Spain",
+					"Link": ""
+				},
+				{
+					"Date": "2019-06-28",
+					"Text": "UI5Con in St. Leon-Rot / Germany",
+					"Location": "SAP",
+					"Link": ""
+				},
+				{
+					"Date": "2018-10-23",
+					"Text": "SAP TechEd Barcelona",
+					"Location": "Barcelona, Spain",
+					"Link": ""
+				},
+				{
+					"Date": "2018-06-22",
+					"Text": "UI5Con in St. Leon-Rot / Germany",
+					"Location": "SAP",
+					"Link": ""
+				},
+				{
+					"Date": "2017-06-30",
+					"Text": "UI5Con in St. Leon-Rot / Germany",
+					"Location": "SAP",
+					"Link": ""
+				},
+				{
 					"Date": "2016-04-19",
 					"Text": "SAP CodeJam: SAP HANA XSA",
 					"Location": "Hannover",
@@ -141,7 +177,7 @@
 				},
 				{
 					"Date": "2016-03-11",
-					"Text": "Speaker at UI5Con in Frankfurt / Germany",
+					"Text": "UI5Con in Frankfurt / Germany",
 					"Location": "AOK Systems",
 					"Link": "https://www.youtube.com/watch?v=vGHxn1giXBI"
 				},
@@ -216,7 +252,7 @@
 					]
 				},
 				{
-					"Date": "2017-03-11",
+					"Date": "2017-06-30",
 					"Text": {"de": "1. UI5con bei der SAP", "en": "1st UI5con at SAP" },
 					"Title": "Virtual Tour around a company site with UI5",
 					"Description": {
@@ -274,7 +310,8 @@
 			},
 			"Email": {
 				"Work": "h.tammen@tammen-it-solutions.de",
-				"Home": "helmut.tammen@gmail.com"
+				"Home": "helmut.tammen@gmail.com",
+				"Home2": "h.tammen@pm.me"
 			},
 			"Addresses": {
 				"HomeAddress": {
@@ -674,31 +711,6 @@
 					"Year": "Ongoing",
 					"items": [
 						{
-							"Start": "04/18",
-							"End": {
-								"de": "----"
-							},
-							"Branch": {
-								"de": "Öffentliche Verwaltung",
-								"en": "Public Administration"
-							},
-							"Header": {
-								"de": "SAPUI5 Anwendungen im SAP Enterprise Portal",
-								"en": "SAPUI5 applications in SAP Enterprise Portal"
-							},
-							"Duration": {
-								"en": "18 months",
-								"de": "18 Monate"
-							},
-							"Longtext": {
-								"de": "Erstellung diverser SAP / SAPUI5 Anwendungen innerhalb des SAP Enterprise Portals.\nKonfiguration des FLP (Fiori Launchpad) im Portal.\nImplementierung der Backend-Services im SAP Netweaver Java Stack. Implementierung der SAPUI5 Anwendungen im Frontend.",
-								"en": "Creation of serveral SAP / SAPUI5 applications inside the SAP Enterprise Poral.\nConfiguration of FLP (Fiori Launchpad) in portal environment.\nImplementation of backend services in SAP Netweaver Java Stack. Implementation of SAPUI5 applications in frontend."
-							},
-							"Tools": {
-								"de": "SAPUI5, Javascript, Typescript, SAPUI5 Tooling, Git, SAP Netweaver Java, SAP Enterprise Portal"
-							}
-						},
-						{
 							"Start": "01/14",
 							"End": {"de": "heute"},
 							"Branch": {
@@ -710,10 +722,11 @@
                                 "en": "Development of several SAP HANA / HANA Cloud Platform prototypes"},
 							"Duration": {"en" : "4 months", "de": "4 Monate"},
 							"Longtext": { 
-								"de":  "Entwicklung einiger interner Prototypen, um die Verwendung / den Einsatz von SAP HANA / SAP HANA Cloud Platform zu erlernen"
+								"de":  "Entwicklung einiger interner Prototypen, um die Verwendung / den Einsatz von SAP HANA / SAP HANA Cloud Platform zu erlernen",
+								"en": "Development of several internal prototypes to learn and practice the usage of SAP HANA / SAP Cloud Platform"
 							},
 							"Tools": {
-								"de": "SAPUI5, SAP HANA XS, SAP HANA Cloud Platform, SAP HANA Web Tools, SAP Web IDE"
+								"de": "SAPUI5, SAP HANA XS, SAP HANA Cloud Platform, SAP HANA Web Tools, SAP Web IDE, SAP Cloud Application Programming model"
 							}
 						},
 						{
@@ -724,11 +737,12 @@
 								"en": "Networking"
 							},
 							"Header": {
-                                "de": "Mitarbeit in verschiedenen Arbeitskreisen",
-                                "en": "Active participation in several work groups"},
+                                "de": "Mitarbeit in verschiedenen Communities und Arbeitskreisen",
+                                "en": "Active participation in several communities and work groups"},
 							"Duration": {"en" : "temporary", "de": "temporär"},
 							"Longtext": { 
-								"de":  "Seit 10/14 Mitglied im SAP-internen, geschlossenen Fiori Technology Council. Dort werden in ca. 2-4 wöchigen Abständen Neuigkeiten zu den Themen Fiori, HCP, Web IDE, ... vorgestellt.\nMitarbeit in mehreren CEIs (Customer Engagement Initiativen) der SAP. Z.B.: CEI Fiori like Apps on HCP, Annotation Modeler for SAP Web IDE, SAP Fiori Overview Page.\nVortragender zum Thema Custom Control Entwicklung in SAPUI5 auf der ersten SAP UI5Con in Frankfurt."
+								"de":  "Seit 10/14 Mitglied in SAP-internen Arbeitsgruppen zu den Themen UI und Cloud.\nMitarbeit in mehreren CEIs (Customer Engagement Initiativen) der SAP. Z.B.: CEI Fiori like Apps on HCP, Annotation Modeler for SAP Web IDE, SAP Fiori Overview Page.\nVortragender auf den meisten der von der SAP veranstalteten UI5con Entwicklerkonferenz in Europa",
+								"en": "Since 10/14 member of SAP internal work groups about UI and cloud.\nCoworking in several SAP CEIs (Customer Engagement Initiative), e.g. CEI Fiori like Apps on HCP, Annotation Modeler for SAP Web IDE, SAP Fiori Overview Page.\nPresenter at most of SAP developer conference UI5con in Europe"
 							},
 							"Tools": {
 								"de": ""
@@ -736,7 +750,7 @@
                         },
 						{
 							"Start": "---",
-							"End": {"de": "---"},
+							"End": {"de": "06/18"},
 							"Branch": {
 								"de": "Energieversorgung",
 								"en": "Utilities"
@@ -752,29 +766,37 @@
 							"Tools": {
 								"de": "Java, Grails, Groovy, Javascript"
 							}
-						},
-						{
-							"Start": "---",
-							"End": {"de": "---"},
-							"Branch": {
-								"de": "Dienstleistung",
-								"en": "Services"
-							},
-							"Header": {
-                                "de": "Wartung und fachlicher Betrieb Wordpress Systeme",
-                                "en": "Maintenance and business operation of Wordpress systems"},
-							"Duration": {"en" : "", "de": ""},
-							"Longtext": { 
-								"de":  "Fachlicher Betrieb und Wartung von zwei Wordpress Systemen im Internet.",
-                                "en": "Business operation and maintenance of two Wordpress systems on the internet."
-							},
-							"Tools": {
-								"de": "HTML, Javascript, PHP, Wordpress"
-							}
 						}
 					]
 				},
 				{
+					"Year": "2019",
+					"items": [
+						{
+							"Start": "09/19",
+							"End": "----",
+							"Branch": {
+								"de": "Banken",
+								"en": "Banking"
+							},
+							"Header": {
+								"de": "Generator für SAP CAP Anwendungen",
+								"en": "Generator for SAP CAP applications"
+							},
+							"Duration": {
+								"en": "6 months",
+								"de": "6 Monate"
+							},
+							"Longtext": {
+								"de": "Erstellung eines Sourcecode Generator für SAP CAP Anwendungen.\nFür ein im SAP PowerDesigner erstelltes und gepflegtes Datenmodell werden automatisiert funktionsfähige SAP CAP Anwendungen erstellt.\nDiese enthalten alle Anwendungs-Layer: Data, Service, UI.",
+								"en": "Creation of a sourcecode generator for SAP CAP applications.\nThis generator creates fully functional SAP CAP applications for a data modell that is designed and maintained in SAP PowerDesigner tool.\nThe applications consist of all application layers: data, service, ui."
+							},
+							"Tools": {
+								"de": "node.js, Typescript, SAP CAP"
+							}
+						}
+					]
+				},{
 					"Year": "2018",
 					"items": [
 						{

@@ -72,7 +72,13 @@
 											</m:GenericTile>
 										</m:items>
 									</m:HBox>
-									<m:Text text="{i18n>view.profile.print.notification}"/>
+									<m:NotificationListItem
+										description="{i18n>view.profile.print.notification}"
+										showCloseButton="false"
+										unread="true"
+										priority="Low"
+										authorPicture="sap-icon://pending">
+									</m:NotificationListItem>
 								</m:VBox>
 								<!--
 								<forms:Form width="100%">

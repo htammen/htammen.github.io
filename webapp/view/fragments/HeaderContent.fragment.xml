@@ -1,8 +1,9 @@
 <core:FragmentDefinition
 		xmlns:m="sap.m"
+		xmlns:f="sap.ui.layout.form"
 		xmlns:layout="sap.ui.layout"
 		xmlns:core="sap.ui.core">
-
+<!--
 	<layout:VerticalLayout class="sapUiMediumMarginTop">
 		<m:Label text="{headerModel>/title}" design="Bold" class="projectfontlarge"/>
 	</layout:VerticalLayout>
@@ -26,4 +27,38 @@
 			<m:Label text="{Regions}"/>
 		</m:HBox>
 	</layout:VerticalLayout>
+-->
+		<f:SimpleForm
+			editable="false"
+			width="100%"
+			layout="ResponsiveGridLayout"
+			title="{headerModel>/title}"
+			labelSpanXL="2"
+			labelSpanL="2"
+			labelSpanM="4"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="0"
+			emptySpanM="0"
+			emptySpanS="0"
+			columnsXL="1"
+			columnsL="1"
+			columnsM="1"
+			backgroundDesign="Transparent"
+			singleContainerFullSize="true"
+			class="headerForm">
+			<f:content>
+				<m:Label text="Phone" class="headerLabel" />
+				<m:Link text="{Phone/Mobile}"/>
+				<m:Label text="E-Mail" class="headerLabel" />
+				<m:Link text="{Email/Work}" href="{path: 'Email/Work', formatter: '.formatEmailLink'}"/>
+				<m:Label text="{i18n>view.profile.residence}" class="headerLabel"/>
+				<m:Text text="{Addresses/WorkAddress/City}, {Addresses/WorkAddress/Country}"/>
+				<m:Label text="{i18n>view.profile.availability}" class="headerLabel"/>
+				<m:Text text="{Availability}"/>
+				<m:Label text="{i18n>view.profile.regions}" class="headerLabel"/>
+				<m:Text text="{Regions}"/>
+			</f:content>
+		</f:SimpleForm>
 </core:FragmentDefinition>

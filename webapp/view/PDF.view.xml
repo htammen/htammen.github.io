@@ -19,6 +19,14 @@
 				</headerTitle>
 				<headerContent>
 					<core:Fragment fragmentName="de.tammenit.ui5.homepage.view.fragments.HeaderContent" type="XML" />
+		<m:NotificationListItem
+				title="{i18n>outdated.documents.title}"
+				description="{i18n>outdated.documents.description}"
+				showCloseButton="false"
+				unread="true"
+				priority="Medium"
+				authorPicture="sap-icon://alert">
+		</m:NotificationListItem>
 				</headerContent>
 				<sections>
 					<ObjectPageSection>
