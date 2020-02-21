@@ -16,3 +16,11 @@ This is done in the first line of the file: `let CACHE_NAME = "ui5-consultantpro
 #### Build
 Build the application by entering `npm run build` into the command line. Build means that a file named `Component-preload.js` is created 
 which helps loading the application faster.
+
+### Deploy application
+To deploy the application follow the following steps
+- update version number in service-worker (s. above)
+- execute `npm run build`
+- commit your changes to git
+- run `npm version xxx` (see npm version --help for details)
+- push your changes to the remote repository (origin/master) at github.com

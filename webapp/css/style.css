@@ -75,6 +75,20 @@
 	background-position: center;
 }
 
+.picture9 {
+	background-image: url(../images/helmut_brussels_3.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture10 {
+	background-image: url(../images/helmut_brussels_4.jpeg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 /* draw a bullet point before each graduation entry */
 .graduation:before {
 	content: "• ";

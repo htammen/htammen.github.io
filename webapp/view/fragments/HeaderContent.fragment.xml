@@ -35,8 +35,8 @@
 			title="{headerModel>/title}"
 			labelSpanXL="2"
 			labelSpanL="2"
-			labelSpanM="4"
-			labelSpanS="12"
+			labelSpanM="2"
+			labelSpanS="4"
 			adjustLabelSpan="false"
 			emptySpanXL="0"
 			emptySpanL="0"
@@ -46,7 +46,7 @@
 			columnsL="1"
 			columnsM="1"
 			backgroundDesign="Transparent"
-			singleContainerFullSize="true"
+			singleContainerFullSize="false"
 			class="headerForm">
 			<f:content>
 				<m:Label text="Phone" class="headerLabel" />

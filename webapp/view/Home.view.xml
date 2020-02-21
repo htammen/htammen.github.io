@@ -77,8 +77,10 @@
 						</SlideTile>
 						<SlideTile  class="sapUiSmallMargin" displayTime="4000">
 							<tiles>
+								<GenericTile class="picture9" frameType="TwoByOne"/>
 								<GenericTile class="picture6" frameType="TwoByOne"/>
 								<GenericTile class="picture5" frameType="TwoByOne"/>
+								<GenericTile class="picture10" frameType="TwoByOne"/>
 								<GenericTile class="picture7" frameType="TwoByOne"/>
 								<GenericTile class="picture8" frameType="TwoByOne"/>
 								<GenericTile class="picture1" frameType="TwoByOne"/>
