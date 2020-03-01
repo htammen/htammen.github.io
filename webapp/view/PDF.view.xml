@@ -24,7 +24,7 @@
 				description="{i18n>outdated.documents.description}"
 				showCloseButton="false"
 				unread="true"
-				priority="Medium"
+				priority="None"
 				authorPicture="sap-icon://alert">
 		</m:NotificationListItem>
 				</headerContent>

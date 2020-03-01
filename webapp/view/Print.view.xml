@@ -76,7 +76,7 @@
 										description="{i18n>view.profile.print.notification}"
 										showCloseButton="false"
 										unread="true"
-										priority="Low"
+										priority="None"
 										authorPicture="sap-icon://pending">
 									</m:NotificationListItem>
 								</m:VBox>

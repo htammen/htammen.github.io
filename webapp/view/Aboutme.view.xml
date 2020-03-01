@@ -30,14 +30,6 @@
 									  isObjectIconAlwaysVisible="false"
 									  isObjectTitleAlwaysVisible="false"
 									  isObjectSubtitleAlwaysVisible="false">
-						<!--
-						<actions>
-							<ObjectPageHeaderActionButton icon="sap-icon://pull-down" text="show section" 
-								type="Emphasized"
-								tooltip="{i18n>view.profile.downloadpdf.tooltip}"
-								press="downloadProfile"/>
-						</actions>
-						-->
 					</ObjectPageHeader>
 				</headerTitle>
 		 
@@ -57,25 +49,24 @@
 								</blocks>
 							</ObjectPageSubSection>
 		 
-							<ObjectPageSubSection title="{i18n>view.profile.general_data}">
+							<ObjectPageSubSection title="{i18n>view.profile.general_data}" class="sapUiNoMargin">
 								<blocks>
-									<personal:PersonalBlockGeneralData id="part1" columnLayout="3"/>
+									<personal:PersonalBlockGeneralData id="part1" />
 								</blocks>
 							</ObjectPageSubSection>
 						</subSections>
 					</ObjectPageSection>
-		 
 					<ObjectPageSection title="{i18n>view.profile.general_job_info}">
 						<subSections>
-							<ObjectPageSubSection title="{i18n>view.profile.experience}">
+							<ObjectPageSubSection title="{i18n>view.profile.experience}" class="sapUiNoMargin">
 								<blocks>
-									<general:BlockGeneral id="general" columnLayout="3"/>
+									<general:BlockGeneral id="general" />
 								</blocks>
 							</ObjectPageSubSection>
 
-							<ObjectPageSubSection title="{i18n>view.profile.services}">
+							<ObjectPageSubSection title="{i18n>view.profile.services}" class="sapUiNoMargin" id="idServices">
 								<blocks>
-									<service:BlockServices id="services">
+									<service:BlockServices id="idServicesBlock" class="sapUiNoMargin">
 										<service:mappings>
 											<ModelMapping externalModelName="undefined" externalPath="Services" internalModelName="model" />
 										</service:mappings>
@@ -117,9 +108,9 @@
 
 					<ObjectPageSection title="{i18n>view.profile.itskills}" subSections="{ITSkills}">
 						<subSections>
-							<ObjectPageSubSection title="{path: 'Name', formatter: '.getCurrentLangValue'}">
+							<ObjectPageSubSection title="{path: 'Name', formatter: '.getCurrentLangValue'}" class="sapUiNoMarginBottom">
 								<blocks>
-									<itskills:BlockITSkills id="itskills">
+									<itskills:BlockITSkills id="itskills" class="sapUiNoMarginBottom profileBlock">
 										<itskills:mappings>
 											<ModelMapping externalModelName="undefined" externalPath="items" internalModelName="model" />
 										</itskills:mappings>

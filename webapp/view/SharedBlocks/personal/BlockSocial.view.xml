@@ -1,7 +1,7 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:forms="sap.ui.layout.form"
 		  xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout"
 		  xmlns:commons="sap.ui.commons" xmlns="sap.m"
-		  controllerName="de.tammenit.ui5.homepage.controller.SharedBlocks.BaseBlockController"
+		  controllerName="de.tammenit.ui5.homepage.controller.SharedBlocks.socials.Social"
 	>
 
 		<VBox>

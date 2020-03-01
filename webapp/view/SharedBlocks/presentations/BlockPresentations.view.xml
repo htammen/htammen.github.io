@@ -8,7 +8,7 @@
 	<List items="{model>}">
 		<items>
 			<CustomListItem>
-		<f:SimpleForm id="SimpleFormDisplay354wide"
+		<f:SimpleForm 
 			editable="false"
 			layout="ResponsiveGridLayout"
 			title="{path: 'model>Date', formatter: '.formatDate'} - {path:'model>Text', formatter: '.getCurrentLangValue'}"

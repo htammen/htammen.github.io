@@ -5,10 +5,10 @@
 		xmlns="sap.m"
 		>
 
-	<forms:SimpleForm labelSpanL="4" labelSpanM="4"
+	<forms:SimpleForm id="personalPhoneNumber" labelSpanL="4" labelSpanM="4"
 					  labelSpanS="4" emptySpanL="0" emptySpanM="0" emptySpanS="0"
 					  maxContainerCols="2"
-					  layout="ResponsiveLayout"
+					  layout="ResponsiveGridLayout"
 					  width="100%">
 		<core:Title text="{i18n>view.profile.block.phonenumber.header}"></core:Title>
 		<Label text="{i18n>view.profile.block.phonenumber.mobile}"/>

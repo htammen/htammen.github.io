@@ -22,5 +22,5 @@ To deploy the application follow the following steps
 - update version number in service-worker (s. above)
 - execute `npm run build`
 - commit your changes to git
-- run `npm version xxx` (see npm version --help for details)
+- run `npm version xxx` (see npm version --help for details), e.g. `npm version patch`, `npm version minor`, `npm version major`
 - push your changes to the remote repository (origin/master) at github.com
