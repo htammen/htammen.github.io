@@ -6,29 +6,29 @@
 			<l:content>
 				<VBox alignItems="Start">
 					<Label text="{i18n>view.profile.block.personalblock.generaldata.yearofbirth}"/>
-					<Text text="{parts: ['Birthday'], formatter:'.formatBirthdayYearOfBirth'}"/>
+					<Text text="{parts: ['profile>Birthday'], formatter:'.formatBirthdayYearOfBirth'}"/>
 				</VBox>
 				<VBox alignItems="Start">
 					<Label text="{i18n>view.profile.block.personalblock.generaldata.age}"/>
-					<Text text="{parts: ['Birthday'], formatter:'.formatBirthdayAge'}" class="sapUiSmallMarginEnd"/>
+					<Text text="{parts: ['profile>Birthday'], formatter:'.formatBirthdayAge'}" class="sapUiSmallMarginEnd"/>
 				</VBox>
 				<VBox alignItems="Start">
 					<Label text="{i18n>view.profile.block.personalblock.generaldata.nationality}"/>
-					<Text text="{Nationality}"/>
+					<Text text="{profile>Nationality}"/>
 				</VBox>
 				<VBox alignItems="Start">
 					<Label text="{i18n>view.profile.block.personalblock.generaldata.graduation}"/>
-					<Text text="{Graduation}"/>
+					<Text text="{profile>Graduation}"/>
 				</VBox>
 			</l:content>
 		</l:Grid>	
 		<l:Grid defaultSpan="L12 M12 S12">
 			<l:content>
 				<Label text="{i18n>view.profile.block.personalblock.generaldata.othergraduations}" class="sapUiTinyMarginTop"></Label>
-				<VBox items="{OtherGraduations}">
+				<VBox items="{profile>OtherGraduations}">
 					<HBox>
-						<Link text="{Text}" href="{path: 'Link', formatter: '.getUrl'}" target="_blank" visible="{parts: ['Link'], formatter: '.isLink'}" class="graduation"/>
-						<Text text="{Text}" visible="{parts: ['Link'], formatter: '.isText'}" class="graduation"/>
+						<Link text="{profile>Text}" href="{path: 'profile>Link', formatter: '.getUrl'}" target="_blank" visible="{parts: ['profile>Link'], formatter: '.isLink'}" class="graduation"/>
+						<Text text="{profile>Text}" visible="{parts: ['profile>Link'], formatter: '.isText'}" class="graduation"/>
 					</HBox>
 				</VBox>
 			</l:content>

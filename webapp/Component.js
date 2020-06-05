@@ -1,8 +1,9 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"de/tammenit/ui5/homepage/model/models"
-], function(UIComponent, Device, models) {
+	"de/tammenit/ui5/homepage/model/models",
+	"de/tammenit/ui5/homepage/model/firebaseBackend"
+], function (UIComponent, Device, models, firebaseBackend) {
 	"use strict";
 
 	return UIComponent.extend("de.tammenit.ui5.homepage.Component", {
@@ -16,15 +17,17 @@ sap.ui.define([
 		 * @public
 		 * @override
 		 */
-		init: function() {
+		init: function () {
 			// call the base component's init function
 			UIComponent.prototype.init.apply(this, arguments);
 
 			// set the device model
 			this.setModel(models.createDeviceModel(), "device");
 
+			firebaseBackend.initFirebase();
+
 			// create the main model. load a json file into a JSON model
-			this.setModel(models.createMainModel());
+			this.setModel(models.createMainModel(), "profile");
 			// create the views based on the url/hash
 			this.getRouter().initialize();
 		}

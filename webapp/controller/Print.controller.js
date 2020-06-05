@@ -5,7 +5,7 @@ sap.ui.define(
     "de/tammenit/ui5/homepage/model/models",
     "sap/m/MessageToast"
   ],
-  function(BaseController, JSONModel, Models, MessageToast) {
+  function (BaseController, JSONModel, Models, MessageToast) {
     "use strict";
 
     return BaseController.extend("de.tammenit.ui5.homepage.controller.Print", {
@@ -14,8 +14,8 @@ sap.ui.define(
        * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
        * @memberOf de.tammenit.ui5.homepage.view.Aboutme
        */
-      onInit: function() {
-        this.getView().bindElement("/Profiles/0");
+      onInit: function () {
+        this.getView().bindElement("/");
 
         var imageModel = new JSONModel({
           pdfFull: "./images/pdffull.png",
@@ -38,7 +38,7 @@ sap.ui.define(
        * This hook is the same one that SAPUI5 controls get after being rendered.
        * @memberOf de.tammenit.ui5.homepage.view.Aboutme
        */
-      onAfterRendering: function() {
+      onAfterRendering: function () {
         var title = this.getModel("i18n").getProperty(
           "view.profile.print.header"
         );
@@ -48,27 +48,27 @@ sap.ui.define(
         );
       },
 
-      onPressFullPDF: function() {
+      onPressFullPDF: function () {
         // open the PDF in a new window
         new Promise(
-          function(resolve, reject) {
+          function (resolve, reject) {
             var sImagePath = jQuery.sap.getModulePath(
               this._getComponentName(),
               "/images/logo_tammenit.png"
             );
-            this.toBase64Url(sImagePath, function(dataURL) {
+            this.toBase64Url(sImagePath, function (dataURL) {
               resolve(dataURL);
             });
           }.bind(this)
         ).then(
-          function(dataURL) {
+          function (dataURL) {
             MessageToast.show("PDF opens in new window / tab");
             pdfMake.createPdf(this.createPDFDefinition(dataURL)).open();
           }.bind(this)
         );
       },
 
-      onPressAnonymousPDF: function() {
+      onPressAnonymousPDF: function () {
         MessageToast.show("Coming soon");
         // // open the PDF in a new window
         // new Promise( function (resolve, reject) {
@@ -89,10 +89,10 @@ sap.ui.define(
        * @param callback thats called when image is available
        * @param outputFormat
        */
-      toBase64Url: function(src, callback, outputFormat) {
+      toBase64Url: function (src, callback, outputFormat) {
         var img = new Image();
         img.crossOrigin = "Anonymous";
-        img.onload = function() {
+        img.onload = function () {
           var canvas = document.createElement("CANVAS");
           var ctx = canvas.getContext("2d");
           var dataURL;
@@ -116,7 +116,7 @@ sap.ui.define(
        * To have some sample data in pdfmake playground you can copy the sample data section from ../../pdfMake-script.js
        * @returns {{pageSize: string, pageMargins: *[], header: {table: {headerRows: number, widths: *[], body: *[]}, style: string}, footer: {}, content: *[], styles: {header: {margin: number}, headermiddle: {alignment: string}, headerleft: {fontSize: number}, columnLeft: {fillColor: string}, header1: {alignment: string, fontSize: number, bold: string}}}}
        */
-      createPDFDefinition: function(imgURL) {
+      createPDFDefinition: function (imgURL) {
         var ctx = this.getView().getBindingContext();
         var i18n = this.getModel("i18n");
         var originProfile = this.getModel().getProperty(ctx.getPath());
@@ -126,16 +126,16 @@ sap.ui.define(
         profile.Projects.splice(5, 9);
 
         //######### pdfmake begin #############
-        var languages = function() {
-          var flatLanguages = profile.Languages.map(function(obj) {
+        var languages = function () {
+          var flatLanguages = profile.Languages.map(function (obj) {
             return obj.Name;
           });
           return flatLanguages.join(", ");
         };
 
-        var createListDigital = function() {
+        var createListDigital = function () {
           var retValue = {};
-          var mapArr = profile.Priorities.map(function(obj) {
+          var mapArr = profile.Priorities.map(function (obj) {
             var ret = { text: obj.Name + ", " };
             if (obj.Rating === 1) {
               ret.style = { bold: true };
@@ -151,9 +151,9 @@ sap.ui.define(
           return mapArr; // {text: mapArr};
         };
 
-        var createListAnalog = function(list) {
+        var createListAnalog = function (list) {
           var retValue = {};
-          var mapArr = list.map(function(obj) {
+          var mapArr = list.map(function (obj) {
             var ret = { text: obj.Name + ", " };
             if (obj.Rating > 3) {
               ret.style = { bold: true };
@@ -169,12 +169,12 @@ sap.ui.define(
           return mapArr; // {text: mapArr};
         };
 
-        var otherGraduation = function() {
+        var otherGraduation = function () {
           var arr = [];
           if (profile.OtherGraduations.length > 0) {
             arr.push({ text: "", style: "columnLeft" });
             var arrGrad = [];
-            profile.OtherGraduations.forEach(function(grad) {
+            profile.OtherGraduations.forEach(function (grad) {
               arrGrad.push({ text: grad.Text });
             });
             arr.push(arrGrad);
@@ -182,14 +182,14 @@ sap.ui.define(
           return arr;
         };
 
-        var formatDateToMontAndYear = function(dateStr) {
+        var formatDateToMontAndYear = function (dateStr) {
           var d = Date.parse(dateStr);
           var date = new Date(d);
           return date;
         };
 
-        var createCertificates = function() {
-          var mapArr = profile.Certificates.map(function(obj) {
+        var createCertificates = function () {
+          var mapArr = profile.Certificates.map(function (obj) {
             var ret = {
               text: [
                 { text: obj.Date + ", " },
@@ -203,8 +203,8 @@ sap.ui.define(
           return mapArr; // {text: mapArr};
         };
 
-        var createTrainings = function() {
-          var mapArr = profile.Trainings.map(function(obj) {
+        var createTrainings = function () {
+          var mapArr = profile.Trainings.map(function (obj) {
             var ret = {
               text: [
                 { text: obj.Date + ", " },
@@ -218,9 +218,9 @@ sap.ui.define(
           return mapArr; // {text: mapArr};
         };
 
-        var createPresentations = function() {
+        var createPresentations = function () {
           var mapArr = profile.Presentations.map(
-            function(obj) {
+            function (obj) {
               var ret = {
                 text: [
                   { text: this.formatDate(obj.Date, "MM / yyyy") + ", " },
@@ -236,13 +236,13 @@ sap.ui.define(
           return mapArr; // {text: mapArr};
         };
 
-        var createProjects = function() {
+        var createProjects = function () {
           console.log(this);
           var mapArr = profile.Projects.map(
-            function(obj) {
+            function (obj) {
               var tmpArr = [];
               tmpArr = obj.items.map(
-                function(project) {
+                function (project) {
                   var ret = [];
                   ret.push([
                     {
@@ -276,7 +276,7 @@ sap.ui.define(
             }.bind(this)
           );
           var retArr = [];
-          mapArr.forEach(function(obj) {
+          mapArr.forEach(function (obj) {
             retArr = retArr.concat(obj);
           });
           return retArr; // {text: mapArr};
@@ -305,13 +305,13 @@ sap.ui.define(
                     text: [
                       profile.Name + "\n",
                       profile.Addresses.HomeAddress.Street +
-                        " " +
-                        profile.Addresses.HomeAddress.Housenum +
-                        "\n",
+                      " " +
+                      profile.Addresses.HomeAddress.Housenum +
+                      "\n",
                       profile.Addresses.HomeAddress.Zipcode +
-                        " " +
-                        profile.Addresses.HomeAddress.City +
-                        "\n\n",
+                      " " +
+                      profile.Addresses.HomeAddress.City +
+                      "\n\n",
                       "Email: " + profile.Email.Work + "\n",
                       "Tel: " + profile.Phone.Mobile
                     ],

@@ -15,9 +15,9 @@
 
 		<core:Title text="{i18n>view.profile.block.mailing.header}"/>
 		<Label text="{i18n>view.profile.block.mailing.work}"/>
-		<Link text="{Email/Work}" href="{path: 'Email/Work', formatter: '.formatEmailLink'}"/>
+		<Link text="{profile>Email/Work}" href="{path: 'profile>Email/Work', formatter: '.formatEmailLink'}"/>
 		<Label text="{i18n>view.profile.block.mailing.home}"/>
-		<Link text="{Email/Home}" href="{path: 'Email/Home', formatter: '.formatEmailLink'}"/>
+		<Link text="{profile>Email/Home}" href="{path: 'profile>Email/Home', formatter: '.formatEmailLink'}"/>
 
 	</forms:SimpleForm>
 </mvc:View>

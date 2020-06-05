@@ -1,6 +1,6 @@
 sap.ui.define(
   ["sap/uxap/BlockBase", "sap/ui/model/json/JSONModel"],
-  function(BlockBase, JSONModel) {
+  function (BlockBase, JSONModel) {
     "use strict";
 
     var BlockLanguages = BlockBase.extend(

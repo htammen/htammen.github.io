@@ -7,7 +7,7 @@
 					  maxContainerCols="2" layout="ResponsiveLayout">
 		<core:Title text="{i18n>view.profile.block.personalblockpart2.header}"/>
 		<Label text="{i18n>view.profile.block.personalblockpart2.label}"/>
-		<Text text="{Rates/TravelExpenses}"/>
+		<Text text="{profile>Rates/TravelExpenses}"/>
 
 	</forms:SimpleForm>
 

@@ -4,7 +4,7 @@ sap.ui.define(
     "sap/ui/core/routing/History",
     "sap/ui/core/format/DateFormat"
   ],
-  function(Controller, History, DateFormat) {
+  function (Controller, History, DateFormat) {
     "use strict";
 
     return Controller.extend(
@@ -15,7 +15,7 @@ sap.ui.define(
          * @public
          * @returns {sap.ui.core.routing.Router} the router for this component
          */
-        getRouter: function() {
+        getRouter: function () {
           return sap.ui.core.UIComponent.getRouterFor(this);
         },
 
@@ -25,7 +25,7 @@ sap.ui.define(
          * @param {string} [sName] the model name
          * @returns {sap.ui.model.Model} the model instance
          */
-        getModel: function(sName) {
+        getModel: function (sName) {
           return this.getView().getModel(sName);
         },
 
@@ -36,7 +36,7 @@ sap.ui.define(
          * @param {string} sName the model name
          * @returns {sap.ui.mvc.View} the view instance
          */
-        setModel: function(oModel, sName) {
+        setModel: function (oModel, sName) {
           return this.getView().setModel(oModel, sName);
         },
 
@@ -45,7 +45,7 @@ sap.ui.define(
          * @public
          * @returns {sap.ui.model.resource.ResourceModel} the resourceModel of the component
          */
-        getResourceBundle: function() {
+        getResourceBundle: function () {
           return this.getOwnerComponent()
             .getModel("i18n")
             .getResourceBundle();
@@ -57,7 +57,7 @@ sap.ui.define(
          * If not, it will replace the current entry of the browser history with the worklist route.
          * @public
          */
-        onNavBack: function() {
+        onNavBack: function () {
           var sPreviousHash = History.getInstance().getPreviousHash();
 
           if (sPreviousHash !== undefined) {
@@ -75,7 +75,7 @@ sap.ui.define(
          * "Date": "Birthday"
          * The function has a fallback logic so that it finds the best translation possible.
          */
-        getCurrentLangValue: function(obj) {
+        getCurrentLangValue: function (obj) {
           if (typeof obj === "object") {
             var config = sap.ui.getCore().getConfiguration();
             var sCurrentLanguage = config.getLanguage();
@@ -102,14 +102,14 @@ sap.ui.define(
           }
         },
 
-        formatEmailLink: function(email) {
+        formatEmailLink: function (email) {
           var subject = "Contact from your github homepage";
           var body =
             "Hi,\nI saw your github profile and would like to contact you regarding ...\n\nBest regards\n";
           return sap.m.URLHelper.normalizeEmail(email, subject, body);
         },
 
-        getUrl: function(url) {
+        getUrl: function (url) {
           if (url && url.match(/^https?:\/\//)) {
             return url;
           } else {
@@ -123,7 +123,7 @@ sap.ui.define(
           }
         },
 
-        _getComponentName: function() {
+        _getComponentName: function () {
           if (!this.getOwnerComponent()) {
             // construct the component name from classname. This is almost correct in every case
             // at least in this application
@@ -143,7 +143,7 @@ sap.ui.define(
          * @param {string} pattern pattern to use. See sap.ui.core.format.DateFormat for details
          * @returns {string}
          */
-        formatDate: function(dateStr, pattern) {
+        formatDate: function (dateStr, pattern) {
           var d = Date.parse(dateStr);
           var date = new Date(d);
           var df = DateFormat.getDateInstance({

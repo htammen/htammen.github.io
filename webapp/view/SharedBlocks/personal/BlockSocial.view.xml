@@ -7,16 +7,16 @@
 		<VBox>
 			<items>
 				<Title titleStyle="H4" class="sapUiMediumMarginTop sapUiSmallMarginBottom" text="{i18n>view.profile.block.social.header}"/>
-				<List items="{SocialAccounts}" showSeparators="Inner">
+				<List items="{profile>SocialAccounts}" showSeparators="Inner">
 					<CustomListItem type="Inactive">
 						<layout:VerticalLayout width="100%">
-							<Label text="{Name}"/>
+							<Label text="{profile>Name}"/>
 							<layout:HorizontalLayout>
 								<Image
 									class="sapUiSmallMarginEnd" 
-									src="{path: 'Image', formatter: '.getUrl'}"
+									src="{path: 'profile>Image', formatter: '.getUrl'}"
 									width="21px"/>
-								<Link text="{Address}" href="{path: 'Link', formatter: '.getUrl'}" target="_blank"/>
+								<Link text="{profile>Address}" href="{path: 'profile>Link', formatter: '.getUrl'}" target="_blank"/>
 							</layout:HorizontalLayout>
 						</layout:VerticalLayout>
 					</CustomListItem>

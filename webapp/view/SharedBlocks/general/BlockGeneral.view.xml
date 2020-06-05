@@ -11,7 +11,7 @@
 					  layout="ResponsiveLayout"
 					  width="100%">
 		<Label text="{i18n>view.profile.block.general.experience}"/>
-		<Text text="{ExperienceSince}"/>
+		<Text text="{profile>ExperienceSince}"/>
 	</forms:SimpleForm>
 
 </mvc:View>

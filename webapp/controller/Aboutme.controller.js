@@ -3,7 +3,7 @@ sap.ui.define(
     "de/tammenit/ui5/homepage/controller/BaseController",
     "de/tammenit/ui5/homepage/model/models"
   ],
-  function(BaseController, Models) {
+  function (BaseController, Models) {
     "use strict";
 
     return BaseController.extend(
@@ -14,8 +14,8 @@ sap.ui.define(
          * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
          * @memberOf de.tammenit.ui5.homepage.view.Aboutme
          */
-        onInit: function() {
-          this.getView().bindElement("/Profiles/0");
+        onInit: function () {
+          this.getView().bindElement({ path: "/", model: "profile" });
           const oRouter = this.getRouter();
           const oTarget = oRouter.getTarget("aboutme");
           oTarget.attachDisplay(this._handleDisplay.bind(this));
@@ -27,7 +27,7 @@ sap.ui.define(
          * @param oEvent
          */
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        _handleDisplay: function(oEvent) {
+        _handleDisplay: function (oEvent) {
           var title = this.getModel("i18n").getProperty(
             "view.profile.aboutme.header"
           );
@@ -51,7 +51,7 @@ sap.ui.define(
          * This hook is the same one that SAPUI5 controls get after being rendered.
          * @memberOf de.tammenit.ui5.homepage.view.Aboutme
          */
-        onAfterRendering: function() {}
+        onAfterRendering: function () { }
       }
     );
   }

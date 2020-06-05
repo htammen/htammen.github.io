@@ -13,7 +13,7 @@
 						justifyContent="Center">
 						<SlideTile  class="sapUiSmallMargin" displayTime="7000">
 							<tiles>
-								<GenericTile header="{Name}"
+								<GenericTile header="{profile>Name}"
 									frameType="TwoByOne"
 									headerImage="sap-icon://hint"
 									size="L"
@@ -22,11 +22,11 @@
 										<TileContent>
 											<content>
 												<NewsContent contentText="{parts: [
-													'Name',
-													'Availability',
-													'Addresses/HomeAddress/Zipcode',
-													'Addresses/HomeAddress/City',
-													'Phone/Mobile',
+													'profile>Name',
+													'profile>Availability',
+													'profile>Addresses/HomeAddress/Zipcode',
+													'profile>Addresses/HomeAddress/City',
+													'profile>Phone/Mobile',
 													'Slogan'
 													], formatter: '.formatter.persContentFormatter'}"/>
 											</content>
