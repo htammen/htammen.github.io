@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node static_server.js",
     "debug": "node --nolazy --inspect-brk=9229 static_server.js",
+    "fbServe": "firebase serve",
+    "fbDeploy": "firebase deploy --only hosting",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "grunt production"
   },

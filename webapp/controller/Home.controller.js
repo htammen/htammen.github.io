@@ -23,7 +23,7 @@ sap.ui.define([
 			this.setModel(oViewModel, "viewModel");
 
 			var pdfModel = new JSONModel();
-			pdfModel.loadData('./webapp/model/pdfs.json');
+			pdfModel.loadData('./model/pdfs.json');
 			this.getView().setModel(pdfModel, "pdfs");
 
 			this.getView().bindElement({ path: "/", model: "profile" });

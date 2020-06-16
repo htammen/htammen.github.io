@@ -14,7 +14,9 @@ sap.ui.define([], function () {
         storageBucket: "htammen-github-io.appspot.com",
         messagingSenderId: "1011895266307",
         appId: "1:1011895266307:web:61566f1c1632765470b236",
+        measurementId: "G-PWJG2RTQ34",
       });
+      firebase.analytics();
     },
 
     /**
