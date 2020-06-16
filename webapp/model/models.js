@@ -1,7 +1,8 @@
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
-	"sap/ui/Device"
-], function(JSONModel, Device) {
+	"sap/ui/Device",
+	"de/tammenit/ui5/homepage/model/firebaseBackend"
+], function (JSONModel, Device, firebaseBackend) {
 	"use strict";
 
 	var headerModel;
@@ -9,6 +10,14 @@ sap.ui.define([
 	return {
 
 		createMainModel: function () {
+			var model = new sap.ui.model.json.JSONModel();
+			firebaseBackend.readProfile('htammen').then(function (data) {
+				model.setData(data)
+			});
+			return model;
+		},
+
+		_createMainModel: function () {
 			var sModelPath = jQuery.sap.getModulePath("de.tammenit.ui5.homepage.model", "/profile.json");
 			// var model = new sap.ui.model.json.JSONModel(sModelPath);
 			var model = new sap.ui.model.json.JSONModel();
@@ -17,7 +26,7 @@ sap.ui.define([
 			return model;
 		},
 
-		createDeviceModel: function() {
+		createDeviceModel: function () {
 			var oModel = new JSONModel(Device);
 			oModel.setDefaultBindingMode("OneWay");
 			return oModel;
@@ -29,8 +38,8 @@ sap.ui.define([
 		 * @param title, the new title of the model
 		 * @returns {*}
 		 */
-		createHeaderFragmentController: function(title) {
-			if(!headerModel) {
+		createHeaderFragmentController: function (title) {
+			if (!headerModel) {
 				headerModel = new JSONModel();
 				headerModel.setDefaultBindingMode("OneWay");
 			}

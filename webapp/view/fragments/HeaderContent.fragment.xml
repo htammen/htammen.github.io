@@ -50,15 +50,15 @@
 			class="headerForm">
 			<f:content>
 				<m:Label text="Phone" class="headerLabel" />
-				<m:Link text="{Phone/Mobile}"/>
+				<m:Link text="{profile>Phone/Mobile}"/>
 				<m:Label text="E-Mail" class="headerLabel" />
-				<m:Link text="{Email/Work}" href="{path: 'Email/Work', formatter: '.formatEmailLink'}"/>
+				<m:Link text="{profile>Email/Work}" href="{path: 'profile>Email/Work', formatter: '.formatEmailLink'}"/>
 				<m:Label text="{i18n>view.profile.residence}" class="headerLabel"/>
-				<m:Text text="{Addresses/WorkAddress/City}, {Addresses/WorkAddress/Country}"/>
+				<m:Text text="{profile>Addresses/WorkAddress/City}, {profile>Addresses/WorkAddress/Country}"/>
 				<m:Label text="{i18n>view.profile.availability}" class="headerLabel"/>
-				<m:Text text="{Availability}"/>
+				<m:Text text="{profile>Availability}"/>
 				<m:Label text="{i18n>view.profile.regions}" class="headerLabel"/>
-				<m:Text text="{Regions}"/>
+				<m:Text text="{profile>Regions}"/>
 			</f:content>
 		</f:SimpleForm>
 </core:FragmentDefinition>

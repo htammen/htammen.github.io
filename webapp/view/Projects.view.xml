@@ -17,13 +17,13 @@
 							  showTitleInHeaderContent="true"
 							  showEditHeaderButton="false"
 							  editHeaderButtonPress="handleEditBtnPress"
-							  sections="{Projects}">
+							  sections="{profile>Projects}">
 				<headerTitle>
-					<ObjectPageHeader objectImageURI="{path: 'Image', formatter: '.getUrl'}"
-									  objectTitle="{Name}"
+					<ObjectPageHeader objectImageURI="{path: 'profile>Image', formatter: '.getUrl'}"
+									  objectTitle="{profile>Name}"
 									  objectImageShape="Circle"
-									  objectImageAlt="{Name}"
-									  objectSubtitle="{JobTitle}"
+									  objectImageAlt="{profile>Name}"
+									  objectSubtitle="{profile>JobTitle}"
 									  isObjectIconAlwaysVisible="false"
 									  isObjectTitleAlwaysVisible="false"
 									  isObjectSubtitleAlwaysVisible="false">
@@ -45,11 +45,11 @@
 				<sections>
 					<ObjectPageSection>
 						<subSections>
-							<ObjectPageSubSection title="{Year}">
+							<ObjectPageSubSection title="{profile>Year}">
 								<blocks>
 									<projects:BlockProjects id="projects">
 										<projects:mappings>
-											<ModelMapping externalModelName="undefined" externalPath="items" internalModelName="model" />
+											<ModelMapping externalModelName="profile" externalPath="items" internalModelName="model" />
 										</projects:mappings>
 									</projects:BlockProjects>
 								</blocks>

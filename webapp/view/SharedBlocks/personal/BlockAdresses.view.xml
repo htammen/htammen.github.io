@@ -5,15 +5,15 @@
 		<Title titleStyle="H4" class="sapUiMediumMarginTop sapUiSmallMarginBottom" text="{i18n>view.profile.block.addresses.header}"></Title>
 		<Label text="{i18n>view.profile.block.addresses.work}"/>
 		<VBox>
-			<Text text="{Addresses/WorkAddress/Street} {Addresses/WorkAddress/Housenum}"/>
-			<Text text="{Addresses/WorkAddress/Zipcode} {Addresses/WorkAddress/City}"/>
-			<Text text="{Addresses/WorkAddress/Country}"/>
+			<Text text="{profile>Addresses/WorkAddress/Street} {Addresses/WorkAddress/Housenum}"/>
+			<Text text="{profile>Addresses/WorkAddress/Zipcode} {Addresses/WorkAddress/City}"/>
+			<Text text="{profile>Addresses/WorkAddress/Country}"/>
 		</VBox>
 		<Label class="sapUiSmallMarginTop" text="{i18n>view.profile.block.addresses.home}"/>
 		<VBox>
-			<Text text="{Addresses/HomeAddress/Street} {Addresses/HomeAddress/Housenum}"/>
-			<Text text="{Addresses/HomeAddress/Zipcode} {Addresses/HomeAddress/City}"/>
-			<Text text="{Addresses/HomeAddress/Country}"/>
+			<Text text="{profile>Addresses/HomeAddress/Street} {Addresses/HomeAddress/Housenum}"/>
+			<Text text="{profile>Addresses/HomeAddress/Zipcode} {Addresses/HomeAddress/City}"/>
+			<Text text="{profile>Addresses/HomeAddress/Country}"/>
 		</VBox>
 	</VBox>
 </mvc:View>

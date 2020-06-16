@@ -22,11 +22,11 @@
 							  showEditHeaderButton="false"
 							  editHeaderButtonPress="handleEditBtnPress">
 				<headerTitle>
-					<ObjectPageHeader objectImageURI="{path: 'Image', formatter: '.getUrl'}"
-									  objectTitle="{Name}"
+					<ObjectPageHeader objectImageURI="{path: 'profile>Image', formatter: '.getUrl'}"
+									  objectTitle="{profile>Name}"
 									  objectImageShape="Circle"
-									  objectImageAlt="{Name}"
-									  objectSubtitle="{JobTitle}"
+									  objectImageAlt="{profile>Name}"
+									  objectSubtitle="{profile>JobTitle}"
 									  isObjectIconAlwaysVisible="false"
 									  isObjectTitleAlwaysVisible="false"
 									  isObjectSubtitleAlwaysVisible="false">
@@ -68,7 +68,7 @@
 								<blocks>
 									<service:BlockServices id="idServicesBlock" class="sapUiNoMargin">
 										<service:mappings>
-											<ModelMapping externalModelName="undefined" externalPath="Services" internalModelName="model" />
+											<ModelMapping externalModelName="profile" externalPath="Services" internalModelName="model" />
 										</service:mappings>
 									</service:BlockServices>
 								</blocks>
@@ -78,7 +78,7 @@
 								<blocks>
 									<priority:BlockPriorities id="priorities">
 										<priority:mappings>
-											<ModelMapping externalModelName="undefined" externalPath="Priorities" internalModelName="model" />
+											<ModelMapping externalModelName="profile" externalPath="Priorities" internalModelName="model" />
 										</priority:mappings>
 									</priority:BlockPriorities>
 								</blocks>
@@ -88,7 +88,7 @@
 								<blocks>
 									<language:BlockLanguages id="languages">
 										<language:mappings>
-											<ModelMapping externalModelName="undefined" externalPath="Languages" internalModelName="model" />
+											<ModelMapping externalModelName="profile" externalPath="Languages" internalModelName="model" />
 										</language:mappings>
 									</language:BlockLanguages>
 								</blocks>
@@ -98,7 +98,7 @@
 								<blocks>
 									<branch:BlockBranches id="branches">
 										<branch:mappings>
-											<ModelMapping externalModelName="undefined" externalPath="Branches" internalModelName="model" />
+											<ModelMapping externalModelName="profile" externalPath="Branches" internalModelName="model" />
 										</branch:mappings>
 									</branch:BlockBranches>
 								</blocks>
@@ -106,13 +106,13 @@
 						</subSections>
 					</ObjectPageSection>
 
-					<ObjectPageSection title="{i18n>view.profile.itskills}" subSections="{ITSkills}">
+					<ObjectPageSection title="{i18n>view.profile.itskills}" subSections="{profile>ITSkills}">
 						<subSections>
-							<ObjectPageSubSection title="{path: 'Name', formatter: '.getCurrentLangValue'}" class="sapUiNoMarginBottom">
+							<ObjectPageSubSection title="{path: 'profile>Name', formatter: '.getCurrentLangValue'}" class="sapUiNoMarginBottom" mode="Expanded">
 								<blocks>
 									<itskills:BlockITSkills id="itskills" class="sapUiNoMarginBottom profileBlock">
 										<itskills:mappings>
-											<ModelMapping externalModelName="undefined" externalPath="items" internalModelName="model" />
+											<ModelMapping externalModelName="profile" externalPath="items" internalModelName="model" />
 										</itskills:mappings>
 									</itskills:BlockITSkills>
 								</blocks>
@@ -126,7 +126,7 @@
 								<blocks>
 									<certificates:BlockCertificates id="certificates">
 										<certificates:mappings>
-											<ModelMapping externalModelName="undefined" externalPath="Certificates" internalModelName="model" />
+											<ModelMapping externalModelName="profile" externalPath="Certificates" internalModelName="model" />
 										</certificates:mappings>
 									</certificates:BlockCertificates>
 								</blocks>
@@ -136,7 +136,7 @@
 								<blocks>
 									<trainings:BlockTrainings id="trainings">
 										<trainings:mappings>
-											<ModelMapping externalModelName="undefined" externalPath="Trainings" internalModelName="model" />
+											<ModelMapping externalModelName="profile" externalPath="Trainings" internalModelName="model" />
 										</trainings:mappings>
 									</trainings:BlockTrainings>
 								</blocks>
@@ -146,7 +146,7 @@
 								<blocks>
 									<presentations:BlockPresentations id="presentations">
 										<presentations:mappings>
-											<ModelMapping externalModelName="undefined" externalPath="Presentations" internalModelName="model" />
+											<ModelMapping externalModelName="profile" externalPath="Presentations" internalModelName="model" />
 										</presentations:mappings>
 									</presentations:BlockPresentations>
 								</blocks>

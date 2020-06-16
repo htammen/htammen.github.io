@@ -2,7 +2,7 @@ sap.ui.define([
 	"de/tammenit/ui5/homepage/controller/BaseController",
 	"sap/ui/model/json/JSONModel",
 	"de/tammenit/ui5/homepage/model/models"
-], function(BaseController, JSONModel, Models) {
+], function (BaseController, JSONModel, Models) {
 	"use strict";
 
 	return BaseController.extend("de.tammenit.ui5.homepage.controller.PDF", {
@@ -12,8 +12,8 @@ sap.ui.define([
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
 		 * @memberOf de.tammenit.ui5.homepage.view.Aboutme
 		 */
-		onInit: function() {
-			this.getView().bindElement("/Profiles/0");
+		onInit: function () {
+			this.getView().bindElement("/");
 
 			var pdfModel = new JSONModel();
 			var sModelPath = jQuery.sap.getModulePath(this._getComponentName(), "/model/pdfs.json");
@@ -36,7 +36,7 @@ sap.ui.define([
 		 * This hook is the same one that SAPUI5 controls get after being rendered.
 		 * @memberOf de.tammenit.ui5.homepage.view.Aboutme
 		 */
-		onAfterRendering: function() {
+		onAfterRendering: function () {
 			var title = this.getModel("i18n").getProperty("view.profile.pdfs.header");
 			this.setModel(Models.createHeaderFragmentController(title), "headerModel");
 		}

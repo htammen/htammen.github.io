@@ -1,6 +1,6 @@
 sap.ui.define(
   ["sap/uxap/BlockBase"],
-  function(BlockBase) {
+  function (BlockBase) {
     "use strict";
 
     var BlockITSkills = BlockBase.extend(

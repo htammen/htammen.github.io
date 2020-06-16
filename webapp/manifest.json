@@ -114,6 +114,9 @@
 			"": {
 				"type": "sap.ui.model.json.JSONModel"
 			},
+			"profile": {
+				"type": "sap.ui.model.json.JSONModel"
+			},
 			"pdfModel": {
 				"type": "sap.ui.model.json.JSONModel"
 			}

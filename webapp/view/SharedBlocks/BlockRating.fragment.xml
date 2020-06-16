@@ -10,11 +10,11 @@
 		<forms:content> -->
 	<!-- <l:Grid content="{model>}" defaultSpan="L3 M6 S12"> -->
 		<!-- <l:content> -->
-			<f:GridList xmlns:f="sap.f" xmlns:forms="sap.ui.layout.form" xmlns:l="sap.ui.layout" xmlns="sap.m" alignItems="Start" items="{model>}" showSeparators="None" class="sapUiNoMarginBottom">
+			<f:GridList xmlns:f="sap.f" xmlns:forms="sap.ui.layout.form" xmlns:l="sap.ui.layout" xmlns="sap.m" items="{model>}" showSeparators="None" class="sapUiNoMarginBottom">
 				<f:GridListItem>
 					<VBox class="sapUiTinyMargin">
 						<Label text="{model>Name}" design="{path:'model>Rating', formatter:'.formatLabel'}"/>
-						<RatingIndicator enabled="false" value="{model>Rating}" visible="{= ${Type} === 'emphasize' ? false : true}"/>
+						<RatingIndicator enabled="false" value="{model>Rating}" visible="{= ${model>Type} === 'emphasize' ? false : true}"/>
 					</VBox>
 				</f:GridListItem>
 			</f:GridList>

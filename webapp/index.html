@@ -28,42 +28,79 @@
 <meta name="theme-color" content="#427CAC">
 	
 <!-- Icons -->
-<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
-<link rel="shortcut icon" href="/icons/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+<link rel="shortcut icon" href="icons/favicon.svg">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+
+<!-- Import and configure the Firebase SDK -->
+<!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
+<!-- If you do not want to serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
+<!-- <script src="/__/firebase/4.1.3/firebase.js"></script> -->
+<!-- <script src="/__/firebase/init.js"></script> -->
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>
 
 <!-- Register service worker -->
 <script src="register-worker.js"></script>
 
 		<script id="sap-ui-bootstrap"
-			src="https://openui5.hana.ondemand.com/latest/resources/sap-ui-core.js"
-			data-sap-ui-libs="sap.m"
-			data-sap-ui-theme="sap_fiori_3"
-			data-sap-ui-compatVersion="edge"
+			src="https://openui5.hana.ondemand.com/1.74.0/resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m, sap.ui.layout, sap.ui.core, sap.uxap"
 			data-sap-ui-preload="async"
+			data-sap-ui-theme="sap_fiori_3"
+			data-sap-ui-xx-waitForTheme="true"
+			data-sap-ui-compatVersion="edge"
 			data-sap-ui-resourceroots='{"de.tammenit.ui5.homepage": ""}'>
 		</script>
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<script>
-			sap.ui.getCore().attachInit(function() {
-				new sap.m.Shell({
-					app: new sap.ui.core.ComponentContainer({
-						height : "100%",
-						name : "de.tammenit.ui5.homepage"
-					})
-				}).placeAt("content");
-			});
+	        sap.ui.getCore().attachInit(function () {
+	            sap.ui.require([
+	                "sap/m/Shell",
+	                "sap/ui/core/ComponentContainer"
+	            ], function (Shell, ComponentContainer) {
+	                var oCompContainer = new ComponentContainer({
+	                    height: "100%",
+	                });
+	
+	                // initialize the UI component with async property
+	                var oComponent = sap.ui.component({
+	                    async: true,
+	                    manifestFirst: true,
+	                    name: "de.tammenit.ui5.homepage"
+	                }).then(function(oComponent){
+	                    oCompContainer.setComponent(oComponent);
+	                });
+	
+	                new Shell({
+	                    showLogout:false,
+	                    app: oCompContainer
+	                }).placeAt("content");
+	                });
+	        });
+			// sap.ui.getCore().attachInit(function() {
+			// 	new sap.m.Shell({
+			// 		app: new sap.ui.core.ComponentContainer({
+			// 			height : "100%",
+			// 			name : "de.tammenit.ui5.homepage"
+			// 		})
+			// 	}).placeAt("content");
+			// });
 		</script>
 	</head>
 
 	<body class="sapUiBody" id="content">
         <div id="splash-screen">
-            <h1>UI5 IconExplorer as a Progressive Web Application</h1>
-            <img src="icons/icon.svg" alt="PWA SAPUI5 Profile - Helmut Tammen">
+            <h1>PWA SAPUI5 Proflie - Helmut Tammen as a Progressive Web Application</h1>
+            <img src="icons/home.png" alt="PWA SAPUI5 Profile - Helmut Tammen">
         </div>
 	</body>
 

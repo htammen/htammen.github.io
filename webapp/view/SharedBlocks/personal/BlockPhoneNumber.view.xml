@@ -12,11 +12,11 @@
 					  width="100%">
 		<core:Title text="{i18n>view.profile.block.phonenumber.header}"></core:Title>
 		<Label text="{i18n>view.profile.block.phonenumber.mobile}"/>
-		<Text text="{Phone/Mobile}"/>
+		<Text text="{profile>Phone/Mobile}"/>
 		<Label text="{i18n>view.profile.block.phonenumber.work}"/>
-		<Text text="{Phone/Work}"/>
+		<Text text="{profile>Phone/Work}"/>
 		<Label text="{i18n>view.profile.block.phonenumber.home}"/>
-		<Text text="{Phone/Home}"/>
+		<Text text="{profile>Phone/Home}"/>
 	</forms:SimpleForm>
 
 </mvc:View>
