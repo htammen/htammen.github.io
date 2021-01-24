@@ -718,15 +718,15 @@
 								"en": "Several"
 							},
 							"Header": {
-                                "de": "Erstellug einiger SAP HANA / HANA Cloud Platform Prototypen",
-                                "en": "Development of several SAP HANA / HANA Cloud Platform prototypes"},
-							"Duration": {"en" : "4 months", "de": "4 Monate"},
+                                "de": "Erstellug einiger SAP HANA / HANA Cloud Platform / Fiori Prototypen",
+                                "en": "Development of several SAP HANA / HANA Cloud Platform / Fiori prototypes"},
+							"Duration": {"en" : "long term", "de": "Langzeit"},
 							"Longtext": { 
-								"de":  "Entwicklung einiger interner Prototypen, um die Verwendung / den Einsatz von SAP HANA / SAP HANA Cloud Platform zu erlernen",
-								"en": "Development of several internal prototypes to learn and practice the usage of SAP HANA / SAP Cloud Platform"
+								"de":  "Entwicklung einiger interner Prototypen, um die Verwendung / den Einsatz von SAP HANA / SAP HANA Cloud Platform / Fiori zu erlernen / zu vertiefen",
+								"en": "Develop some internal prototypes to learn / deepen the use / deployment of SAP HANA / SAP HANA Cloud Platform / Fiori."
 							},
 							"Tools": {
-								"de": "SAPUI5, SAP HANA XS, SAP HANA Cloud Platform, SAP HANA Web Tools, SAP Web IDE, SAP Cloud Application Programming model"
+								"de": "SAPUI5, Fiori, Fiori Elements, SAP HANA XS, SAP HANA Cloud Platform, SAP HANA Web Tools, SAP Web IDE, SAP Cloud Application Programming model"
 							}
 						},
 						{
@@ -747,24 +747,33 @@
 							"Tools": {
 								"de": ""
 							}
-                        },
+                        }
+					]
+				},
+				{
+					"Year": "2020",
+					"items": [
 						{
-							"Start": "---",
-							"End": {"de": "06/18"},
+							"Start": "11/20",
+							"End": "----",
 							"Branch": {
 								"de": "Energieversorgung",
 								"en": "Utilities"
 							},
 							"Header": {
-                                "de": "Pflege, Wartung, Support bestehender Anwendungen",
-                                "en": "Maintenance and support of existing applications"},
-							"Duration": {"en" : "", "de": ""},
-							"Longtext": { 
-								"de":  "Pflege, Wartung, kleine Weiterentwicklungen von diversen selbst mitentwickelten  Awnedungen im Energieversorgungssektor.",
-                                "en": "Maintenance and support of existing applications as well as small enhancements of these apps in the sector of uitilities."
+								"de": "SAPUI5 und Cloud Beratung",
+								"en": "SAPUI5 and Cloud Consulting"
+							},
+							"Duration": {
+								"en": "3 months",
+								"de": "3 Monate"
+							},
+							"Longtext": {
+								"de": "Beratung bei der Portierung einer SAP Fiori Anwendung von einem SAP OnPremise Backend in die SAP Cloud Platform.\nDie Beratung beinhaltete sowohl die Infrastruktur-Beratung als auch ein Review der Fiori Anwendung (Technik und Design).",
+								"en": "Consulting on the porting of an SAP Fiori application from an SAP OnPremise backend to the SAP Cloud Platform.\nThe consulting included infrastructure consulting as well as a review of the Fiori application (technology and design)."
 							},
 							"Tools": {
-								"de": "Java, Grails, Groovy, Javascript"
+								"de": "SAP Cloud, SAP CAP, Fiori, Fiori Elements, SAPUI5"
 							}
 						}
 					]
@@ -774,7 +783,7 @@
 					"items": [
 						{
 							"Start": "09/19",
-							"End": "----",
+							"End": "03/21",
 							"Branch": {
 								"de": "Banken",
 								"en": "Banking"
@@ -788,11 +797,11 @@
 								"de": "6 Monate"
 							},
 							"Longtext": {
-								"de": "Erstellung eines Sourcecode Generator für SAP CAP Anwendungen.\nFür ein im SAP PowerDesigner erstelltes und gepflegtes Datenmodell werden automatisiert funktionsfähige SAP CAP Anwendungen erstellt.\nDiese enthalten alle Anwendungs-Layer: Data, Service, UI.",
-								"en": "Creation of a sourcecode generator for SAP CAP applications.\nThis generator creates fully functional SAP CAP applications for a data modell that is designed and maintained in SAP PowerDesigner tool.\nThe applications consist of all application layers: data, service, ui."
+								"de": "Erstellung eines Sourcecode Generator für SAP CAP Anwendungen.\nFür ein im SAP PowerDesigner erstelltes und gepflegtes Datenmodell werden automatisiert funktionsfähige SAP CAP Anwendungen erstellt.\nDiese enthalten alle Anwendungs-Layer: Data, Service, UI.\nNeben dem Sourcecode Generator wurde ein Tool entwickelt, das alle Modelmetadaten via OXC Control aus dem PowerDesigner Model extrahiert.",
+								"en": "Creation of a sourcecode generator for SAP CAP applications.\nThis generator creates fully functional SAP CAP applications for a data modell that is designed and maintained in SAP PowerDesigner tool.\nThe applications consist of all application layers: data, service, UI. Besides the sourcecode generator a tool has been developed that extracts all PowerDesigner metatdata via an OCX control."
 							},
 							"Tools": {
-								"de": "node.js, Typescript, SAP CAP"
+								"de": "node.js, Typescript, SAP CAP, CDS Views, Fiori Elements, SAPUI5, OCX/ActiveX"
 							}
 						}
 					]
@@ -813,8 +822,8 @@
 								"en": "SAPUI5 applications in SAP Enterprise Portal"
 							},
 							"Duration": {
-								"en": "18 months",
-								"de": "18 Monate"
+								"en": "22 months",
+								"de": "22 Monate"
 							},
 							"Longtext": {
 								"de": "Erstellung diverser SAP / SAPUI5 Anwendungen innerhalb des SAP Enterprise Portals.\nKonfiguration des FLP (Fiori Launchpad) im Portal.\nImplementierung der Backend-Services im SAP Netweaver Java Stack. Implementierung der SAPUI5 Anwendungen im Frontend.",
