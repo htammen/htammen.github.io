@@ -4,7 +4,7 @@
 			"Name": "Helmut Tammen",
 			"Slogan": "I love my job",
 			"Image": "./images/helmut_brussels_1.png",
-			"Availability": "04/2020",
+			"Availability": "03/2021",
 			"Birthday": "1964-04-21",
 			"Nationality": "german",
 			"Graduation": "Graduate Mechanical Engineer",
@@ -310,7 +310,7 @@
 			},
 			"Email": {
 				"Work": "h.tammen@tammen-it-solutions.de",
-				"Home": "helmut.tammen@gmail.com",
+				"Home": "h.tammen@mailbox.org",
 				"Home2": "h.tammen@pm.me"
 			},
 			"Addresses": {
