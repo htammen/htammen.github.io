@@ -90,10 +90,17 @@
 	</head>
 
 	<body class="sapUiBody" id="content">
+				<div id="notification">A new version of this app is available. Click <a id="reload">here</a> to update.</div>
         <div id="splash-screen">
             <h1>PWA SAPUI5 Proflie - Helmut Tammen as a Progressive Web Application</h1>
             <img src="webapp/icons/home.png" alt="PWA SAPUI5 Profile - Helmut Tammen">
         </div>
+				<script>
+					// The click event on the notification
+					document.getElementById('reload').addEventListener('click', function(){
+						newWorker.postMessage({ action: 'skipWaiting' });
+					});
+				</script>
 	</body>
 
 </html>

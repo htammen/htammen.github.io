@@ -1,4 +1,4 @@
-let CACHE_NAME = "ui5-consultantprofile-pwa-v1.1.11";
+let CACHE_NAME = "ui5-consultantprofile-pwa-v1.1.12";
 // Stated in this blog https://www.captechconsulting.com/blogs/my-experience-using-service-workers from 07/16 (maybe old)
 // It’s important to note here that the root is required when adding assets to the cache in the Install Event.
 // If excluded, the code in the next section, Service Worker Fetch Event, will produce an error.
@@ -78,4 +78,13 @@ self.addEventListener("fetch", function(event) {
       });
     })
   );
+});
+
+/**
+ * Have a look here for more details: https://www.deanhume.com/displaying-a-new-version-available-progressive-web-app/
+ */
+self.addEventListener('message', function (event) {
+  if (event.data.action === 'skipWaiting') {
+    self.skipWaiting();
+  }
 });

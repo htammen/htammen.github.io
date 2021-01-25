@@ -2,8 +2,9 @@ sap.ui.define([
 		"de/tammenit/ui5/homepage/controller/BaseController",
 		"sap/ui/model/json/JSONModel",
 		"sap/m/MessageToast",
+	  "sap/m/MessageBox",
 		"de/tammenit/ui5/homepage/model/formatter",
-	], function(BaseController, JSONModel, MessageToast, formatter) {
+	], function(BaseController, JSONModel, MessageToast, MessageBox, formatter) {
 	"use strict";
 	return BaseController.extend("de.tammenit.ui5.homepage.controller.Home", {
 		
@@ -41,6 +42,29 @@ sap.ui.define([
 		 * @memberOf de.tammenit.ui5.homepage.view.Aboutme
 		 */
 		onAfterRendering: function() {
+		},
+
+		/**
+		 * Called when a new serviceworker version is available. This method is called from
+		 * the register-worker.js file. Have a look there for more infos.
+		 * The method shows a Dialog to inform the user that there is a new PWA program version available
+		 * The user can then decide if she wants to load the new app now or later.
+		 */
+		onNewVersion: function() {
+			var resBundle = this.getResourceBundle();
+			MessageBox.confirm(
+				resBundle.getText("newversion.description"), {
+					title: resBundle.getText("newversion.title"),
+					actions: [MessageBox.Action.YES, MessageBox.Action.NO],
+					emphasizedAction: MessageBox.Action.YES,
+					onClose: function (oAction) { 
+						// load the new version
+						if(newWorker) {
+							newWorker.postMessage({ action: 'skipWaiting' });
+						}
+					}
+				}
+			);			
 		},
 		
 		/**
