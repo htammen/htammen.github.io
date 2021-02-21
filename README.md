@@ -25,7 +25,7 @@ which helps loading the application faster.
 
 ### Deploy application
 To deploy the application follow the following steps
-- update version number in service-worker (s. above) and in package.json
+- update version number in service-worker (s. above)
 - execute `npm run build`
 - commit your changes to git
 - run `npm version xxx` (see npm version --help for details),
