@@ -315,14 +315,14 @@
 			},
 			"Addresses": {
 				"HomeAddress": {
-					"Street": "Pastor-Badenhop-Weg",
+					"Street": "Friedrich-Daps-Weg",
 					"Housenum": "5",
 					"Zipcode": "30938",
 					"City": "Burgwedel",
 					"Country": "Germany"
 				},
 				"WorkAddress": {
-					"Street": "Pastor-Badenhop-Weg",
+					"Street": "Friedrich-Daps-Weg",
 					"Housenum": "5",
 					"Zipcode": "30938",
 					"City": "Burgwedel",

@@ -1,6 +1,6 @@
 {
   "name": "htammen.github.io",
-  "version": "1.1.15",
+  "version": "1.1.16",
   "description": "My SAPUI5 Homepage",
   "main": "index.html",
   "scripts": {
@@ -32,6 +32,7 @@
     "http-proxy": "^1.17.0"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "prettier": "^2.2.1"
   }
 }
