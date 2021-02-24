@@ -4,7 +4,7 @@
 			"Name": "Helmut Tammen",
 			"Slogan": "I love my job",
 			"Image": "./images/helmut_brussels_1.png",
-			"Availability": "03/2021",
+			"Availability": "04/2021",
 			"Birthday": "1964-04-21",
 			"Nationality": "german",
 			"Graduation": "Graduate Mechanical Engineer",
@@ -418,7 +418,7 @@
 					"Rating": 1
 				},
 				{
-					"Name": "SAP Cloud Consulting (HCP)",
+					"Name": "SAP Cloud Consulting (BTP)",
 					"Rating": 1
 				},
 				{
@@ -481,11 +481,11 @@
 						},
 						{
 							"Name": "Mac OS X",
-							"Rating": 5
+							"Rating": 4.5
 						},
 						{
 							"Name": "Linux",
-							"Rating": 3
+							"Rating": 4.5
 						}
 					]
 				},
@@ -544,7 +544,7 @@
 							"Rating": 3
 						},
 						{
-							"Name": "MaxDBL",
+							"Name": "MaxDB",
 							"Rating": 3
 						},
 						{
@@ -553,16 +553,16 @@
 						},
 						{
 							"Name": "POET (OO-Database)",
-							"Rating": 2
+							"Rating": 1
 						},
 						{
 							"Name": "IBM Cloudant (No-SQL)",
-							"Rating": 2
+							"Rating": 1
 						}
 					]
 				},
 				{
-					"Name": "DBAbstraction",
+					"Name": "DBAbstraction / APIs",
 					"Type": "star",
 					"items": [
 						{
@@ -797,7 +797,7 @@
 								"de": "6 Monate"
 							},
 							"Longtext": {
-								"de": "Erstellung eines Sourcecode Generator für SAP CAP Anwendungen.\nFür ein im SAP PowerDesigner erstelltes und gepflegtes Datenmodell werden automatisiert funktionsfähige SAP CAP Anwendungen erstellt.\nDiese enthalten alle Anwendungs-Layer: Data, Service, UI.\nNeben dem Sourcecode Generator wurde ein Tool entwickelt, das alle Modelmetadaten via OXC Control aus dem PowerDesigner Model extrahiert.",
+								"de": "Erstellung eines Sourcecode Generator für SAP CAP Anwendungen.\nFür ein im SAP PowerDesigner erstelltes und gepflegtes Datenmodell werden automatisiert funktionsfähige SAP CAP Anwendungen erstellt.\nDiese enthalten alle Anwendungs-Layer: Data, Service, UI.\nNeben dem Sourcecode Generator wurde ein Tool entwickelt, das alle Modelmetadaten via OCX Control aus dem PowerDesigner Model extrahiert.",
 								"en": "Creation of a sourcecode generator for SAP CAP applications.\nThis generator creates fully functional SAP CAP applications for a data modell that is designed and maintained in SAP PowerDesigner tool.\nThe applications consist of all application layers: data, service, UI. Besides the sourcecode generator a tool has been developed that extracts all PowerDesigner metatdata via an OCX control."
 							},
 							"Tools": {
