@@ -16,8 +16,6 @@ node_modules
 *.iml
 .idea
 /preview_hidden.html
-dist
 pdfMake-script.js
 
-/dist/
 favicon_package_v0.16
