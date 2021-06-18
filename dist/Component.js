@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/Device","de/tammenit/ui5/homepage/model/models"],function(e,t,i){"use strict";return e.extend("de.tammenit.ui5.homepage.Component",{metadata:{manifest:"json"},init:function(){e.prototype.init.apply(this,arguments);this.setModel(i.createDeviceModel(),"device");this.setModel(i.createMainModel());this.getRouter().initialize()}})});

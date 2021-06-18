@@ -24,7 +24,7 @@ means that a file named `Component-preload.js` is created
 which helps loading the application faster.
 
 ### Deploy application
-To deploy the application follow the following steps
+To deploy the application follow these steps
 - update version number in service-worker (s. above)
 - execute `npm run build`
 - commit your changes to git

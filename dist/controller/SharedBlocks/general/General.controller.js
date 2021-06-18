@@ -1,0 +1,1 @@
+sap.ui.define(["de/tammenit/ui5/homepage/controller/SharedBlocks/BaseBlockController.controller"],function(e){"use strict";return e.extend("de.tammenit.ui5.homepage.controller.SharedBlocks.general.General",{onInit:function(){if(e.prototype.onInit){e.prototype.onInit.apply(this,arguments)}}})});

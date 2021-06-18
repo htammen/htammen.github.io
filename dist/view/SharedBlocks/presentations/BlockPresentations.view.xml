@@ -1,0 +1,50 @@
+<mvc:View
+		xmlns:mvc="sap.ui.core.mvc"
+		xmlns:f="sap.ui.layout.form"
+		xmlns:core="sap.ui.core"
+		xmlns="sap.m"
+		controllerName="de.tammenit.ui5.homepage.controller.SharedBlocks.presentations.Presentation">
+
+	<List items="{model>}">
+		<items>
+			<CustomListItem>
+		<f:SimpleForm 
+			editable="false"
+			layout="ResponsiveGridLayout"
+			title="{path: 'model>Date', formatter: '.formatDate'} - {path:'model>Text', formatter: '.getCurrentLangValue'}"
+			labelSpanXL="4"
+			labelSpanL="3"
+			labelSpanM="4"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="4"
+			emptySpanM="0"
+			emptySpanS="0"
+			columnsXL="2"
+			columnsL="1"
+			columnsM="1"
+			singleContainerFullSize="false">
+			<f:content>
+				<Label text="Event" />
+				<Text id="eventText" text="{path:'model>Text', formatter: '.getCurrentLangValue'}" />
+				<Label text="Title" />
+				<Text text="{path:'model>Title', formatter: '.getCurrentLangValue'}" />
+				<Label text="Description" />
+				<Text text="{path:'model>Description', formatter: '.getCurrentLangValue'}" />
+				<Label text="Location" />
+				<Text id="locationText" text="{path:'model>Location', formatter: '.getCurrentLangValue'}" />
+				<Label text="Links" />
+				<List items="{model>Links}" visible="{= %{model>Links}.length > 0 }">
+					<items>
+						<CustomListItem>
+							<Link text="{path: 'model>type', formatter: '.formatLinkType'}" href="{model>url}" target="_blank" />
+						</CustomListItem>
+					</items>
+				</List>
+			</f:content>
+		</f:SimpleForm>
+			</CustomListItem>
+		</items>
+	</List>
+</mvc:View>

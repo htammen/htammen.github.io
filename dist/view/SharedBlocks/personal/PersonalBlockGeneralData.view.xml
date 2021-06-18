@@ -1,0 +1,37 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core"
+		xmlns:l="sap.ui.layout" xmlns:forms="sap.ui.layout.form" xmlns="sap.m"
+		controllerName="de.tammenit.ui5.homepage.controller.SharedBlocks.general.General">
+
+		<l:Grid defaultSpan="L3 M6 S12">
+			<l:content>
+				<VBox alignItems="Start">
+					<Label text="{i18n>view.profile.block.personalblock.generaldata.yearofbirth}"/>
+					<Text text="{parts: ['Birthday'], formatter:'.formatBirthdayYearOfBirth'}"/>
+				</VBox>
+				<VBox alignItems="Start">
+					<Label text="{i18n>view.profile.block.personalblock.generaldata.age}"/>
+					<Text text="{parts: ['Birthday'], formatter:'.formatBirthdayAge'}" class="sapUiSmallMarginEnd"/>
+				</VBox>
+				<VBox alignItems="Start">
+					<Label text="{i18n>view.profile.block.personalblock.generaldata.nationality}"/>
+					<Text text="{Nationality}"/>
+				</VBox>
+				<VBox alignItems="Start">
+					<Label text="{i18n>view.profile.block.personalblock.generaldata.graduation}"/>
+					<Text text="{Graduation}"/>
+				</VBox>
+			</l:content>
+		</l:Grid>	
+		<l:Grid defaultSpan="L12 M12 S12">
+			<l:content>
+				<Label text="{i18n>view.profile.block.personalblock.generaldata.othergraduations}" class="sapUiTinyMarginTop"></Label>
+				<VBox items="{OtherGraduations}">
+					<HBox>
+						<Link text="{Text}" href="{path: 'Link', formatter: '.getUrl'}" target="_blank" visible="{parts: ['Link'], formatter: '.isLink'}" class="graduation"/>
+						<Text text="{Text}" visible="{parts: ['Link'], formatter: '.isText'}" class="graduation"/>
+					</HBox>
+				</VBox>
+			</l:content>
+		</l:Grid>	
+
+</mvc:View>

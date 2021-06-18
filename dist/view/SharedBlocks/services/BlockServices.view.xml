@@ -1,0 +1,7 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:forms="sap.ui.layout.form"
+		  xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns="sap.m"
+		  controllerName="de.tammenit.ui5.homepage.controller.SharedBlocks.services.Service">
+			<HBox items="{model>}" wrap="Wrap" id="idServicesHBox">
+				<Label text="{model>Name}" design="{= ${model>Rating} === 1 ? 'Bold': 'Standard'}" class="sapUiTinyMarginTop sapUiMediumMarginEnd"/>
+			</HBox>
+</mvc:View>

@@ -4,10 +4,11 @@
   "description": "My SAPUI5 Homepage",
   "main": "index.html",
   "scripts": {
-    "start": "node static_server.js",
+    "start": "ui5 serve -o index.html",
+    "start:testprod": "npm run build && file_server",
     "debug": "node --nolazy --inspect-brk=9229 static_server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "grunt production"
+    "build": "ui5 build self-contained --all --clean-dest"
   },
   "repository": {
     "type": "git",

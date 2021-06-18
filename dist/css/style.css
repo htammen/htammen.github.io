@@ -1,0 +1,117 @@
+/* Enter your custom styles here */
+.sapUxAPBlockBase {
+	min-height: 0rem;
+}
+.sapUxAPObjectPageSubSection > .sapUxAPBlockContainer {
+	padding: 1rem 2rem 1rem 2rem;
+}
+
+.profileBlock {
+	min-height: 0rem;
+}
+
+/* This is a style for the PWA splash screen */
+#splash-screen {
+    color: #244C7C;
+    text-align: center;
+}
+
+.headerLabel {
+    width: auto!important;
+}
+
+.headerForm {
+	line-height: initial;
+}
+
+
+.projectfontlarge {
+	font-size: 24px;
+}
+
+.picture1 {
+	background-image: url(../images/Helmut_2_1.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture2 {
+	background-image: url(../images/helmut_sdn3.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture3 {
+	background-image: url(../images/helmut_gruen.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture4 {
+	background-image: url(../images/helmut2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture5 {
+	background-image: url(../images/helmut_brussels_1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture6 {
+	background-image: url(../images/helmut_brussels_2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture7 {
+	background-image: url(../images/Gruppenfoto_klein.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture8 {
+	background-image: url(../images/SpeakerFoto_klein.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture9 {
+	background-image: url(../images/helmut_brussels_3.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture10 {
+	background-image: url(../images/helmut_brussels_4.jpeg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* draw a bullet point before each graduation entry */
+.graduation:before {
+	content: "• ";
+}
+
+/* background image of tile at print page always covers the complete tile, resp. is adjusted to the tile size */
+.pdfTile {
+	background-size: cover;
+	border-radius: 10px;
+	background-color: aliceblue;
+}
+.pdfTile:hover {
+	background-size: cover;
+	border-radius: 10px;
+	background-color: aquamarine;
+}

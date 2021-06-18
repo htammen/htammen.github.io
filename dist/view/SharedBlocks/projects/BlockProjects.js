@@ -1,0 +1,1 @@
+sap.ui.define(["sap/uxap/BlockBase"],function(e){"use strict";var t=e.extend("de.tammenit.ui5.homepage.view.SharedBlocks.projects.BlockProjects",{metadata:{views:{Collapsed:{viewName:"de.tammenit.ui5.homepage.view.SharedBlocks.projects.BlockProjects",type:"XML"},Expanded:{viewName:"de.tammenit.ui5.homepage.view.SharedBlocks.projects.BlockProjects",type:"XML"}}}});return t},true);
