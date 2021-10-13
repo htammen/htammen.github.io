@@ -39,7 +39,6 @@
 
     <!-- Register service worker -->
     <script src="dist/regsw.js">
-      initSW("dist")
     </script>
 
 			<!--src="dist/resources/sap-ui-core.js"-->
@@ -57,6 +56,7 @@
 
 		<script>
 	        sap.ui.getCore().attachInit(function () {
+              initSW('dist');
 	            sap.ui.require([
 	                "sap/m/Shell",
 	                "sap/ui/core/ComponentContainer"
