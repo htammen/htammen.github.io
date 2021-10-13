@@ -50,7 +50,7 @@
       "file": "sw.js",
       "config": [
         {
-          "url": "https://htammen.github.io/",
+          "url": "https://htammen.github.io/dist",
           "type": "application"
         },
         {
