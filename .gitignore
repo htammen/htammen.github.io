@@ -18,5 +18,7 @@ node_modules
 /preview_hidden.html
 pdfMake-script.js
 /dist/resources/sap*.*
-/dist/resources/sap/
+/dist/resources/sap/**
+/dist/resources/jquery*.*
 favicon_package_v0.16
+tags
