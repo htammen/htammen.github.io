@@ -55,8 +55,8 @@
 		<link rel="stylesheet" type="webapp/text/css" href="dist/css/style.css">
 
 		<script>
+          initSW('dist');
 	        sap.ui.getCore().attachInit(function () {
-              initSW('dist');
 	            sap.ui.require([
 	                "sap/m/Shell",
 	                "sap/ui/core/ComponentContainer"
