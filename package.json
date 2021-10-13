@@ -8,7 +8,7 @@
     "start:testprod": "npm run build && file_server",
     "debug": "node --nolazy --inspect-brk=9229 static_server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ui5 build self-contained --all --clean-dest"
+    "build": "ui5 build preload --all --exclude-task=createDebugFiles --clean-dest"
   },
   "repository": {
     "type": "git",

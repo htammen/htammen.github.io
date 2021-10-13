@@ -4,7 +4,7 @@
 			"Name": "Helmut Tammen",
 			"Slogan": "I love my job",
 			"Image": "./images/helmut_brussels_1.png",
-			"Availability": "09/2021",
+			"Availability": "10/2021",
 			"Birthday": "1964-04-21",
 			"Nationality": "german",
 			"Graduation": "Graduate Mechanical Engineer",
@@ -386,6 +386,10 @@
 					"Rating": 4
 				},
 				{
+					"Name": "Finance",
+					"Rating": 2.0
+				},
+				{
 					"Name": "Automotive",
 					"Rating": 2.6
 				},
@@ -419,6 +423,10 @@
 				},
 				{
 					"Name": "SAP Cloud Consulting (BTP)",
+					"Rating": 1
+				},
+				{
+					"Name": "SAP Cloud Application Programming Model (CAP)",
 					"Rating": 1
 				},
 				{
@@ -507,7 +515,7 @@
 						},
 						{
 							"Name": "TypeScript",
-							"Rating": 4
+							"Rating": 4.5
 						},
 						{
 							"Name": "Groovy / Grails",
@@ -515,11 +523,11 @@
 						},
 						{
 							"Name": "ABAP / 4",
-							"Rating": 3.5
+							"Rating": 3.0
 						},
 						{
 							"Name": "ABAP Objects",
-							"Rating": 3.5
+							"Rating": 3.0
 						},
 						{
 							"Name": "Pascal / Delphi",
@@ -600,7 +608,11 @@
 							"Rating": 4.5
 						},
 						{
-							"Name": "SAP HCP",
+							"Name": "SAP BTP",
+							"Rating": 4.5
+						},
+						{
+							"Name": "SAP CAP",
 							"Rating": 4.5
 						},
 						{
@@ -726,7 +738,7 @@
 								"en": "Develop some internal prototypes to learn / deepen the use / deployment of SAP HANA / SAP HANA Cloud Platform / Fiori."
 							},
 							"Tools": {
-								"de": "SAPUI5, Fiori, Fiori Elements, SAP HANA XS, SAP HANA Cloud Platform, SAP HANA Web Tools, SAP Web IDE, SAP Cloud Application Programming model"
+								"de": "SAPUI5, Fiori, Fiori Elements, SAP HANA XS, SAP HANA Cloud Platform, SAP HANA Web Tools, SAP Web IDE, SAP Cloud Application Programming model (CAP)"
 							}
 						},
 						{
@@ -748,6 +760,34 @@
 								"de": ""
 							}
                         }
+					]
+				},
+				{
+					"Year": "2021",
+					"items": [
+						{
+							"Start": "04/21",
+							"End": "09/21",
+							"Branch": {
+								"de": "Instandhaltung",
+								"en": "Maintenance"
+							},
+							"Header": {
+								"de": "SAPUI5 Entwicklung",
+								"en": "SAPUI5 Development"
+							},
+							"Duration": {
+								"en": "6 months",
+								"de": "6 Monate"
+							},
+							"Longtext": {
+								"de": "SAPUI5 Entwicklung in einem ambitionierten Projekt.\nMitentwicklung eines eigenen auf SAPUI5 aufsetzenden Erweiterungs-Frameworks, das UI Erweiterungen zur Laufzeit unterstützt.\nEntwicklung von SAPUI5 Dialogen / Anwendungen auf Basis dieses Frameworks.\nEntwicklung einer Google Maps Integration in die SAPUI5 Anwendungen",
+								"en": "SAPUI5 development in an ambitious project.\nDevelopment of an own extension framework based on SAPUI5, which supports UI extensions at runtime.\nDevelopment of SAPUI5 dialogues / applications based on this framework.\nDevelopment of a Google Maps integration into the SAPUI5 applications"
+							},
+							"Tools": {
+								"de": "Fiori, SAPUI5, Leaflet map library"
+							}
+						}
 					]
 				},
 				{
@@ -786,7 +826,7 @@
 							"End": "03/21",
 							"Branch": {
 								"de": "Banken",
-								"en": "Banking"
+								"en": "Finance"
 							},
 							"Header": {
 								"de": "Generator für SAP CAP Anwendungen",
