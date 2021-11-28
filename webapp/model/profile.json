@@ -4,7 +4,7 @@
 			"Name": "Helmut Tammen",
 			"Slogan": "I love my job",
 			"Image": "./images/helmut_brussels_1.png",
-			"Availability": "10/2021",
+			"Availability": "12/2021",
 			"Birthday": "1964-04-21",
 			"Nationality": "german",
 			"Graduation": "Graduate Mechanical Engineer",
@@ -315,17 +315,17 @@
 			},
 			"Addresses": {
 				"HomeAddress": {
-					"Street": "Friedrich-Daps-Weg",
-					"Housenum": "5",
-					"Zipcode": "30938",
-					"City": "Burgwedel",
+					"Street": "Isoldestrasse",
+					"Housenum": "19e",
+					"Zipcode": "38106",
+					"City": "Braunschweig",
 					"Country": "Germany"
 				},
 				"WorkAddress": {
-					"Street": "Friedrich-Daps-Weg",
-					"Housenum": "5",
-					"Zipcode": "30938",
-					"City": "Burgwedel",
+					"Street": "Isoldestrasse",
+					"Housenum": "19e",
+					"Zipcode": "38106",
+					"City": "Braunschweig",
 					"Country": "Germany"
 				}
 			},
