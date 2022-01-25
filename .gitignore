@@ -26,3 +26,5 @@ tags
 /dist/bower_components/ui5-qrcode/LICENSE
 /dist/resources/ui5loader-autoconfig.js
 /dist/resources/ui5loader.js
+/.vim/
+/goodies/
