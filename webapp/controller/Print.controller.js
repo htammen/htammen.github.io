@@ -123,7 +123,7 @@ sap.ui.define(
         // copy profile
         var profile = jQuery.extend(true, {}, originProfile);
         // cut off all projects that are older than 4 years
-        profile.Projects.splice(8);
+        profile.Projects.splice(12);
 
         //######### pdfmake begin #############
         var languages = function() {

@@ -22,3 +22,7 @@ pdfMake-script.js
 /dist/resources/jquery*.*
 favicon_package_v0.16
 tags
+/dist/bower_components/pdfmake/LICENSE
+/dist/bower_components/ui5-qrcode/LICENSE
+/dist/resources/ui5loader-autoconfig.js
+/dist/resources/ui5loader.js

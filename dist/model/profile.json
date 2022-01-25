@@ -4,7 +4,7 @@
 			"Name": "Helmut Tammen",
 			"Slogan": "I love my job",
 			"Image": "./images/helmut_brussels_1.png",
-			"Availability": "12/2021",
+			"Availability": "02/2022",
 			"Birthday": "1964-04-21",
 			"Nationality": "german",
 			"Graduation": "Graduate Mechanical Engineer",
@@ -760,6 +760,34 @@
 								"de": ""
 							}
                         }
+					]
+				},
+				{
+					"Year": "2022",
+					"items": [
+						{
+							"Start": "01/22",
+							"End": "02/22",
+							"Branch": {
+								"de": "Öffentliche Verwaltung",
+								"en": "Public Administration"
+							},
+							"Header": {
+								"de": "Kostenkalkulation Sicherheitsdienste",
+								"en": "Calculation of costs for Security services"
+							},
+							"Duration": {
+								"en": "2 months",
+								"de": "2 Monate"
+							},
+							"Longtext": {
+								"de": "Erstellung eines Programms zur Kalkulation der Kosten für Sicherheitsdienste.\nBackend Implementierung mit SAP CAP / Node.js.\nFrontend Implementierung mit SAP Fiori Elements sowie SAPUI5 freestyle.",
+								"en": "Creation of a program to calculate the costs of security services.\nBackend implementation with SAP CAP / Node.js.\nFrontend implementation with SAP Fiori Elements and SAPUI5 freestyle. "
+							},
+							"Tools": {
+								"de": "SAP CAP, Node.js, Fiori Elements, SAPUI5"
+							}
+						}
 					]
 				},
 				{
