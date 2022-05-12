@@ -892,7 +892,7 @@
 								"en": "Creation of a sourcecode generator for SAP CAP applications.\nThis generator creates fully functional SAP CAP applications for a data modell that is designed and maintained in SAP PowerDesigner tool.\nThe applications consist of all application layers: data, service, UI. Besides the sourcecode generator a tool has been developed that extracts all PowerDesigner metatdata via an OCX control."
 							},
 							"Tools": {
-								"de": "node.js, Typescript, SAP CAP, CDS Views, Fiori Elements, SAPUI5, OCX/ActiveX"
+								"de": "node.js, Typescript, SAP CAP, CDS Views, Fiori Elements, SAPUI5, OCX/ActiveX, SAP HANA XSA"
 							}
 						}
 					]
