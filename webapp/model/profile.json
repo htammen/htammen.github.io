@@ -4,7 +4,7 @@
 			"Name": "Helmut Tammen",
 			"Slogan": "I love my job",
 			"Image": "./images/helmut_brussels_1.png",
-			"Availability": "02/2022",
+			"Availability": "06/2022",
 			"Birthday": "1964-04-21",
 			"Nationality": "german",
 			"Graduation": "Graduate Mechanical Engineer",
@@ -709,7 +709,7 @@
 						},
 						{
 							"Name": "Design Thinking",
-							"Rating": 0
+							"Rating": 4
 						},
 						{
 							"Name": "ERM",
@@ -766,6 +766,29 @@
 					"Year": "2022",
 					"items": [
 						{
+							"Start": "03/22",
+							"End": "05/22",
+							"Branch": {
+								"de": "Versicherungen",
+								"en": "Insurance"
+							},
+							"Header": {
+								"de": "Kozepterstellung Internetportal",
+								"en": "Creation of a concept for an internet portal"
+							},
+							"Duration": {
+								"en": "3 months",
+								"de": "3 Monate"
+							},
+							"Longtext": {
+								"de": "Erstellung eines Konzeptes für ein Internetportal. Mitglieder der Versicherung sollen über Self Services viele Prozesse, die derzeit über asynchrone Kommunikation, abgewickelt werden online erledigen kõnnen.\nErstellt wurde sowohl ein fachliches Konzept für die Geschäftsprozesse als auch ein technisches Konzept für den Betrieb in der Cloud (SAP BTP).",
+								"en": "Creation of a concept for an internet portal. Members of the insurance organization should be able to complete many processes online via self services, which are currently handled via asynchronous communication.\nA technical concept for the business processes as well as a technical concept for the operation in the cloud (SAP BTP) was created."
+							},
+							"Tools": {
+								"de": "Workshops, Prototyping, SAP BTP, Fiori"
+							}
+						},
+						{
 							"Start": "01/22",
 							"End": "02/22",
 							"Branch": {
@@ -785,7 +808,7 @@
 								"en": "Creation of a program to calculate the costs of security services.\nBackend implementation with SAP CAP / Node.js.\nFrontend implementation with SAP Fiori Elements and SAPUI5 freestyle. "
 							},
 							"Tools": {
-								"de": "SAP CAP, Node.js, Fiori Elements, SAPUI5"
+								"de": "SAP CAP, Node.js, Fiori Elements, SAPUI5, SAP BTP"
 							}
 						}
 					]
