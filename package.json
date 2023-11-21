@@ -30,7 +30,9 @@
     "grunt-contrib-uglify": "^3.3.0",
     "grunt-contrib-watch": "^1.0.1",
     "grunt-openui5": "^0.14.0",
-    "http-proxy": "^1.18.1"
+    "http-proxy": "^1.18.1",
+    "@sap/ux-ui5-tooling": "1",
+    "@ui5/cli": "^3.7.1"
   },
   "dependencies": {
     "express": "^4.16.3",

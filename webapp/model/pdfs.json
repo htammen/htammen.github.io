@@ -1,28 +1,28 @@
 {
-	"pdfs": [
-		{
-			"name": "personalized",
-			"note": "Personalized CV / profile",
-			"anonymous": false,
-			"url": "/documents/profil_ht.pdf"
-		},
-		{
-			"name": "anonymous",
-			"note": "Anonymous CV / profile without personal data",
-			"anonymous": true,
-			"url": "/documents/profil_anonym_ht.pdf"
-		},
-		{
-			"name": "abstract",
-			"note": "Abstract of activities of the last few years",
-			"anonymous": false,
-			"url": "/documents/Beraterprofil_abstract_ht.pdf"
-		},
-		{
-			"name": "abstract anonymous",
-			"note": "Abstract of activities of the last few years",
-			"anonymous": true,
-			"url": "/documents/Beraterprofil_abstract_ht_anonym.pdf"
-		}
-	]
+  "pdfs": [
+    {
+      "name": "german",
+      "note": "Personalized CV / profile in german",
+      "anonymous": false,
+      "url": "/documents/profil_ht_de.pdf"
+    },
+    {
+      "name": "anonymous",
+      "note": "Anonymous CV / profile in english",
+      "anonymous": true,
+      "url": "/documents/profil_ht_en.pdf"
+    },
+    {
+      "name": "abstract",
+      "note": "Abstract of activities of the last few years",
+      "anonymous": false,
+      "url": "/documents/Beraterprofil_abstract_ht.pdf"
+    },
+    {
+      "name": "abstract anonymous",
+      "note": "Abstract of activities of the last few years",
+      "anonymous": true,
+      "url": "/documents/Beraterprofil_abstract_ht_anonym.pdf"
+    }
+  ]
 }
