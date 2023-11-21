@@ -1,1 +1,2 @@
 sap.ui.define(["sap/ui/model/json/JSONModel","sap/ui/Device"],function(e,n){"use strict";var t;return{createMainModel:function(){var e=jQuery.sap.getModulePath("de.tammenit.ui5.homepage.model","/profile.json");var n=new sap.ui.model.json.JSONModel;n.loadData(e);return n},createDeviceModel:function(){var t=new e(n);t.setDefaultBindingMode("OneWay");return t},createHeaderFragmentController:function(n){if(!t){t=new e;t.setDefaultBindingMode("OneWay")}t.setProperty("/title",n);return t}}});
+//# sourceMappingURL=models.js.map

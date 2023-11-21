@@ -1,1 +1,2 @@
 sap.ui.define([],function(){"use strict";return{persContentFormatter:function(e,t,i,n,r,s){var o=this.getModel("i18n").getResourceBundle();var l;l=o.getText("view.home.slider1.slide11.phone")+": "+r+"\n"+o.getText("view.home.slider1.slide11.availability")+": "+t;return l}}});
+//# sourceMappingURL=formatter.js.map

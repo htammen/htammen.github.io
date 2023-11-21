@@ -1,1 +1,2 @@
 sap.ui.define(["de/tammenit/ui5/homepage/controller/SharedBlocks/BaseBlockController.controller"],function(e){"use strict";return e.extend("de.tammenit.ui5.homepage.controller.SharedBlocks.branches.Branch",{})});
+//# sourceMappingURL=Branch.controller.js.map

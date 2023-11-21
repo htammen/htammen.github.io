@@ -1,1 +1,2 @@
 sap.ui.define(["de/tammenit/ui5/homepage/controller/SharedBlocks/BaseBlockController.controller"],function(e){"use strict";return e.extend("de.tammenit.ui5.homepage.controller.SharedBlocks.certificates.Certificate",{formatDate:function(e){var t=Date.parse(e);var r=new Date(t);var a=sap.ui.core.format.DateFormat.getDateInstance({pattern:"MM / yyyy"});return a.format(r)}})});
+//# sourceMappingURL=Certificate.controller.js.map

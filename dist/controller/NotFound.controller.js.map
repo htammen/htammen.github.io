@@ -1,0 +1,1 @@
+{"version":3,"file":"NotFound.controller.js","names":["sap","ui","define","BaseController","extend","onLinkPressed","this","getRouter","navTo"],"sources":["NotFound-dbg.controller.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,CACZ,sDACE,SAAUC,GACZ,aAEA,OAAOA,EAAeC,OAAO,+CAAgD,CAM5EC,cAAgB,WACfC,KAAKC,YAAYC,MAAM,OACxB,GAIF"}

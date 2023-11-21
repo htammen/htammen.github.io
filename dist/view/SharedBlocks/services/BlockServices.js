@@ -1,1 +1,2 @@
 sap.ui.define(["sap/uxap/BlockBase","sap/m/LabelDesign"],function(e,a){"use strict";var i=e.extend("de.tammenit.ui5.homepage.view.SharedBlocks.services.BlockServices",{metadata:{views:{Collapsed:{viewName:"de.tammenit.ui5.homepage.view.SharedBlocks.services.BlockServices",type:"XML"},Expanded:{viewName:"de.tammenit.ui5.homepage.view.SharedBlocks.services.BlockServices",type:"XML"}}},serviceFormatter:function(e){return e===1?a.Bold:a.Standard}});return i},true);
+//# sourceMappingURL=BlockServices.js.map

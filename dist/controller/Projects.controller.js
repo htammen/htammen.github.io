@@ -1,1 +1,2 @@
 sap.ui.define(["de/tammenit/ui5/homepage/controller/BaseController","de/tammenit/ui5/homepage/model/models"],function(e,t){"use strict";return e.extend("de.tammenit.ui5.homepage.controller.Projects",{onInit:function(){this.getView().bindElement("/Profiles/0")},onAfterRendering:function(){var e=this.getModel("i18n").getProperty("view.profile.projects.header");this.setModel(t.createHeaderFragmentController(e),"headerModel")}})});
+//# sourceMappingURL=Projects.controller.js.map

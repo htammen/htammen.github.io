@@ -1,1 +1,2 @@
 initSW=function(e){e=e||".";if("serviceWorker"in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register(e+"/sw.js").then(function(){console.log("service worker successfully registered")})})}};
+//# sourceMappingURL=regsw.js.map

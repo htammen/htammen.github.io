@@ -1,5 +1,5 @@
 {
-  "_version": "1.1.0",
+  "_version": "1.2.0",
   "name": "PWA SAPUI5 Profile - Helmut Tammen",
   "short_name": "Consultant Profile",
   "icons": [
@@ -93,7 +93,10 @@
       "tablet": true,
       "phone": true
     },
-    "supportedThemes": ["sap_hcb", "sap_bluecrystal"]
+    "supportedThemes": [
+      "sap_hcb",
+      "sap_bluecrystal"
+    ]
   },
   "sap.ui5": {
     "_version": "1.1.0",
@@ -138,7 +141,9 @@
         "controlId": "app",
         "controlAggregation": "pages",
         "bypassed": {
-          "target": ["notFound"]
+          "target": [
+            "notFound"
+          ]
         },
         "async": true
       },
@@ -146,31 +151,41 @@
         {
           "pattern": "",
           "name": "home",
-          "target": ["home"]
+          "target": [
+            "home"
+          ]
         },
         {
           "name": "aboutme",
           "pattern": "aboutme",
           "greedy": false,
-          "target": ["aboutme"]
+          "target": [
+            "aboutme"
+          ]
         },
         {
           "name": "projects",
           "pattern": "projects",
           "greedy": false,
-          "target": ["projects"]
+          "target": [
+            "projects"
+          ]
         },
         {
           "name": "pdf",
           "pattern": "pdf",
           "greedy": false,
-          "target": ["pdf"]
+          "target": [
+            "pdf"
+          ]
         },
         {
           "name": "print",
           "pattern": "print",
           "greedy": false,
-          "target": ["print"]
+          "target": [
+            "print"
+          ]
         }
       ],
       "targets": {
@@ -225,4 +240,3 @@
     }
   }
 }
-

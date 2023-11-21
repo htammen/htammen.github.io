@@ -1,1 +1,2 @@
 sap.ui.define(["de/tammenit/ui5/homepage/controller/SharedBlocks/BaseBlockController.controller"],function(e){"use strict";return e.extend("de.tammenit.ui5.homepage.controller.SharedBlocks.projects.Projects",{isLinkVisible:function(e){if(e!==undefined){return true}return false},isTextVisible:function(e){if(e!==undefined){return false}return true}})});
+//# sourceMappingURL=Projects.controller.js.map
