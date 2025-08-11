@@ -837,6 +837,34 @@
           ]
         },
         {
+          "Year": "2025",
+          "items": [
+            {
+              "Start": "04/25",
+              "End": "16/25",
+              "Branch": {
+                "de": "Energieversorgung",
+                "en": "Utilities"
+              },
+              "Header": {
+                "de": "Entwicklung und techn. Beratung einer BTP/CAP Anwendung",
+                "en": "Development and technical consultation of a BTP/CAP application"
+              },
+              "Duration": {
+                "en": "2 months (part-time)",
+                "de": "2 Monate (teilzeit)"
+              },
+              "Longtext": {
+                "de": "Entwicklung und techn. Beratung einer SAP BTP Anwendung mit CAP (Node.js) für die Abwicklung von Dienstleister-Aktivitäten im Netzbaubereich der Energiewirtschaft.",
+                "en": "Development and technical consulting of a SAP BTP application with CAP (Node.js) for the processing of service provider activities in the grid construction sector of the energy industry."
+              },
+              "Tools": {
+                "de": "SAP CAP, node.js, Fiori, Fiori Elements, OData, SAP BTP"
+              }
+            }
+          ]
+        },
+        {
           "Year": "2023",
           "items": [
             {
